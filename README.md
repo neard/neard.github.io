@@ -31,6 +31,15 @@ $ gulp serve
 
 As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/).
 
+## TODO
+
+- [ ] Add latest releases for modules
+- [ ] Review downloads page
+- [ ] Review downloads page
+- [ ] Add old posts
+- [ ] Display Travis build number on the footer
+- [ ] Review sitemap lastmod / changefreq / priority
+
 ## Credits
 
 * [Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
