@@ -10,4 +10,4 @@ tags: [module, php]
 
 ### Download
 
-Available on the [PHP webpage](/bins/php).
+Available on the [PHP page](/bins/php).
