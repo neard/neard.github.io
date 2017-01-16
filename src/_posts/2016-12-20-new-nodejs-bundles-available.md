@@ -10,4 +10,4 @@ tags: [module, node.js]
 
 ### Download
 
-Available on the [Node.js webpage](/bins/nodejs).
+Available on the [Node.js page](/bins/nodejs).
