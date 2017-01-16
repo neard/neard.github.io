@@ -12,25 +12,27 @@ $(document).ready(function(){
   });
 
   // Hide or show the "back to top" link
-  $(window).scroll(function(){
-    if ($(this).scrollTop() > 300) {
-      $('.cd-top').addClass('cd-is-visible')
-    } else {
-      $('.cd-top').removeClass('cd-is-visible cd-fade-out');
-    }
-    if ($(this).scrollTop() > 1200) {
-      $('.cd-top').addClass('cd-fade-out');
-    }
-  });
+  if ($('.cd-top').length > 0) {
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 300) {
+        $('.cd-top').addClass('cd-is-visible')
+      } else {
+        $('.cd-top').removeClass('cd-is-visible cd-fade-out');
+      }
+      if ($(this).scrollTop() > 1200) {
+        $('.cd-top').addClass('cd-fade-out');
+      }
+    });
 
-  // Smooth scroll to top
-  $('.cd-top').on('click', function(event){
-    event.preventDefault();
-    $('body, html').animate({
-        scrollTop: 0
-      }, 700
-    );
-  });
+    // Smooth scroll to top
+    $('.cd-top').on('click', function(event){
+      event.preventDefault();
+      $('body, html').animate({
+          scrollTop: 0
+        }, 700
+      );
+    });
+  }
 
   actionNav.init();
   actionHome.init();
