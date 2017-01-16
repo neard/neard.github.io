@@ -102,7 +102,7 @@ alexa_site_verification:
 yandex_site_verification:
 
 # Ads
-ads_enabled: "true"
+ads_enabled: true
 
 # Posts
 share-links-active:
