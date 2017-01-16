@@ -1,0 +1,46 @@
+.screenshots {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.screenshots a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  display: block;
+  float: left;
+  margin: 0 12px 12px 0;
+  width: 171px;
+  line-height: 0;
+}
+
+.screenshots a img {
+  border: 1px solid #cccccc;
+}
+
+a.screenshots__img--main {
+  width: auto;
+  height: auto;
+}
+
+.screenshots figure {
+  display: none;
+}
+
+.screenshots__title {
+  line-height: 14px;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 5px;
+  width: 100%;
+  float: left;
+}
+
+.pswp__counter {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.pswp__caption__center {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}

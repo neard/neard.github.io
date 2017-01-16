@@ -1,0 +1,87 @@
+{
+  "module": {
+    "type": "tools",
+    "name": "console",
+    "label": "Console",
+    "desc": "a multi command prompt with TCC/LE and ANSICON.",
+    "repo": "crazy-max/neard-tool-console",
+    "filename": "neard-console",
+    "haspack": true,
+    "sources": [
+      "http://sourceforge.net/projects/console/files/console-devel/2.00/",
+      "https://jpsoft.com/all-downloads/downloads.html",
+      "https://github.com/adoxa/ansicon"
+    ],
+    "versions": {
+      "2.00.148": {
+        "date": "2011/10/03"
+      },
+      "Console 2.00.148": {
+        "date": "2011/10/03"
+      },
+      "TCC/LE 14.0.0.6": {
+        "date": "2015/09/01"
+      },
+      "TCC/LE 14.0.0.9": {
+        "date": "2016/02/05"
+      },
+      "ANSICON 1.66": {
+        "date": "2013/09/19"
+      }
+    },
+    "releases": [
+      {
+        "name": "r3",
+        "date": "2016/04/29",
+        "versions": [
+          {
+            "name": "p1",
+            "pack": ["Console 2.00.148", "TCC/LE 14.0.0.6", "ANSICON 1.66"],
+            "default": false,
+            "compat": ">= 1.0.19",
+            "ext": "7z"
+          },
+          {
+            "name": "p2",
+            "pack": ["Console 2.00.148", "TCC/LE 14.0.0.9", "ANSICON 1.66"],
+            "default": true,
+            "compat": ">= 1.0.19",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/04/10",
+        "versions": [
+          {
+            "name": "p1",
+            "pack": ["Console 2.00.148", "TCC/LE 14.0.0.6"],
+            "default": false,
+            "compat": ">= 1.0.17",
+            "ext": "zip"
+          },
+          {
+            "name": "p2",
+            "pack": ["Console 2.00.148", "TCC/LE 14.0.0.9"],
+            "default": false,
+            "compat": ">= 1.0.17",
+            "ext": "zip"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2016/04/10",
+        "versions": [
+          {
+            "name": "2.00.148",
+            "default": false,
+            "compat": "<= 1.0.16",
+            "ext": "zip"
+          }
+        ]
+      }
+    ]
+  }
+}

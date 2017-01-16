@@ -1,0 +1,28 @@
+# Eclipse
+/.settings
+/.buildpath
+/.project
+/.jsdtscope
+
+# WebStorm
+/.idea
+
+# Jekyll
+/_asset_bundler_cache
+/.bundle
+/.sass-cache
+/.jekyll-metadata
+/tmp
+/web
+
+# Node
+/node_modules
+/npm-debug.log*
+
+# Bower
+/bower_components
+
+# Custom
+/.dev
+/src/_data/vendor.json
+/src/_data/module/all.json

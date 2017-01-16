@@ -1,0 +1,1 @@
+All instructions to upgrade from a previous release are added in the [UPGRADE.md]({{ var_repo_url }}/blob/master/UPGRADE.md) file.

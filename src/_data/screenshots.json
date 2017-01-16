@@ -1,0 +1,100 @@
+[
+  {
+    "filename": "homepage.png",
+    "size": "1680x1010",
+    "caption": "Homepage",
+    "main": true,
+    "thumbnail": true
+  },
+  {
+    "filename": "menu1.png",
+    "size": "187x442",
+    "caption": "Menu left",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "menu2.png",
+    "size": "218x233",
+    "caption": "Menu right",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "menu-tools.png",
+    "size": "367x442",
+    "caption": "Menu Tools",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "console.png",
+    "size": "783x486",
+    "caption": "Console",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "change-browser.png",
+    "size": "486x348",
+    "caption": "Change browser",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "about.png",
+    "size": "446x228",
+    "caption": "About",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "apache-change-port.png",
+    "size": "376x168",
+    "caption": "Apache: change port",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "apache-check-port.png",
+    "size": "403x160",
+    "caption": "Apache: check port",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "apache-add-alias.png",
+    "size": "486x198",
+    "caption": "Apache: add alias",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "apache-add-vhost.png",
+    "size": "486x198",
+    "caption": "Apache: add virtual host",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "gen-ssl.png",
+    "size": "486x158",
+    "caption": "Generate SSL certificate",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "gen-ssl-files.png",
+    "size": "435x140",
+    "caption": "SSL certificate files",
+    "main": false,
+    "thumbnail": true
+  },
+  {
+    "filename": "startup-min.png",
+    "size": "434x67",
+    "caption": "Startup",
+    "main": false,
+    "thumbnail": true
+  }
+]

@@ -1,0 +1,7 @@
+---
+layout: null
+sitemap:
+  exclude: yes
+---
+{% include vars.html %}User-agent: *
+Sitemap: {{ var_seo_url }}/sitemap.xml

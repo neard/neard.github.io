@@ -1,0 +1,33 @@
+{
+  "module": {
+    "type": "apps",
+    "name": "phpmemadmin",
+    "label": "phpMemAdmin",
+    "desc": "handle the administration of Memcached over the web.",
+    "repo": "crazy-max/neard-app-phpmemadmin",
+    "filename": "neard-phpmemadmin",
+    "sources": [
+      "https://github.com/clickalicious/phpMemAdmin",
+      "https://packagist.org/packages/clickalicious/phpmemadmin"
+    ],
+    "versions": {
+      "0.3.1": {
+        "date": "2016/03/27"
+      }
+    },
+    "releases": [
+      {
+        "name": "r1",
+        "date": "2016/07/14",
+        "versions": [
+          {
+            "name": "0.3.1",
+            "default": true,
+            "compat": ">= 1.0.21",
+            "ext": "7z"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{% capture newLine %}
+{% endcapture %}
+
+{% assign changelog_ar =  include.data | newline_to_br | strip_newlines | split: '<br /><br />' %}
+{% assign changelog_inject = false %}
+
+{% for changelog in changelog_ar %}
+  {% if changelog_inject %}
+    {% if include.title %}<h1>{{ include.title }}</h1>{% endif %}
+    {{ changelog | replace: '<br />', newLine | markdownify }}
+    {% assign changelog_inject = false %}
+  {% endif %}
+  {% if changelog contains include.contains %}
+    {% assign changelog_inject = true %}
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,47 @@
+{
+  "module": {
+    "type": "bins",
+    "name": "mailhog",
+    "label": "MailHog",
+    "desc": "a Web and API based SMTP testing.",
+    "repo": "crazy-max/neard-bin-mailhog",
+    "filename": "neard-mailhog",
+    "sources": [
+      "https://github.com/mailhog/MailHog"
+    ],
+    "versions": {
+      "0.2.0": {
+        "date": "2016/03/20"
+      },
+      "0.2.1": {
+        "date": "2016/09/04"
+      }
+    },
+    "releases": [
+      {
+        "name": "r2",
+        "date": "2016/10/09",
+        "versions": [
+          {
+            "name": "0.2.1",
+            "default": false,
+            "compat": ">= 1.0.19",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2016/05/01",
+        "versions": [
+          {
+            "name": "0.2.0",
+            "default": true,
+            "compat": ">= 1.0.19",
+            "ext": "7z"
+          }
+        ]
+      }
+    ]
+  }
+}

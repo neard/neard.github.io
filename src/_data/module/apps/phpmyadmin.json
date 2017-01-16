@@ -1,0 +1,145 @@
+{
+  "module": {
+    "type": "apps",
+    "name": "phpmyadmin",
+    "label": "phpMyAdmin",
+    "desc": "handle the administration of MySQL and MariaDB over the Web.",
+    "repo": "crazy-max/neard-app-phpmyadmin",
+    "filename": "neard-phpmyadmin",
+    "haspack": true,
+    "sources": [
+      "https://www.phpmyadmin.net/",
+      "https://github.com/phpmyadmin/phpmyadmin"
+    ],
+    "versions": {
+      "4.0.4": {
+        "date": "2013/06/17"
+      },
+      "4.0.10.12": {
+        "date": "2015/12/25"
+      },
+      "4.0.10.15": {
+        "date": "2016/02/29"
+      },
+      "4.0.10.17": {
+        "date": "2016/08/18"
+      },
+      "4.4.15.2": {
+        "date": "2015/12/25"
+      },
+      "4.4.15.5": {
+        "date": "2016/02/29"
+      },
+      "4.4.15.6": {
+        "date": "2016/05/25"
+      },
+      "4.4.15.8": {
+        "date": "2016/08/16"
+      },
+      "4.5.3.1": {
+        "date": "2015/12/25"
+      },
+      "4.6.0": {
+        "date": "2016/03/17"
+      },
+      "4.6.2": {
+        "date": "2016/05/25"
+      },
+      "4.6.4": {
+        "date": "2016/08/16"
+      }
+    },
+    "releases": [
+      {
+        "name": "r6",
+        "date": "2016/10/07",
+        "versions": [
+          {
+            "name": "4p4",
+            "pack": ["4.0.10.17", "4.4.15.8", "4.6.4"],
+            "default": false,
+            "compat": ">= 1.0.18",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r5",
+        "date": "2016/06/21",
+        "versions": [
+          {
+            "name": "4p3",
+            "pack": ["4.0.10.15", "4.4.15.6", "4.6.2"],
+            "default": true,
+            "compat": ">= 1.0.18",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r4",
+        "date": "2016/04/30",
+        "versions": [
+          {
+            "name": "4.0.4",
+            "default": false,
+            "compat": "<= 1.0.15",
+            "ext": "7z"
+          },
+          {
+            "name": "4p1",
+            "pack": ["4.0.10.12", "4.4.15.2", "4.5.3.1"],
+            "default": false,
+            "compat": "= 1.0.17",
+            "ext": "7z"
+          },
+          {
+            "name": "4p2",
+            "pack": ["4.0.10.15", "4.4.15.5", "4.6.0"],
+            "default": false,
+            "compat": ">= 1.0.18",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r3",
+        "date": "2016/04/05",
+        "versions": [
+          {
+            "name": "4p2",
+            "pack": ["4.0.10.15", "4.4.15.5", "4.6.0"],
+            "default": false,
+            "compat": ">= 1.0.18",
+            "ext": "zip"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/04/05",
+        "versions": [
+          {
+            "name": "4p1",
+            "pack": ["4.0.10.12", "4.4.15.2", "4.5.3.1"],
+            "default": false,
+            "compat": "= 1.0.17",
+            "ext": "zip"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2016/04/05",
+        "versions": [
+          {
+            "name": "4.0.4",
+            "default": false,
+            "compat": "<= 1.0.15",
+            "ext": "zip"
+          }
+        ]
+      }
+    ]
+  }
+}

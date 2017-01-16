@@ -1,0 +1,17 @@
+<a href="#0" class="cd-top">Top</a>
+
+{% if site.data.vendor.js %}
+  {% for js in site.data.vendor.js %}
+    <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+  {% endfor %}
+{% endif %}
+
+<script src="{{ site.paths.assets | prepend: site.baseurl | prepend: '/' | replace: '//', '/' }}/{{ site.files.js }}"></script>
+
+{% if page.js %}
+  {% for js in page.js %}
+    <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+  {% endfor %}
+{% endif %}
+
+{% include analytics.html %}
