@@ -1,0 +1,31 @@
+---
+layout: page
+markdown_body: ""
+---
+
+{% capture changelog_contains %}## {{ page.release.version }}{% endcapture %}
+{% capture upgrade_contains %}> {{ page.release.version }}{% endcapture %}
+
+<div>
+  <h1>About</h1>
+  <div class="markdown-body">
+    <ul>
+      <li>Release date : <strong>{{ page.release.date }}</strong></li>
+    </ul>
+  </div>
+  <h1>Download</h1>
+  <p>
+    {% for asset in page.github_api.assets %}
+    <a href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}/" class="btn btn-success" style="text-align: left">
+      <i class="fa fa-download fa-2x pull-left"></i>
+      &nbsp;&nbsp;<strong>{{ asset.name }}</strong><br />
+      &nbsp;&nbsp;<small>Size: {{ asset.size | filesize }}</small>
+    </a>
+    {% endfor %}
+  </p>
+</div>
+
+<div class="markdown-body">
+  {% strip %}{% include parse-changelog.html title='Changelog' data=page.changelog contains=changelog_contains %}{% endstrip %}
+  {% strip %}{% include parse-changelog.html title='Upgrade from previous release' data=page.upgrade contains=upgrade_contains %}{% endstrip %}
+</div>

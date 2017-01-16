@@ -1,0 +1,425 @@
+{
+  "module": {
+    "type": "bins",
+    "name": "nodejs",
+    "label": "Node.js",
+    "desc": "an open-source, cross-platform runtime environment for developing server-side web applications.",
+    "repo": "crazy-max/neard-bin-nodejs",
+    "filename": "neard-nodejs",
+    "sources": [
+      "https://nodejs.org/"
+    ],
+    "versions": {
+      "0.10.22": {
+        "date": "2013/12/02"
+      },
+      "0.10.38": {
+        "date": "2015/03/25"
+      },
+      "0.10.41": {
+        "date": "2015/12/03"
+      },
+      "0.10.45": {
+        "date": "2016/05/06"
+      },
+      "0.10.47": {
+        "date": "2016/09/27"
+      },
+      "0.10.48": {
+        "date": "2016/10/18"
+      },
+      "0.11.9": {
+        "date": "2013/12/02"
+      },
+      "0.11.16": {
+        "date": "2015/01/30"
+      },
+      "0.12.4": {
+        "date": "2015/05/23"
+      },
+      "0.12.9": {
+        "date": "2015/12/03"
+      },
+      "0.12.13": {
+        "date": "2016/04/01"
+      },
+      "0.12.14": {
+        "date": "2016/05/06"
+      },
+      "0.12.16": {
+        "date": "2016/09/27"
+      },
+      "0.12.17": {
+        "date": "2016/10/18"
+      },
+      "4.2.3": {
+        "date": "2015/12/03"
+      },
+      "4.2.6": {
+        "date": "2016/01/21"
+      },
+      "4.4.3": {
+        "date": "2016/04/12"
+      },
+      "4.4.4": {
+        "date": "2016/05/06"
+      },
+      "4.4.5": {
+        "date": "2016/05/24"
+      },
+      "4.6.0": {
+        "date": "2016/09/28"
+      },
+      "4.6.2": {
+        "date": "2016/11/08"
+      },
+      "4.7.0": {
+        "date": "2016/12/06"
+      },
+      "5.1.1": {
+        "date": "2015/12/03"
+      },
+      "5.5.0": {
+        "date": "2016/01/21"
+      },
+      "5.10.1": {
+        "date": "2016/04/05"
+      },
+      "5.11.1": {
+        "date": "2016/05/05"
+      },
+      "5.12.0": {
+        "date": "2016/06/23"
+      },
+      "6.1.0": {
+        "date": "2016/05/05"
+      },
+      "6.2.2": {
+        "date": "2016/06/17"
+      },
+      "6.7.0": {
+        "date": "2016/09/27"
+      },
+      "6.9.1": {
+        "date": "2016/10/19"
+      },
+      "6.9.2": {
+        "date": "2016/12/06"
+      },
+      "7.2.0": {
+        "date": "2016/11/22"
+      },
+      "7.2.1": {
+        "date": "2016/12/06"
+      }
+    },
+    "releases": [
+      {
+        "name": "r8",
+        "date": "2016/12/20",
+        "versions": [
+          {
+            "name": "4.7.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "6.9.2",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "7.2.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r7",
+        "date": "2016/11/29",
+        "versions": [
+          {
+            "name": "0.10.48",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "0.12.17",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "4.6.2",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "6.9.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "7.2.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r6",
+        "date": "2016/10/11",
+        "versions": [
+          {
+            "name": "0.10.47",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "0.12.16",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "4.6.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "5.12.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "6.7.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r5",
+        "date": "2016/06/20",
+        "versions": [
+          {
+            "name": "4.4.5",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "6.2.2",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r4",
+        "date": "2016/05/10",
+        "versions": [
+          {
+            "name": "0.10.45",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "0.12.14",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "4.4.4",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "5.11.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "6.1.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r3",
+        "date": "2016/04/17",
+        "versions": [
+          {
+            "name": "0.12.13",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "4.4.3",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          },
+          {
+            "name": "5.10.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/01/30",
+        "versions": [
+          {
+            "name": "0.10.22",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.10.38",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.10.41",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.11.9",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.11.16",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.12.4",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.12.9",
+            "default": true,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "4.2.3",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "4.2.6",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "5.1.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "5.5.0",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2015/12/07",
+        "versions": [
+          {
+            "name": "0.10.22",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.10.38",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.10.41",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.11.9",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.11.16",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.12.4",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "0.12.9",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "4.2.3",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "5.1.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "name": "neard",
+  "repo": "crazy-max/neard",
+  "filename": "neard",
+  "releases": [
+    {
+      "version": "1.0.22",
+      "date": "2016/12/18",
+      "assets": [".7z", ".zip"]
+    },
+    {
+      "version": "1.0.21",
+      "date": "2016/10/23",
+      "assets": [".7z", ".zip"]
+    },
+    {
+      "version": "1.0.20",
+      "date": "2016/06/23",
+      "assets": [".7z", ".zip"]
+    },
+    {
+      "version": "1.0.19",
+      "date": "2016/05/05",
+      "assets": [".7z", ".zip"]
+    },
+    {
+      "version": "1.0.18",
+      "date": "2016/04/21",
+      "assets": [".7z", ".zip"]
+    },
+    {
+      "version": "1.0.17",
+      "date": "2016/01/26",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.16",
+      "date": "2015/12/13",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.15",
+      "date": "2015/10/13",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.14",
+      "date": "2015/06/09",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.13",
+      "date": "2015/04/20",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.12",
+      "date": "2014/09/28",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.11",
+      "date": "2014/08/14",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.10",
+      "date": "2014/08/08",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.9",
+      "date": "2014/07/14",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.8",
+      "date": "2014/07/06",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.7",
+      "date": "2014/05/20",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.6",
+      "date": "2014/04/18",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.5",
+      "date": "2014/04/06",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.4",
+      "date": "2014/03/17",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.3",
+      "date": "2014/03/10",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.2",
+      "date": "2014/03/01",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.1",
+      "date": "2014/02/26",
+      "assets": [".zip"]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2014/02/25",
+      "assets": [".zip"]
+    }
+  ]
+}

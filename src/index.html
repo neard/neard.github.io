@@ -1,0 +1,78 @@
+---
+layout: home
+title: Neard
+excerpt: "Neard is a portable WAMP software stack involving useful binaries, tools and applications for your web development."
+subtitle: Portable WAMP software stack
+bigimg: /img/home-big2.jpg
+---
+{% include vars.html %}
+
+<section class="home">
+  <div class="container">
+    <h2 class="title text-center">What is {{ site.title }} ?</h2>
+    <div class="intro text-center markdown-body">{% capture about %}{% include snippets/about.md %}{% endcapture %}{{ about | markdownify }}</div>
+  </div>
+</section>
+
+<section class="home homenext">
+  <div class="container">
+    <h2 class="title text-center">Features</h2>
+    <div class="row">
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="fa fa-suitcase"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Portable</h3>
+          <p>Neard is a <a href="{{ site.baseurl }}/downloads/#release">portable application</a> and therefore ideally suited to bring all your development across different computers.</p>
+        </div>
+      </div>
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="fa fa-heart"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Designed for developers</h3>
+          <p>Full stack for developers with all the required <a href="{{ site.baseurl }}/bins">binaries</a>, <a href="{{ site.baseurl }}/tools">tools</a> and  <a href="{{ site.baseurl }}/apps">applications</a>.</p>
+        </div>
+      </div>
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="fa fa-clock-o"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Time saver</h3>
+          <p>One place to <a href="{{ site.baseurl }}/downloads">download the latest release and bundles</a> for your binaries, tools and applications.</p>
+        </div>
+      </div>
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="icon icon_puzzle_alt"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Easily switch</h3>
+          <p>Easily switch between different versions of your binaries.</p>
+        </div>
+      </div>
+      <div class="clearfix visible-md"></div>
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="fa fa-home"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Effective homepage</h3>
+          <p>An <a href="{{ site.baseurl }}/doc/screenshots">effective homepage</a> gathering all the information you need is available at http://localhost or https://localhost.</p>
+        </div>
+      </div>
+      <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="icon-holder">
+          <i class="fa fa-window-maximize"></i>
+        </div>
+        <div class="content">
+          <h3 class="sub-title">Nice console</h3>
+          <p>A <a href="{{ site.baseurl }}/doc/screenshots">nice console</a> is available to execute your commands and open the shell you need.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

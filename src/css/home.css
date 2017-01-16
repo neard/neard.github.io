@@ -1,0 +1,63 @@
+.home {
+  padding: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-home .page-heading  {
+    padding: 100px 0 50px 0 !important;
+  }
+}
+
+.header-home .button {
+  display: block;
+  margin: 50px 0 0;
+}
+
+.header-home .github {
+  display: block;
+  margin: 30px 0 0;
+}
+
+.homenext {
+  background: #F9F9F9;
+  padding-top: 35px;
+}
+
+.home .title {
+  color: #4078C0;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.home .intro {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.home .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.home .item .icon-holder {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+
+.home .item .icon-holder .fa,
+.home .item .icon-holder .icon {
+  font-size: 24px;
+  color: #4078C0;
+}
+
+.home .item .content {
+  padding-left: 60px;
+}
+
+.home .item .content .sub-title {
+  margin-top: 0;
+  color: #4078C0;
+  font-size: 18px;
+}

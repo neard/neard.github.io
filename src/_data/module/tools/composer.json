@@ -1,0 +1,87 @@
+{
+  "module": {
+    "type": "tools",
+    "name": "composer",
+    "label": "Composer",
+    "desc": "a dependency Manager for PHP.",
+    "repo": "crazy-max/neard-tool-composer",
+    "filename": "neard-composer",
+    "sources": [
+      "https://getcomposer.org",
+      "http://github.com/composer/composer"
+    ],
+    "versions": {
+      "1.0-dev-edf14da": {
+        "date": "2015/10/01"
+      },
+      "1.0.0": {
+        "date": "2016/04/05"
+      },
+      "1.1.0": {
+        "date": "2016/05/10"
+      },
+      "1.1.2": {
+        "date": "2016/05/31"
+      },
+      "1.2.1": {
+        "date": "2016/09/12"
+      }
+    },
+    "releases": [
+      {
+        "name": "r4",
+        "date": "2016/10/11",
+        "versions": [
+          {
+            "name": "1.2.1",
+            "default": false,
+            "compat": ">= 1.0.15",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r3",
+        "date": "2016/06/20",
+        "versions": [
+          {
+            "name": "1.1.2",
+            "default": true,
+            "compat": ">= 1.0.15",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/05/12",
+        "versions": [
+          {
+            "name": "1.1.0",
+            "default": false,
+            "compat": ">= 1.0.15",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2016/04/10",
+        "versions": [
+          {
+            "name": "1.0-dev-edf14da",
+            "default": false,
+            "compat": ">= 1.0.15",
+            "ext": "7z"
+          },
+          {
+            "name": "1.0.0",
+            "default": false,
+            "compat": ">= 1.0.15",
+            "ext": "7z"
+          }
+        ]
+      }
+    ]
+  }
+}

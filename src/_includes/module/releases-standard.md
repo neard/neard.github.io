@@ -1,0 +1,3 @@
+| Version | Release date | Neard compatibility | Download |
+| ------- |:------------:|:-------------------:|:--------:|{% for version in include.release.versions %}
+| **{{ version.name }}**{% if version.default %} {% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %}{% endif %} | {{ include.module.versions[version.name].date }} | {{ version.compat }} | {% include module/download-link.html module=include.module version=version release=include.release.name %} |{% endfor %}

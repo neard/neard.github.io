@@ -1,0 +1,216 @@
+{
+  "module": {
+    "type": "bins",
+    "name": "filezilla",
+    "label": "Filezilla",
+    "desc": "a FTP server application.",
+    "repo": "crazy-max/neard-bin-filezilla",
+    "filename": "neard-filezilla",
+    "sources": [
+      "https://filezilla-project.org/",
+      "https://sourceforge.net/projects/filezilla/files/FileZilla%20Server/"
+    ],
+    "versions": {
+      "0.9.42": {
+        "date": "2013/12/16"
+      },
+      "0.9.46": {
+        "date": "2014/08/03"
+      },
+      "0.9.47": {
+        "date": "2014/09/19"
+      },
+      "0.9.52.1": {
+        "date": "2015/06/01"
+      },
+      "0.9.54": {
+        "date": "2015/11/30"
+      },
+      "0.9.56.1": {
+        "date": "2016/03/16"
+      },
+      "0.9.57": {
+        "date": "2016/05/03"
+      },
+      "0.9.59": {
+        "date": "2016/09/22"
+      }
+    },
+    "releases": [
+      {
+        "name": "r6",
+        "date": "2016/11/12",
+        "versions": [
+          {
+            "name": "0.9.42",
+            "default": true,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.46",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.47",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.52.1",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.54",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.56.1",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.57",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.59",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r5",
+        "date": "2016/10/09",
+        "versions": [
+          {
+            "name": "0.9.59",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r4",
+        "date": "2016/06/22",
+        "versions": [
+          {
+            "name": "0.9.42",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.46",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.47",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.52.1",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.54",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.56.1",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          },
+          {
+            "name": "0.9.57",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r3",
+        "date": "2016/05/12",
+        "versions": [
+          {
+            "name": "0.9.57",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/04/17",
+        "versions": [
+          {
+            "name": "0.9.56.1",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2015/12/06",
+        "versions": [
+          {
+            "name": "0.9.42",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "zip"
+          },
+          {
+            "name": "0.9.46",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "zip"
+          },
+          {
+            "name": "0.9.47",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "zip"
+          },
+          {
+            "name": "0.9.52.1",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "zip"
+          },
+          {
+            "name": "0.9.54",
+            "default": false,
+            "compat": ">= 1.0.20",
+            "ext": "zip"
+          }
+        ]
+      }
+    ]
+  }
+}

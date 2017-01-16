@@ -1,0 +1,177 @@
+{
+  "module": {
+    "type": "bins",
+    "name": "apache",
+    "label": "Apache",
+    "desc": "the world's most used web server software.",
+    "repo": "crazy-max/neard-bin-apache",
+    "filename": "neard-apache",
+    "sources": [
+      "http://httpd.apache.org/",
+      "http://www.apachehaus.com/"
+    ],
+    "versions": {
+      "2.2.22": {
+        "date": "2012/01/31"
+      },
+      "2.2.27": {
+        "date": "2014/03/18"
+      },
+      "2.2.29": {
+        "date": "2014/09/01"
+      },
+      "2.2.31": {
+        "date": "2015/07/16"
+      },
+      "2.4.4": {
+        "date": "2013/02/25"
+      },
+      "2.4.12": {
+        "date": "2015/01/27"
+      },
+      "2.4.17": {
+        "date": "2015/10/13"
+      },
+      "2.4.20": {
+        "date": "2016/04/08"
+      },
+      "2.4.23": {
+        "date": "2016/07/04"
+      }
+    },
+    "releases": [
+      {
+        "name": "r4",
+        "date": "2016/12/18",
+        "versions": [
+          {
+            "name": "2.2.22",
+            "default": true,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.2.27",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.2.29",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.2.31",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.4.4",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.4.12",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.4.17",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.4.20",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          },
+          {
+            "name": "2.4.23",
+            "default": false,
+            "compat": ">= 1.0.22",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r3",
+        "date": "2016/10/08",
+        "versions": [
+          {
+            "name": "2.4.23",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r2",
+        "date": "2016/04/17",
+        "versions": [
+          {
+            "name": "2.4.20",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "7z"
+          }
+        ]
+      },
+      {
+        "name": "r1",
+        "date": "2015/12/06",
+        "versions": [
+          {
+            "name": "2.2.22",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.2.27",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.2.29",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.2.31",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.4.4",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.4.12",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          },
+          {
+            "name": "2.4.17",
+            "default": false,
+            "compat": ">= 1.0.13",
+            "ext": "zip"
+          }
+        ]
+      }
+    ]
+  }
+}

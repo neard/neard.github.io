@@ -1,0 +1,10 @@
+{% if include.repository %}
+  <div class="module-links">
+    <a href="{{ site.github.baseurl }}/{{ include.repository }}" target="_blank">
+      <i class="fa fa-github fa-2x" aria-hidden="true" style="color:#4078C0"></i>
+    </a>&nbsp;&nbsp;
+    <a href="{{ site.github.baseurl }}/{{ include.repository }}/releases.atom" target="_blank">
+      <i class="fa fa-rss fa-2x" aria-hidden="true" style="color:orange"></i>
+    </a>
+  </div>
+{% endif %}

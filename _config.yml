@@ -1,0 +1,191 @@
+# General
+source: src
+destination: web
+url: "http://neard.io"
+baseurl: ""
+title: "Neard"
+description: "Portable WAMP software stack"
+logo: /img/logo.png
+
+# Github
+github:
+  baseurl: https://github.com
+  user: crazy-max
+  repo: neard
+
+# Paths
+paths:
+  assets: assets
+  bower: bower_components
+
+# Files
+files:
+  css: neard.min.css
+  js: neard.min.js
+  vendor: vendor.json
+
+# Filters
+filters:
+  css:
+    - src/css/**/*.css
+  js:
+    - src/js/**/*.js
+  data:
+    - src/_data/**/*.json
+  jekyll:
+    - src/**/*.html
+    - src/**/*.md
+    - src/_data/**/*
+    - src/_plugins/**/*.rb
+    - src/feed.xml
+    - src/feed.xslt.xml
+    - src/robots.txt
+    - src/sitemap.xml
+    - src/sitemap.xsl
+
+# Custom dirs
+release_dir: release
+download_dir: download
+
+# Navigation bar
+navbar:
+  logo: "/img/logo-nav.png"
+  title-img:
+  links:
+    News: "news"
+    Downloads: "downloads"
+    Documentation: "doc"
+    Github: "https://github.com/crazy-max/neard"
+    Donate: "https://www.paypal.me/crazyws"
+
+# Author
+author:
+  name: Cr@zy
+  email:
+  facebook: crazyws.fr
+  github: crazy-max
+  twitter: crazyws
+  reddit:
+  google-plus: 106054122073793220041
+  linkedin:
+  xing:
+  stackoverflow:
+  snapchat:
+  instagram:
+  youtube:
+  spotify:
+  telephone:
+
+# Footer
+footer:
+  links-active:
+    rss: true
+    facebook: true
+    email: false
+    twitter: true
+    google-plus: true
+    github: true
+    reddit: false
+    linkedin: false
+    xing: false
+    stackoverflow: false
+    snapchat: false
+    instagram: false
+    youtube: false
+    spotify: false
+    telephone: false
+
+# SEO Related
+google_site_verification: "4RM9sHdQy-RvcvnlNM9s8qqV-NGc6GBPZydBzJ-r9NA"
+bing_site_verification: "D188E0BEC1AB6E7C1E0194BFC35D0033"
+alexa_site_verification:
+yandex_site_verification:
+
+# Ads
+ads_enabled: "true"
+
+# Posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: true
+  linkedin: true
+  reddit: true
+excerpt_length: 50 # truncates the excerpt to the specified number of words on the blog page
+timezone: "Europe/Paris"
+permalink: /news/:year-:month-:day-:title/
+tag_page: /news/tags/
+paginate_path: /news/page:num/
+paginate: 5
+
+# Comments
+comments:
+  provider: # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+
+# Analytics
+analytics:
+  provider: "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: "UA-46484801-2"
+
+# Facebook App ID
+fb_app_id: ""
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+
+# Default YAML values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      show-logo: true
+      comments: false
+      markdown_body: "markdown-body"
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - css
+  - js
+  - vendor
+keep_files:
+  - .git
+  - .svn
+  - assets
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll_github_sample
+  - jekyll-paginate

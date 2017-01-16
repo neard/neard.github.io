@@ -1,0 +1,31 @@
+---
+layout: page
+title: Releases
+permalink: /releases/
+markdown_body: ""
+---
+{% include vars.html %}
+
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Date</th>
+      <th>Excerpt of changelog</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for release in site.data.neard.releases %}
+    {% capture changelog_contains %}## {{ release.version }}{% endcapture %}
+    {% capture changelog %}{% include parse-changelog.html data=page.changelog contains=changelog_contains %}{% endcapture %}
+    <tr>
+      <td><a href="{{ site.baseurl }}/release/{{ release.version }}">{{ release.version }}</a></td>
+      <td>{{ release.date }}</td>
+      <td>
+        {{ changelog | strip | markdownify | newline_to_br | strip_html | strip_newlines | escape_once | truncatewords: 20 }}
+        &nbsp;<a href="{{ site.baseurl }}/doc/changelog/#{{ release.version | append: '-' | append: release.date | replace: '.', '' | replace: '/', '' }}">[Read more]</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

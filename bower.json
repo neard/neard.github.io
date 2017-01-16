@@ -1,0 +1,51 @@
+{
+  "name": "neard-website",
+  "description": "Neard's website",
+  "license": "LGPL-3.0",
+  "main": "gulpfile.js",
+  "authors": [
+    "crazy-max"
+  ],
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "normalize-css": "^5.0.0",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-social": "^5.1.1",
+    "google-fonts-lora": "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic",
+    "google-fonts-open-sans": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800",
+    "github-markdown-css": "^2.4.1",
+    "photoswipe": "^4.1.1",
+    "elegant-icons": "*",
+    "matchHeight": "^0.7.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*.*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/*.*"
+      ]
+    },
+    "google-fonts-lora": {
+      "main": "index"
+    },
+    "google-fonts-open-sans": {
+      "main": "index"
+    }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
