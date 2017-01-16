@@ -24,4 +24,4 @@ rm -rf .git
 cd ../
 
 # test
-htmlproofer ./web --allow-hash-href --check-favicon --empty-alt-ignore --only-4xx --http-status-ignore "403" --url-ignore "/#0/,/support.microsoft.com/" --log-level=:debug
+htmlproofer ./web --allow-hash-href --check-favicon --only-4xx --http-status-ignore "403" --alt-ignore "/.*/" --url-ignore "/#0/,/support.microsoft.com/" --log-level=:debug
