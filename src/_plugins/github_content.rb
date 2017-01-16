@@ -27,13 +27,8 @@ module Jekyll
         @filename = context[@filename.strip]
       end
 
-      Jekyll.logger.debug "user: #{@user}"
-      Jekyll.logger.debug "repo: #{@repo}"
-      Jekyll.logger.debug "commitish_or_branch: #{@commitish_or_branch}"
-      Jekyll.logger.debug "filename: #{@filename}"
-      Jekyll.logger.debug "lines: #{@line_start},#{@line_end}"
-
       url = File.join(GITHUB_RAW_URI, @user, @repo, WEB_URI_PART, @commitish_or_branch, @filename)
+      Jekyll.logger.debug "github_content url: #{url}"
 
       tmp_dir = File.join('tmp', 'neard')
       FileUtils.mkdir_p tmp_dir
