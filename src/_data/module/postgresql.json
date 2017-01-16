@@ -1,0 +1,135 @@
+{
+  "type": "bins",
+  "name": "postgresql",
+  "label": "PostgreSQL",
+  "desc": "an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+  "repo": "crazy-max/neard-bin-postgresql",
+  "filename": "neard-postgresql",
+  "sources": [
+    "https://www.postgresql.org"
+  ],
+  "versions": {
+    "9.1.22": {
+      "date": "2016/05/12"
+    },
+    "9.1.24": {
+      "date": "2016/10/27"
+    },
+    "9.2.17": {
+      "date": "2016/05/12"
+    },
+    "9.2.19": {
+      "date": "2016/10/27"
+    },
+    "9.3.13": {
+      "date": "2016/05/12"
+    },
+    "9.3.15": {
+      "date": "2016/10/27"
+    },
+    "9.4.8": {
+      "date": "2016/05/12"
+    },
+    "9.4.10": {
+      "date": "2016/10/27"
+    },
+    "9.5.3": {
+      "date": "2016/05/12"
+    },
+    "9.5.5": {
+      "date": "2016/10/27"
+    },
+    "9.6.0": {
+      "date": "2016/09/29"
+    },
+    "9.6.1": {
+      "date": "2016/10/27"
+    }
+  },
+  "releases": [
+    {
+      "name": "r2",
+      "date": "2016/12/01",
+      "versions": [
+        {
+          "name": "9.1.24",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.2.19",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.3.15",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.4.10",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.5.5",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.6.1",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/10/12",
+      "versions": [
+        {
+          "name": "9.1.22",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.2.17",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.3.13",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.4.8",
+          "default": true,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.5.3",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "9.6.0",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "type": "tools",
+  "name": "drush",
+  "label": "Drush",
+  "desc": "a command line shell and scripting interface for Drupal.",
+  "repo": "crazy-max/neard-tool-drush",
+  "filename": "neard-drush",
+  "sources": [
+    "http://www.drush.org/",
+    "https://github.com/drush-ops/drush/",
+    "https://packagist.org/packages/drush/drush",
+    "http://gnuwin32.sourceforge.net/"
+  ],
+  "versions": {
+    "5.9.0": {
+      "date": "2013/04/17"
+    },
+    "6.7.0": {
+      "date": "2015/12/02"
+    },
+    "7.3.0": {
+      "date": "2016/04/24"
+    },
+    "7.4.0": {
+      "date": "2016/09/22"
+    },
+    "8.1.0": {
+      "date": "2016/04/24"
+    },
+    "8.1.2": {
+      "date": "2016/05/05"
+    },
+    "8.1.5": {
+      "date": "2016/09/25"
+    }
+  },
+  "releases": [
+    {
+      "name": "r3",
+      "date": "2016/10/11",
+      "versions": [
+        {
+          "name": "7.4.0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "8.1.5",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "date": "2016/05/12",
+      "versions": [
+        {
+          "name": "8.1.2",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/04/30",
+      "versions": [
+        {
+          "name": "5.9.0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "6.7.0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "7.3.0",
+          "default": true,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "8.1.0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

@@ -31,8 +31,8 @@ module Jekyll
         files = Dir[File.join(data_module_dir, '**', '*.json')].reject { |p| File.directory? p }
         files.each do |file|
           data = JSON.parse(File.read(file))
-          next if !data.kind_of?(Hash) or !data['module']
-          site.pages << ModulePage.new(site, site.source, File.join(data['module']['type']), data['module'])
+          next if !data.kind_of?(Hash) or !data['type']
+          site.pages << ModulePage.new(site, site.source, File.join(data['type']), data)
         end
       end
 

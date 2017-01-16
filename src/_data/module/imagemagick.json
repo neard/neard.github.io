@@ -1,0 +1,144 @@
+{
+  "type": "tools",
+  "name": "imagemagick",
+  "label": "ImageMagick",
+  "desc": "a free and open-source software suite for displaying, converting, and editing raster image and vector image files.",
+  "repo": "crazy-max/neard-tool-imagemagick",
+  "filename": "neard-imagemagick",
+  "sources": [
+    "http://www.imagemagick.org/script/binary-releases.php"
+  ],
+  "versions": {
+    "6.8.9-7": {
+      "date": "2014/08/16"
+    },
+    "6.9.3-8": {
+      "date": "2016/04/11"
+    },
+    "6.9.3-10": {
+      "date": "2016/05/03"
+    },
+    "6.9.4-0": {
+      "date": "2016/05/05"
+    },
+    "6.9.4-9": {
+      "date": "2016/06/12"
+    },
+    "6.9.6-1": {
+      "date": "2016/10/08"
+    },
+    "7.0.1-2": {
+      "date": "2016/05/06"
+    },
+    "7.0.2-0": {
+      "date": "2016/06/12"
+    },
+    "7.0.3-3": {
+      "date": "2016/10/08"
+    }
+  },
+  "releases": [
+    {
+      "name": "r6",
+      "date": "2016/10/11",
+      "versions": [
+        {
+          "name": "6.9.6-1",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.3-3",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r5",
+      "date": "2016/06/20",
+      "versions": [
+        {
+          "name": "6.9.4-9",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.2-0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r4",
+      "date": "2016/10/11",
+      "versions": [
+        {
+          "name": "6.9.3-10",
+          "default": true,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "6.9.4-0",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.1-2",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r3",
+      "date": "2016/04/26",
+      "versions": [
+        {
+          "name": "6.8.9-7",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "6.9.3-8",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "date": "2016/04/16",
+      "versions": [
+        {
+          "name": "6.9.3-8",
+          "default": false,
+          "compat": ">= 1.0.12",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/04/16",
+      "versions": [
+        {
+          "name": "6.8.9-7",
+          "default": false,
+          "compat": ">= 1.0.12",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "type": "apps",
+  "name": "adminer",
+  "label": "Adminer",
+  "desc": "a full-featured database management tool written in PHP.",
+  "repo": "crazy-max/neard-app-adminer",
+  "filename": "neard-adminer",
+  "sources": [
+    "https://www.adminer.org/",
+    "https://sourceforge.net/projects/adminer/files/Adminer/",
+    "https://github.com/vrana/adminer"
+  ],
+  "versions": {
+    "4.1.0": {
+      "date": "2014/04/18"
+    },
+    "4.2.4": {
+      "date": "2016/02/06"
+    },
+    "4.2.5": {
+      "date": "2016/06/01"
+    }
+  },
+  "releases": [
+    {
+      "name": "r5",
+      "date": "2016/11/24",
+      "versions": [
+        {
+          "name": "4.1.0",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "4.2.4",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "4.2.5",
+          "default": true,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r4",
+      "date": "2016/10/07",
+      "versions": [
+        {
+          "name": "4.1.0",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "4.2.4",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        },
+        {
+          "name": "4.2.5",
+          "default": false,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r3",
+      "date": "2016/06/21",
+      "versions": [
+        {
+          "name": "4.2.5",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "date": "2016/04/30",
+      "versions": [
+        {
+          "name": "4.1.0",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "4.2.4",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/04/03",
+      "versions": [
+        {
+          "name": "4.1.0",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "zip"
+        },
+        {
+          "name": "4.2.4",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "zip"
+        }
+      ]
+    }
+  ]
+}
