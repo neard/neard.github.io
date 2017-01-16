@@ -4,7 +4,6 @@ module Jekyll
 
   class GithubContentTag < Liquid::Tag
     GITHUB_RAW_URI = 'https://raw.githubusercontent.com/'
-    WEB_URI_PART = 'blob'
 
     def initialize(tag_name, params, tokens)
       @user, @repo, @commitish_or_branch, @filename, @line_start, @line_end = params.split
@@ -27,7 +26,7 @@ module Jekyll
         @filename = context[@filename.strip]
       end
 
-      url = File.join(GITHUB_RAW_URI, @user, @repo, WEB_URI_PART, @commitish_or_branch, @filename)
+      url = File.join(GITHUB_RAW_URI, @user, @repo, @commitish_or_branch, @filename)
       Jekyll.logger.debug "github_content url: #{url}"
 
       tmp_dir = File.join('tmp', 'neard')
