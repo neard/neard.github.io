@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/travis/crazy-max/neard-website/master.svg?style=flat-square)](https://travis-ci.org/crazy-max/neard-website)
+[![Libraries.io for GitHub](https://img.shields.io/librariesio/github/crazy-max/neard-website.svg)](https://libraries.io/github/crazy-max/neard-website)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
 
 # Neard's website
