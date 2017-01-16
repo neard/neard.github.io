@@ -14,7 +14,7 @@ JEKYLL_LOG_LEVEL=debug
 set -e
 
 # build
-gulp --env=$(JEKYLL_ENV) build
+gulp --env=production build
 htmlproofer ./web --allow-hash-href
 
 # init gh-pages repository
