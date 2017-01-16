@@ -1,6 +1,10 @@
 var actionNav = {
 
   init : function() {
+    if ($('.navbar').length <= 0) {
+      return;
+    }
+
     // Shorten the navbar after scrolling a little bit down
     $(window).scroll(function() {
       if ($('.navbar').offset().top > 50) {
