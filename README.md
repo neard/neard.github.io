@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1c78d2c0aa814fd685b60868192d8d81)](https://www.codacy.com/app/crazy-max/neard-website?utm_source=github.com&utm_medium=referral&utm_content=crazy-max/neard-website&utm_campaign=badger)
 [![Build Status](https://img.shields.io/travis/crazy-max/neard-website/master.svg?style=flat-square)](https://travis-ci.org/crazy-max/neard-website)
 [![Libraries.io for GitHub](https://img.shields.io/librariesio/github/crazy-max/neard-website.svg)](https://libraries.io/github/crazy-max/neard-website)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
