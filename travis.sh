@@ -6,10 +6,6 @@ if [ $TRAVIS_PULL_REQUEST == "true" ]; then
   exit 0
 fi
 
-# set jekyll env
-JEKYLL_ENV=production
-JEKYLL_LOG_LEVEL=debug
-
 # enable error reporting to the console
 set -e
 
