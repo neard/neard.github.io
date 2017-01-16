@@ -11,9 +11,8 @@ set -e
 
 # build
 gulp --env=production build
-htmlproofer ./web --allow-hash-href --only-4xx --log-level=:debug
 
-# init gh-pages repository
+# publish to gh-pages repository
 cd ./web
 git init
 git config --global user.email "builds@travis-ci.com"
@@ -23,3 +22,6 @@ git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
 rm -rf .git
 cd ../
+
+# test
+htmlproofer ./web --allow-hash-href --only-4xx --http-status-ignore "403" --log-level=:debug
