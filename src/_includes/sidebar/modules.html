@@ -1,11 +1,11 @@
 {% strip %}
   {% assign current_type = '' %}
   {% assign current_module = '' %}
-  {% for module in site.data.module.all %}
-    {% capture modulename %}{{ module.name }}.md{% endcapture %}
+  {% for module in site.data.module %}
+    {% capture modulename %}{{ module[1].name }}.md{% endcapture %}
     {% if page.name == modulename %}
-      {% assign current_type = module.type %}
-      {% assign current_module = module.name %}
+      {% assign current_type = module[1].type %}
+      {% assign current_module = module[1].name %}
       {% break %}
     {% endif %}
   {% endfor %}
@@ -18,24 +18,24 @@
     <p>Modules</p>
     <ul class="sticky-nav__items" id="sticky-nav">
       <li class="sticky-nav__item">{% if current_type == 'bins' %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}&nbsp;&nbsp;<a class="nav-link" href="{{ site.baseurl }}/bins">Binaries</a></li>
-      {% for module in site.data.module.all %}{% if module.type == "bins" %}
+      {% for module in site.data.module %}{% if module[1].type == "bins" %}
       <li class="sticky-nav__item">&nbsp;&nbsp;
-        {% if module.name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
-        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module.type }}/{{ module.name }}">{{ module.label }}</a>
+        {% if module[1].name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
+        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module[1].type }}/{{ module[1].name }}">{{ module[1].label }}</a>
       </li>
       {% endif %}{% endfor %}
       <li class="sticky-nav__item">{% if current_type == 'tools' %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}&nbsp;&nbsp;<a class="nav-link" href="{{ site.baseurl }}/tools">Tools</a></li>
-      {% for module in site.data.module.all %}{% if module.type == "tools" %}
+      {% for module in site.data.module %}{% if module[1].type == "tools" %}
       <li class="sticky-nav__item">&nbsp;&nbsp;
-        {% if module.name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
-        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module.type }}/{{ module.name }}">{{ module.label }}</a>
+        {% if module[1].name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
+        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module[1].type }}/{{ module[1].name }}">{{ module[1].label }}</a>
       </li>
       {% endif %}{% endfor %}
       <li class="sticky-nav__item">{% if current_type == 'apps' %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}&nbsp;&nbsp;<a class="nav-link" href="{{ site.baseurl }}/apps">Applications</a></li>
-      {% for module in site.data.module.all %}{% if module.type == "apps" %}
+      {% for module in site.data.module %}{% if module[1].type == "apps" %}
       <li class="sticky-nav__item">&nbsp;&nbsp;
-        {% if module.name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
-        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module.type }}/{{ module.name }}">{{ module.label }}</a>
+        {% if module[1].name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
+        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/{{ module[1].type }}/{{ module[1].name }}">{{ module[1].label }}</a>
       </li>
       {% endif %}{% endfor %}
     </ul>

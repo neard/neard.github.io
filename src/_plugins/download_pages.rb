@@ -29,13 +29,12 @@ module Jekyll
         download_dir = site.config['download_dir'] || 'download'
         download_obj = Hash.new
 
-        files = Dir[File.join(data_dir, '**', '*.json')].reject { |p| File.directory? p }
+        files = Dir[File.join(data_dir, 'neard.json')].reject { |p| File.directory? p }
         files.each do |file|
-          basename = File.basename(file)
           data = JSON.parse(File.read(file))
           next if !data.kind_of?(Hash)
 
-          if basename == 'neard.json'
+          if File.basename(file) == 'neard.json'
             Jekyll.logger.debug "  Processing: #{data['name']}"
             data['releases'].each do |release|
               release['assets'].each do |asset|
@@ -48,17 +47,21 @@ module Jekyll
               end
             end
           end
+        end
 
-          if data['module']
-            Jekyll.logger.debug "  Processing: #{data['module']['name']}"
-            data['module']['releases'].each do |release|
-              release['versions'].each do |version|
-                module_filename = data['module']['filename'] + '-' + version['name'] + '-' + release['name'] + '.' + version['ext'];
-                module_url = site.config['github']['baseurl'] + '/' + data['module']['repo'] + '/releases/download/' + release['name'] + '/' + module_filename;
-                if !download_obj[module_filename]
-                  site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename), module_filename, module_url)
-                  download_obj[module_filename] = module_url
-                end
+        files = Dir[File.join(data_dir, 'module', '**', '*.json')].reject { |p| File.directory? p }
+        files.each do |file|
+          data = JSON.parse(File.read(file))
+          next if !data.kind_of?(Hash) or !data['type']
+
+          Jekyll.logger.debug "  Processing: #{data['name']}"
+          data['releases'].each do |release|
+            release['versions'].each do |version|
+              module_filename = data['filename'] + '-' + version['name'] + '-' + release['name'] + '.' + version['ext'];
+              module_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/' + release['name'] + '/' + module_filename;
+              if !download_obj[module_filename]
+                site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename), module_filename, module_url)
+                download_obj[module_filename] = module_url
               end
             end
           end

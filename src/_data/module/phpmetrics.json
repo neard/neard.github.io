@@ -1,0 +1,51 @@
+{
+  "type": "tools",
+  "name": "phpmetrics",
+  "label": "PhpMetrics",
+  "desc": "gives metrics about PHP project and classes.",
+  "repo": "crazy-max/neard-tool-phpmetrics",
+  "filename": "neard-phpmetrics",
+  "sources": [
+    "http://www.phpmetrics.org/",
+    "https://github.com/phpmetrics/PhpMetrics",
+    "https://github.com/phpmetrics/SymfonyExtension",
+    "https://github.com/phpmetrics/ComposerExtension"
+  ],
+  "versions": {
+    "1.0.1": {
+      "date": "2014/09/02"
+    },
+    "1.1.1": {
+      "date": "2014/12/17"
+    },
+    "1.9.2": {
+      "date": "2016/03/20"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2016/05/01",
+      "versions": [
+        {
+          "name": "1.0.1",
+          "default": true,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "1.1.1",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "1.9.2",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

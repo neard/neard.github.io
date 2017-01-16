@@ -1,0 +1,106 @@
+{
+  "type": "tools",
+  "name": "git",
+  "label": "Git",
+  "desc": "a widely used version control system for software development.",
+  "repo": "crazy-max/neard-tool-git",
+  "filename": "neard-git",
+  "sources": [
+    "https://github.com/git-for-windows/git",
+    "https://github.com/msysgit/msysgit"
+  ],
+  "versions": {
+    "1.8.4": {
+      "date": "2013/09/16"
+    },
+    "2.8.1": {
+      "date": "2016/04/04"
+    },
+    "2.8.2": {
+      "date": "2016/05/03"
+    },
+    "2.9.0": {
+      "date": "2016/06/14"
+    },
+    "2.10.1": {
+      "date": "2016/10/04"
+    },
+    "2.11.0": {
+      "date": "2016/12/01"
+    }
+  },
+  "releases": [
+    {
+      "name": "r6",
+      "date": "2016/12/02",
+      "versions": [
+        {
+          "name": "2.11.0",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r5",
+      "date": "2016/10/11",
+      "versions": [
+        {
+          "name": "2.10.1",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r4",
+      "date": "2016/06/20",
+      "versions": [
+        {
+          "name": "2.9.0",
+          "default": true,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r3",
+      "date": "2016/05/12",
+      "versions": [
+        {
+          "name": "2.8.2",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "date": "2016/04/12",
+      "versions": [
+        {
+          "name": "2.8.1",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/04/10",
+      "versions": [
+        {
+          "name": "1.8.4",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

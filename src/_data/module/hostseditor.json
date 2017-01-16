@@ -1,0 +1,30 @@
+{
+  "type": "tools",
+  "name": "hostseditor",
+  "label": "HostsEditor",
+  "desc": "a small application for editing windows Hosts file.",
+  "repo": "crazy-max/neard-tool-hostseditor",
+  "filename": "neard-hostseditor",
+  "sources": [
+    "https://hostseditor.codeplex.com/"
+  ],
+  "versions": {
+    "1.1.0.0": {
+      "date": "2008/10/29"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2016/04/09",
+      "versions": [
+        {
+          "name": "1.1.0.0",
+          "default": true,
+          "compat": ">= 1.0.18",
+          "ext": "zip"
+        }
+      ]
+    }
+  ]
+}

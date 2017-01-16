@@ -1,0 +1,31 @@
+{
+  "type": "bins",
+  "name": "memcached",
+  "label": "Memcached",
+  "desc": "a distributed memory object caching system.",
+  "repo": "crazy-max/neard-bin-memcached",
+  "filename": "neard-memcached",
+  "sources": [
+    "https://memcached.org/",
+    "https://github.com/memcached/memcached"
+  ],
+  "versions": {
+    "1.4.5": {
+      "date": "2010/04/03"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2016/07/14",
+      "versions": [
+        {
+          "name": "1.4.5",
+          "default": true,
+          "compat": ">= 1.0.21",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

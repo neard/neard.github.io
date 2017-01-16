@@ -1,0 +1,139 @@
+{
+  "type": "tools",
+  "name": "phpunit",
+  "label": "PHPUnit",
+  "desc": "a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.",
+  "repo": "crazy-max/neard-tool-phpunit",
+  "filename": "neard-phpunit",
+  "sources": [
+    "https://phpunit.de/",
+    "https://github.com/sebastianbergmann/phpunit"
+  ],
+  "versions": {
+    "4.8.24": {
+      "date": "2016/03/14"
+    },
+    "4.8.25": {
+      "date": "2016/05/10"
+    },
+    "4.8.26": {
+      "date": "2016/05/17"
+    },
+    "4.8.27": {
+      "date": "2016/07/21"
+    },
+    "5.3.2": {
+      "date": "2016/04/12"
+    },
+    "5.3.4": {
+      "date": "2016/05/11"
+    },
+    "5.3.5": {
+      "date": "2016/06/03"
+    },
+    "5.4.6": {
+      "date": "2016/06/16"
+    },
+    "5.4.8": {
+      "date": "2016/07/26"
+    },
+    "5.5.7": {
+      "date": "2016/10/03"
+    },
+    "5.6.1": {
+      "date": "2016/10/07"
+    }
+  },
+  "releases": [
+    {
+      "name": "r4",
+      "date": "2016/10/11",
+      "versions": [
+        {
+          "name": "4.8.27",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.8",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.7",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.1",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r3",
+      "date": "2016/06/20",
+      "versions": [
+        {
+          "name": "4.8.26",
+          "default": true,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.5",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.6",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r2",
+      "date": "2016/05/12",
+      "versions": [
+        {
+          "name": "4.8.25",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.4",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r1",
+      "date": "2016/04/23",
+      "versions": [
+        {
+          "name": "4.8.24",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.2",
+          "default": false,
+          "compat": ">= 1.0.19",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}
