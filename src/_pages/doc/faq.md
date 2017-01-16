@@ -14,7 +14,7 @@ Neard uses the exe and the ini file to generate the tray menu.
 ## How to upgrade from a previous release ?
 
 Neard is a portable application and does not provide a setup at this time.<br />
-To upgrade from a previous release, you have to follow the instructions in the [UPGRADE.md]({{ var_repo_url }}/blob/master/UPGRADE.md){:target="_blank"} file.
+To upgrade from a previous release, you have to follow the instructions in the [Upgrade notes](/doc/upgrade-notes) page.
 
 ## Why Neard icon in the system tray is yellow or red ?
 
