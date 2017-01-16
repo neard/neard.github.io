@@ -11,7 +11,7 @@ set -e
 
 # build
 gulp --env=production build
-htmlproofer ./web --allow-hash-href --log-level=:debug
+htmlproofer ./web --allow-hash-href --only-4xx --log-level=:debug
 
 # init gh-pages repository
 cd ./web
