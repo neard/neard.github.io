@@ -10,5 +10,4 @@
 {% endif %}
 {% assign var_domain = var_seo_url | remove:'http://' | remove:'https://' | split:'/' | first %}
 {% capture var_repo_url %}{{ site.github.baseurl }}/{{ site.github.user }}/{{ site.github.repo }}{% endcapture %}
-{% assign var_release_latest = site.data.neard.releases[0].version %}
 {% endstrip %}

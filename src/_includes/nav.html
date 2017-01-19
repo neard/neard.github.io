@@ -1,11 +1,9 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
   <div class="container-fluid">
-    <div class="navbar-header">
+    <div class="navbar-header page-scroll">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        Menu <i class="fa fa-bars"></i>
       </button>
       {% if site.navbar.title-img %}
         <a class="navbar-brand navbar-brand-logo" href="{{ site.baseurl }}/"><img src="{{ site.navbar.title-img }}"/></a>
@@ -17,34 +15,9 @@
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       {% for link in site.navbar.links %}
-        {% if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {% for childlink in link[1] %}
-                {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
-                {% endfor %}
-              {% endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
-        {% endif %}
-        {% endfor %}
+        <li>{% include navbarlink.html link=link %}</li>
+      {% endfor %}
       </ul>
     </div>
-
-    {% if site.navbar.logo and (layout.show-logo or page.show-logo) %}
-      <div class="logo-container">
-        <div class="logo-img-border">
-          <a href="{{ site.baseurl }}/">
-            <img class="logo-img" src="{{ site.navbar.logo | prepend: site.baseurl | replace: '//', '/' }}" />
-          </a>
-        </div>
-      </div>
-    {% endif %}
   </div>
 </nav>

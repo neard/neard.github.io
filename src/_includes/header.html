@@ -1,31 +1,42 @@
-{% if include.type and (page.bigimg or page.title) %}
-<header class="header-section{% if include.custom %} header-{{ include.custom }}{% endif %}{% if page.bigimg %} has-img{% endif %}">
-  <div class="intro-header {% if page.bigimg %}big-img{% else %}no-img{% endif %}"{% if page.bigimg %}style="background-image: url('{{ page.bigimg }}');"{% endif %}>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-          <div class="{{ include.type }}-heading" style="{{ include.style }}">
-            <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
-            {% if page.subtitle %}
-              {% if include.type == "page" %}
-                <hr class="small">
-                <span class="{{ include.type }}-subheading">{{ page.subtitle }}</span>
-              {% else %}
-                <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-              {% endif %}
+{% strip %}
+{% assign page_type = include.type %}
+{% assign page_css = "" %}
+{% assign page_class = "" %}
+{% if page.bigimg %}
+  {% capture page_css %}{{ page_css }} background-image: url('{{ page.bigimg }}');{% endcapture %}
+{% else %}
+  {% capture page_class %}{{ page_class }} no-img{% endcapture %}
+{% endif %}
+{% if include.custom %}
+  {% capture page_class %}{{ page_class }} header-{{ include.custom }}{% endcapture %}
+{% endif %}
+{% endstrip %}
+{% if page_type %}
+<header class="intro-header{{ page_class }}" style="{{ page_css }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="{{ page_type }}-heading" style="{{ include.style }}">
+          <h1>{% if page.title %}{{ page.title }}{% else %}<br/>{% endif %}</h1>
+          {% if page.subtitle %}
+            {% if page_type == "page" %}
+              <hr class="small">
+              <span class="subheading">{{ page.subtitle }}</span>
+            {% else %}
+              <h2 class="subheading">{{ page.subtitle }}</h2>
             {% endif %}
-            {% if include.custom %}
-              {% include headers/{{ include.custom }}.html %}
-            {% endif %}
-            {% if include.type == "post" %}
-              <span class="post-meta">Posted on {{ page.date | date_to_string }}</span>
-            {% endif %}
-          </div>
+          {% endif %}
+          {% if include.custom %}
+            {% include headers/{{ include.custom }}.html %}
+          {% endif %}
+          {% if page_type == "post" %}
+            <span class="meta">Posted on {{ page.date | date_to_string }}</span>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
 </header>
 {% else %}
-<div class="intro-header"></div>
+<div class="no-intro-header"></div>
 {% endif %}

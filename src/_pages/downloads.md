@@ -1,7 +1,7 @@
 ---
 title: Downloads
 permalink: /downloads/
-bigimg: /img/download-big2.jpg
+bigimg: /img/download-big.jpg
 sitemap:
   priority: 0.9
   changefreq: daily

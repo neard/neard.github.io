@@ -4,9 +4,9 @@ layout: default
 
 {% include header.html type="page" %}
 
-<div class="container" role="main">
+{% if page.sidebar %}
+<div class="container-fluid container-sidebar" role="main">
   <div class="row">
-    {% if page.sidebar %}
     <div class="col-lg-8 col-md-6 col-md-offset-1 {{ page.markdown_body }}">
       {{ content }}
       {% if page.comments %}
@@ -18,7 +18,11 @@ layout: default
     <div class="col-lg-3">
       {% include sidebar/{{ page.sidebar }}.html %}
     </div>
-    {% else %}
+  </div>
+</div>
+{% else %}
+<div class="container" role="main">
+  <div class="row">
     <div class="col-lg-10 col-md-8 col-md-offset-1 {{ page.markdown_body }}">
       {{ content }}
       {% if page.comments %}
@@ -27,6 +31,6 @@ layout: default
       </div>
       {% endif %}
     </div>
-    {% endif %}
   </div>
 </div>
+{% endif %}

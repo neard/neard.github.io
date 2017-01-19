@@ -25,4 +25,4 @@ sidebar: doc
 * Launch or reload Neard (right click > Reload on the taskbar icon)
 * Select the language in the taskbar icon (right click -> Language menu)
 
-Thanks for your support! {% include fontawesome.html icon="heart" color="#c75c5c" %}
+Thanks for your support {% include fontawesome.html icon="heart" color="#c75c5c" %}
