@@ -2,7 +2,13 @@
 
 {% if site.data.vendor.js %}
   {% for js in site.data.vendor.js %}
+    {% if js contains "html5shiv" or js contains "respond.src" %}
+    <!--[if lt IE 9]>
     <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <![endif]-->
+    {% else %}
+    <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    {% endif %}
   {% endfor %}
 {% endif %}
 

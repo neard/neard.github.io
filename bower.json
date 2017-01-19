@@ -18,7 +18,10 @@
     "github-markdown-css": "^2.4.1",
     "photoswipe": "^4.1.1",
     "elegant-icons": "*",
-    "matchHeight": "^0.7.0"
+    "matchHeight": "^0.7.0",
+    "clean-blog": "git://github.com/BlackrockDigital/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2"
   },
   "overrides": {
     "bootstrap": {
@@ -26,6 +29,12 @@
         "dist/css/bootstrap.css",
         "dist/js/bootstrap.js",
         "dist/fonts/*.*"
+      ]
+    },
+    "clean-blog": {
+      "main": [
+        "css/*.css",
+        "js/clean-blog.js"
       ]
     },
     "font-awesome": {

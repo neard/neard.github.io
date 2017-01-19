@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
   }
 
-  actionNav.init();
+  //actionNav.init();
   actionHome.init();
   actionCards.init();
   actionScreenshots.init('.screenshots');

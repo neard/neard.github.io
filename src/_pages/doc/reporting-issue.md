@@ -5,7 +5,7 @@ sidebar: doc
 ---
 {% include vars.html %}
 
-First :
+First,
 
 * Read the [FAQ](/doc/faq/).
 * Search for [existing issues]({{ var_repo_url }}/issues).
