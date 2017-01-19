@@ -38,7 +38,7 @@ As this is just a Jekyll project, you can use any of the commands listed in thei
 * [devAid](http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/)
 * [Back To Top](https://codyhouse.co/gem/back-to-top/)
 * [Twitter Bootstrap 3.2.0 Callout CSS Styles](http://cpratt.co/twitter-bootstrap-callout-css-styles/)
-* [Solarized Light](http://ethanschoonover.com/solarized)
+* [jekyll-pygments-themes](https://github.com/jwarby/jekyll-pygments-themes)
 * [Falling](https://pixabay.com/en/falling-tripping-down-stairs-99175/)
 
 ## License
