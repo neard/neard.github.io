@@ -7,6 +7,12 @@ title: "Neard"
 description: "Portable WAMP software stack"
 logo: /img/logo.png
 
+# Compress HTML
+compress_html:
+  ignore:
+    envs:
+      - "development"
+
 # Github
 github:
   baseurl: https://github.com
@@ -166,7 +172,6 @@ defaults:
       path: ""
     values:
       layout: "page"
-      show-logo: true
       comments: false
       markdown_body: "markdown-body"
 
