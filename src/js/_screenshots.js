@@ -185,7 +185,7 @@ var actionScreenshots = {
       if(options.galleryPIDs) {
         // parse real index when custom PIDs are used
         for(var j = 0; j < items.length; j++) {
-          if(items[j].pid == index) {
+          if(items[j].pid === index) {
             options.index = j;
             break;
           }
