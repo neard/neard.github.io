@@ -34,7 +34,6 @@ $(document).ready(function(){
     });
   }
 
-  //actionNav.init();
   actionHome.init();
   actionCards.init();
   actionScreenshots.init('.screenshots');
