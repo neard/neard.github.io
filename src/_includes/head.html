@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% if page.download_url %}
-  <meta http-equiv="refresh" content="2; URL={{ page.download_url }}">
+  <meta http-equiv="refresh" content="{{ page.download_time | default: 2 }}; URL={{ page.download_url }}">
   {% endif %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>

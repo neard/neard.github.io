@@ -35,6 +35,7 @@ $(document).ready(function(){
   }
 
   actionHome.init();
+  actionProgressbar.init(".progressbar");
   actionCards.init();
   actionScreenshots.init('.screenshots');
 });

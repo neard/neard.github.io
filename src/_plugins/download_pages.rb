@@ -14,6 +14,7 @@ module Jekyll
       self.data['title'] = "Downloading #{filename}..."
       self.data['download_filename'] = filename
       self.data['download_url'] = url
+      self.data['download_time'] = 5
     end
   end
 

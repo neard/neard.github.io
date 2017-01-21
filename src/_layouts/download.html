@@ -9,6 +9,9 @@ sitemap:
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-10 col-md-8 col-md-offset-1">
+      <div class="progressbar">
+        <span class="progressbar-fill" data-time="{{ page.download_time | default: 2 }}"></span>
+      </div>
       <h1>Downloading {{ page.download_filename }}...</h1>
       <p>
         Your download will start shortly...<br />
