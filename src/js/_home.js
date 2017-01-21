@@ -1,10 +1,10 @@
 var actionHome = {
 
-  init : function() {
-    if ($('.home').length <= 0) {
+  init : function(mainSelector) {
+    if ($(mainSelector).length <= 0) {
       return;
     }
 
-    $('.home .item').matchHeight();
+    $(mainSelector + " .item").matchHeight();
   }
 };
