@@ -59,7 +59,7 @@ navbar:
   title-img:
   links:
     News: "news"
-    Downloads: "downloads"
+    Get started: "doc/get-started"
     Documentation: "doc"
     Github: "https://github.com/crazy-max/neard"
     Donate: "https://www.paypal.me/crazyws"

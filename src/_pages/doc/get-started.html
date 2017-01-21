@@ -6,14 +6,14 @@ markdown_body: ""
 ---
 
 <div class="markdown-body">
-  <h1>Requirements</h1>
+  <h1 id="requirements">Requirements</h1>
   <p>
     {% capture requirements %}{% include snippets/requirements.md %}{% endcapture %}{{ requirements | markdownify }}
   </p>
 </div>
 
 <div class="markdown-body">
-  <h1>Download</h1><span></span>
+  <h1 id="download">Download</h1><span></span>
 </div>
 <p>
   <a href="{{ site.baseurl }}/release/latest" class="btn btn-success btn-lg">
@@ -25,30 +25,40 @@ markdown_body: ""
     View all Neard releases
   </a>
 </p>
+<div class="markdown-body">
+  <p>Neard offers several versions of the various binaries, tools and applications for download :</p>
+  <span></span>
+</div>
+<p>
+  <a href="{{ site.baseurl }}/bins" class="btn btn-primary" style="text-align: left">
+    <span class="fa fa-download"></span>&nbsp;&nbsp;Download binaries<br /><small>Apache, PHP, MySQL, etc.</small>
+  </a>
+  <a href="{{ site.baseurl }}/tools" class="btn btn-primary" style="text-align: left">
+    <span class="fa fa-download"></span>&nbsp;&nbsp;Download tools<br /><small>Git, Python, Ruby, etc.</small>
+  </a>
+  <a href="{{ site.baseurl }}/apps" class="btn btn-primary" style="text-align: left">
+    <span class="fa fa-download"></span>&nbsp;&nbsp;Download applications<br /><small>Adminer, phpMyAdmin, etc.</small>
+  </a>
+</p>
 
 <div class="markdown-body">
-  <h1>Installation</h1>
+  <h1 id="installation">Installation</h1>
   <p>
     {% capture installation %}{% include snippets/installation.md %}{% endcapture %}{{ installation | markdownify }}
   </p>
 
-  <h1>Configuration</h1>
+  <h1 id="configuration">Configuration</h1>
   <p>
     {% capture configuration %}{% include snippets/configuration.md %}{% endcapture %}{{ configuration | markdownify }}
   </p>
 
-  <h1>Usage</h1>
+  <h1 id="usage">Usage</h1>
   <p>
     {% capture usage %}{% include snippets/usage.md %}{% endcapture %}{{ usage | markdownify }}
   </p>
 
-  <h1>Upgrade</h1>
+  <h1 id="upgrade">Upgrade</h1>
   <p>
     {% capture upgrade %}{% include snippets/upgrade.md %}{% endcapture %}{{ upgrade | markdownify }}
-  </p>
-
-  <h1>Furthermore</h1>
-  <p>
-    {% capture furthermore %}{% include snippets/furthermore.md %}{% endcapture %}{{ furthermore | markdownify }}
   </p>
 </div>

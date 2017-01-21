@@ -19,6 +19,7 @@
 }
 
 .header-home .button .btn {
+  width: 200px;
   margin-right: 5px;
 }
 
@@ -34,11 +35,6 @@
   .header-home .button .btn:first-child {
     margin-top: 0;
   }
-}
-
-.header-home .github {
-  display: block;
-  margin: 30px 0 0 7px;
 }
 
 .homenext {
