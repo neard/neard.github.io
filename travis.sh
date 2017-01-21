@@ -9,13 +9,10 @@ fi
 # enable error reporting to the console
 set -e
 
-# inject travis build number in _data folder
-echo "{ \"build\": \"$TRAVIS_BUILD_NUMBER\" }" > ./_data/travis.json
-
 # build
 gulp --env=production build
 
-# publish to gh-pages repository
+# publish to gh-pages branch
 cd ./web
 git init
 git config --global user.email "builds@travis-ci.com"

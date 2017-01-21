@@ -160,7 +160,7 @@
           &nbsp;&bull;&nbsp;
           2014-{{ site.time | date: '%Y' }}
           &nbsp;&bull;&nbsp;
-          <a href="{{ var_seo_url }}">{{ var_domain }}</a><sup> <small>v{{ site.version }}-{{ site.data.travis.build }}</small></sup>
+          <a href="{{ var_seo_url }}">{{ var_domain }}</a><sup> <small>v{{ site.version }}-{% travis_build_number %}</small></sup>
         </p>
         <p class="by text-muted">
           Powered by <a target="_blank" href="https://github.com/jekyll/jekyll">{% jekyll_version %}</a>
