@@ -2,7 +2,7 @@
   "type": "tools",
   "name": "composer",
   "label": "Composer",
-  "desc": "a dependency Manager for PHP.",
+  "desc": "a dependency manager for PHP.",
   "repo": "crazy-max/neard-tool-composer",
   "filename": "neard-composer",
   "sources": [
