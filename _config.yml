@@ -193,5 +193,4 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Plugins
 gems:
   - jekyll-feed
-  - jekyll_github_sample
   - jekyll-paginate
