@@ -6,6 +6,7 @@ baseurl: ""
 title: "Neard"
 description: "Portable WAMP software stack"
 logo: /img/logo.png
+version: 1.0
 
 # Compress HTML
 compress_html:

@@ -9,6 +9,9 @@ fi
 # enable error reporting to the console
 set -e
 
+# inject travis build number in _data folder
+echo "{ \"build\": \"$TRAVIS_BUILD_NUMBER\" }" > ./_data/travis.json
+
 # build
 gulp --env=production build
 
