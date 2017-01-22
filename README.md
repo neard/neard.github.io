@@ -2,6 +2,7 @@
 [![Code Quality](https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/neard-website)
 [![Gemnasium](https://img.shields.io/gemnasium/crazy-max/neard-website.svg?style=flat-square)](https://gemnasium.com/github.com/crazy-max/neard-website)
 [![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
+[![StatusCake Uptime](https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=6)](https://www.statuscake.com)
 
 # Neard's website
 
