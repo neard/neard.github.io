@@ -1,10 +1,12 @@
-[![Build Status](https://img.shields.io/travis/crazy-max/neard-website/master.svg?style=flat-square)](https://travis-ci.org/crazy-max/neard-website)
-[![Code Quality](https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square)](https://www.codacy.com/app/crazy-max/neard-website)
-[![Gemnasium](https://img.shields.io/gemnasium/crazy-max/neard-website.svg?style=flat-square)](https://gemnasium.com/github.com/crazy-max/neard-website)
-[![Donate Paypal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://www.paypal.me/crazyws)
-[![StatusCake Uptime](https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=6)](https://www.statuscake.com)
+<p align="center"><a href="http://neard.io" target="_blank"><img width="100"src="http://neard.io/img/logo.png"></a></p>
 
-# Neard's website
+<p align="center">
+  <a href="https://travis-ci.org/crazy-max/neard"><img src="https://img.shields.io/travis/crazy-max/neard-website/master.svg?style=flat-square" alt="Build Status"></a>
+  <a href="https://www.codacy.com/app/crazy-max/neard-website"><img src="https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square" alt="Code Quality"></a>
+  <a href="https://gemnasium.com/github.com/crazy-max/neard-website"><img src="https://img.shields.io/gemnasium/crazy-max/neard-website.svg?style=flat-square" alt="Gemnasium"></a>
+  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
+  <a href="https://www.statuscake.com"><img src="https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=3" alt="StatusCake Uptime"></a>
+</p>
 
 ## Prerequisites
 
