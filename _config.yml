@@ -25,11 +25,10 @@ paths:
   assets: assets
   bower: bower_components
 
-# Files
-files:
-  css: neard.min.css
-  js: neard.min.js
-  vendor: vendor.json
+# Assets
+assets:
+  app: assets_app.json
+  vendor: assets_vendor.json
 
 # Filters
 filters:

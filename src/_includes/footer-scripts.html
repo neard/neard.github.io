@@ -1,7 +1,7 @@
 <a href="#0" class="cd-top">Top</a>
 
-{% if site.data.vendor.js %}
-  {% for js in site.data.vendor.js %}
+{% if site.data.assets_vendor.js %}
+  {% for js in site.data.assets_vendor.js %}
     {% if js contains "html5shiv" or js contains "respond.src" %}
     <!--[if lt IE 9]>
     <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
@@ -12,7 +12,11 @@
   {% endfor %}
 {% endif %}
 
-<script src="{{ site.paths.assets | prepend: site.baseurl | prepend: '/' | replace: '//', '/' }}/{{ site.files.js }}"></script>
+{% if site.data.assets_app.js %}
+  {% for js in site.data.assets_app.js %}
+    <script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+  {% endfor %}
+{% endif %}
 
 {% if page.js %}
   {% for js in page.js %}

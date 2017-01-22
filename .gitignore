@@ -24,4 +24,4 @@
 
 # Custom
 /.dev
-/src/_data/vendor.json
+/src/_data/assets*.json

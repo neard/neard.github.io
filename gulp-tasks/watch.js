@@ -3,7 +3,14 @@ var gulp = require("gulp"),
   config = readConfig("_config.yml");
 
 gulp.task("watch", function() {
-  gulp.watch(config.filters.css, ["styles-rebuild"]);
-  gulp.watch(config.filters.js, ["scripts-rebuild"]);
-  gulp.watch(config.filters.jekyll, ["jekyll-rebuild"]);
+  gulp.watch([config.filters.css, config.filters.js], function(event) {
+    if (event.type === "changed" ) {
+      gulp.start("assets-rebuild");
+    } else {
+      gulp.start("assets-rebuild-full");
+    }
+  });
+  gulp.watch([config.filters.jekyll, "!src/_data/assets*.json"], function(event) {
+    gulp.start("jekyll-rebuild");
+  });
 });

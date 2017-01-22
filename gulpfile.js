@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 requireDir('./gulp-tasks', { recurse: true });
 
 gulp.task('build', function(done) {
-  runSequence('styles-build', 'scripts-build', 'vendor-build', 'jekyll-build', done);
+  runSequence('assets-build', 'assets-vendor-build', 'jekyll-build', done);
 });
 
 gulp.task('serve', function(done) {

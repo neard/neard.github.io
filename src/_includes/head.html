@@ -19,13 +19,17 @@
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-  {% if site.data.vendor.css %}
-    {% for css in site.data.vendor.css %}
+  {% if site.data.assets_vendor.css %}
+    {% for css in site.data.assets_vendor.css %}
       <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}">
     {% endfor %}
   {% endif %}
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/{{ site.paths.assets }}/{{ site.files.css }}">
+  {% if site.data.assets_app.css %}
+    {% for css in site.data.assets_app.css %}
+      <link rel="stylesheet" href="{{ css | prepend: site.baseurl }}">
+    {% endfor %}
+  {% endif %}
 
   {% if page.css %}
     {% for css in page.css %}
