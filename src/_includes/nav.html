@@ -5,13 +5,12 @@
         <span class="sr-only">Toggle navigation</span>
         Menu <i class="fa fa-bars"></i>
       </button>
-      {% if site.navbar.title-img %}
-        <a class="navbar-brand navbar-brand-logo" href="{{ site.baseurl }}/"><img src="{{ site.navbar.title-img }}"/></a>
+      {% if site.navbar.logo %}
+        <a class="navbar-brand navbar-logo" href="{{ site.baseurl }}/"><img alt="{{ site.title }}" src="{{ site.baseurl }}/{{ site.navbar.logo }}"/></a>
       {% else %}
         <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
       {% endif %}
     </div>
-
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
       {% for link in site.navbar.links %}

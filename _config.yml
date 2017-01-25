@@ -55,8 +55,7 @@ download_dir: download
 
 # Navigation bar
 navbar:
-  logo: "/img/logo-nav.png"
-  title-img:
+  logo: "img/logo.png"
   links:
     News: "news"
     Get started: "doc/get-started"

@@ -166,6 +166,26 @@ pre {
   color: #4078C0;
 }
 
+.navbar-custom .navbar-logo {
+  padding-top: 5px;
+  -webkit-transition: padding .5s ease-in-out;
+  -moz-transition: padding .5s ease-in-out;
+  transition: padding .5s ease-in-out;
+}
+
+.navbar-custom .navbar-logo img {
+  height: 50px;
+  -webkit-transition: height .5s ease-in-out;
+  -moz-transition: height .5s ease-in-out;
+  transition: height .5s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-custom .navbar-logo img {
+    height: 40px;
+  }
+}
+
 @media only screen and (min-width: 1170px) {
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
