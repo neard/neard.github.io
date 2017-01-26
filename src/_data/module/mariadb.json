@@ -85,7 +85,7 @@
       "date": "2017/01/26",
       "versions": [
         {
-          "name": "5.5.43",
+          "name": "5.5.54",
           "default": false,
           "compat": ">= 1.0.13",
           "ext": "7z"
