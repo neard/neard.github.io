@@ -25,6 +25,9 @@
     "2.4.4": {
       "date": "2013/02/25"
     },
+    "2.4.9": {
+      "date": "2014/03/16"
+    },
     "2.4.12": {
       "date": "2015/01/27"
     },
@@ -74,6 +77,12 @@
           "ext": "7z"
         },
         {
+          "name": "2.4.9",
+          "default": false,
+          "compat": ">= 1.0.22",
+          "ext": "7z"
+        },
+        {
           "name": "2.4.12",
           "default": false,
           "compat": ">= 1.0.22",
@@ -103,6 +112,12 @@
       "name": "r3",
       "date": "2016/10/08",
       "versions": [
+        {
+          "name": "2.2.31",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
         {
           "name": "2.4.23",
           "default": false,
@@ -153,6 +168,12 @@
         },
         {
           "name": "2.4.4",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "zip"
+        },
+        {
+          "name": "2.4.9",
           "default": false,
           "compat": ">= 1.0.13",
           "ext": "zip"
