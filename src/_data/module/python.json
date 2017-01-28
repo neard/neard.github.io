@@ -39,7 +39,7 @@
       "versions": [
         {
           "name": "2.7.12.4",
-          "default": true,
+          "default": false,
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
