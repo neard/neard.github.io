@@ -32,6 +32,7 @@ This will give you file watching, browser synchronisation, auto-rebuild, CSS/JS 
 $ gulp serve
 ```
 
+Then open your browser at http://localhost:3000<br />
 As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/).
 
 ## Credits
