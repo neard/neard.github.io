@@ -26,6 +26,11 @@ a:focus {
   text-decoration: underline;
 }
 
+a img:hover,
+a img:focus {
+  cursor: pointer;
+}
+
 blockquote {
   color: #808080;
 }
