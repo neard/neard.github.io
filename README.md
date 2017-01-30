@@ -5,7 +5,7 @@
   <a href="https://www.codacy.com/app/crazy-max/neard-website"><img src="https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square" alt="Code Quality"></a>
   <a href="https://gemnasium.com/github.com/crazy-max/neard-website"><img src="https://img.shields.io/gemnasium/crazy-max/neard-website.svg?style=flat-square" alt="Gemnasium"></a>
   <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
-  <a href="https://www.statuscake.com"><img src="https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=3" alt="StatusCake Uptime"></a>
+  <a href="http://neard.io"><img src="https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=3" alt="StatusCake Uptime"></a>
 </p>
 
 ## Prerequisites
