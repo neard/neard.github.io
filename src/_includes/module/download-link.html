@@ -1,1 +1,1 @@
-{% capture filename %}{{ include.module.filename }}-{{ include.version.name }}-{{ include.release }}.{{ include.version.ext }}{% endcapture %}<span class="module-download"><a class="btn btn-success btn-sm" href="{{ site.baseurl }}/download/{{ filename }}"><i class="fa fa-download"></i>&nbsp;&nbsp;{{ filename }}</a></span>
+{% capture filename %}{{ include.module.filename }}-{{ include.version.name }}-{{ include.release }}.{{ include.version.ext }}{% endcapture %}<a href="{{ site.baseurl }}/download/{{ filename }}">{{ filename }}</a>

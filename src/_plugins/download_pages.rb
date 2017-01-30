@@ -24,6 +24,7 @@ module Jekyll
     def generate(site)
       beginning_time = Time.now
       Jekyll.logger.info "Starting plugin download_pages.rb..."
+      checksums = ['md5', 'sha1', 'sha256', 'sha512']
 
       if site.layouts.key? 'download'
         data_dir = File.join(site.source, (site.config['data_dir'] || '_data'))
@@ -43,6 +44,9 @@ module Jekyll
                 release_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/v' + release['version'] + '/' + release_filename;
                 if !download_obj[release_filename]
                   site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename), release_filename, release_url)
+                  for checksum in checksums
+                    site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename + '.' + checksum), release_filename + '.' + checksum, release_url + '.' + checksum)
+                  end
                   download_obj[release_filename] = release_url
                 end
               end
@@ -62,6 +66,9 @@ module Jekyll
               module_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/' + release['name'] + '/' + module_filename;
               if !download_obj[module_filename]
                 site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename), module_filename, module_url)
+                for checksum in checksums
+                  site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename + '.' + checksum), module_filename + '.' + checksum, module_url + '.' + checksum)
+                end
                 download_obj[module_filename] = module_url
               end
             end

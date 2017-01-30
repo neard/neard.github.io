@@ -1,0 +1,60 @@
+span.release-download .btn-success {
+  width: 100%;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  text-decoration: none;
+}
+span.release-download .btn-success:focus,
+span.release-download .btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+
+span.release-download .btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+span.release-download .btn-success:active,
+span.release-download .btn-success.active {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+span.release-download .btn-success:active:hover,
+span.release-download .btn-success.active:hover,
+span.release-download .btn-success:active:focus,
+span.release-download .btn-success.active:focus,
+span.release-download .btn-success:active.focus,
+span.release-download .btn-success.active.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+
+span.release-download .btn-success:active,
+span.release-download .btn-success.active {
+  background-image: none;
+}
+
+span.release-download .btn-success.disabled:hover,
+span.release-download .btn-success[disabled]:hover,
+fieldset[disabled] span.release-download .btn-success:hover,
+span.release-download .btn-success.disabled:focus,
+span.release-download .btn-success[disabled]:focus,
+fieldset[disabled] span.release-download .btn-success:focus,
+span.release-download .btn-success.disabled.focus,
+span.release-download .btn-success[disabled].focus,
+fieldset[disabled] span.release-download .btn-success.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+span.release-download .btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}

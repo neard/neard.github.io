@@ -6,26 +6,28 @@ markdown_body: ""
 {% capture changelog_contains %}## {{ page.release.version }}{% endcapture %}
 {% capture upgrade_contains %}> {{ page.release.version }}{% endcapture %}
 
-<div>
-  <h1>About</h1>
-  <div class="markdown-body">
-    <ul>
-      <li>Release date : <strong>{{ page.release.date }}</strong></li>
-    </ul>
-  </div>
-  <h1>Download</h1>
-  <p>
-    {% for asset in page.github_api.assets %}
-    <a href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}/" class="btn btn-success" style="text-align: left">
-      <i class="fa fa-download fa-2x pull-left"></i>
-      &nbsp;&nbsp;<strong>{{ asset.name }}</strong><br />
-      &nbsp;&nbsp;<small>Size: {{ asset.size | filesize }}</small>
-    </a>
-    {% endfor %}
-  </p>
-</div>
-
 <div class="markdown-body">
+  <h1>Download</h1>
+  <table>
+    <thead>
+    <tr>
+      <th>Date</th>
+      <th>Download</th>
+      <th>Size</th>
+      <th>Verification</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for asset in page.github_api.assets %}{% unless asset.name contains '.md5' or asset.name contains '.sha1' or asset.name contains '.sha256' or asset.name contains '.sha512' %}
+    <tr>
+      <td>{{ page.release.date }}</td>
+      <td><span class="release-download"><a class="btn btn-success btn-sm" href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}"><i class="fa fa-download"></i>&nbsp;&nbsp;{{ asset.name }}</a></span></td>
+      <td>{{ asset.size | filesize }}</td>
+      <td>[<a href="{{ site.baseurl }}/download/{{ asset.name }}.md5">MD5</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha1">SHA1</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha256">SHA256</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha512">SHA512</a>]</td>
+    </tr>
+    {% endunless %}{% endfor %}
+    </tbody>
+  </table>
   {% strip %}{% include parse-changelog.html title='Changelog' data=page.changelog contains=changelog_contains %}{% endstrip %}
   {% strip %}{% include parse-changelog.html title='Upgrade from previous release' data=page.upgrade contains=upgrade_contains %}{% endstrip %}
 </div>
