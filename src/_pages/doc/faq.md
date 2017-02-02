@@ -210,3 +210,32 @@ You have to download the 0.9.42 version. See [Filezilla page](/bins/filezilla).
 
 Most often reason to happen such error is you trying to set not tread safe extension in your PHP installation.<br />
 On Neard **PHP is installed as Thread Safe**.
+
+## Can't change import file size limit in phpMyAdmin
+
+The changes have to be done in the alias configuration in `alias\phpmyadmin.conf` :
+
+```text
+<Directory "C:/neard/apps/phpmyadmin/phpmyadmin4p3/4.4.15.6/">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride all
+    # START switchOnline tag - Do not replace!
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1 ::1
+    # END switchOnline tag - Do not replace!
+    
+    <IfModule php5_module>
+        php_admin_value upload_max_filesize 128M
+        php_admin_value post_max_size 128M
+        php_admin_value max_execution_time 360
+        php_admin_value max_input_time 360
+    </IfModule>
+    <IfModule php7_module>
+        php_admin_value upload_max_filesize 128M
+        php_admin_value post_max_size 128M
+        php_admin_value max_execution_time 360
+        php_admin_value max_input_time 360
+    </IfModule>
+</Directory>
+```
