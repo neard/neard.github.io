@@ -55,7 +55,8 @@ gulp.task("assets-init", function() {
 gulp.task("assets-clean", function(done) {
   del([
     config.destination + "/" + config.paths.assets + "/*.js",
-    config.destination + "/" + config.paths.assets + "/*.css"
+    config.destination + "/" + config.paths.assets + "/*.css",
+    "!" + config.destination + "/" + config.paths.assets + "/lightgallery.js"
   ]);
   done();
 });

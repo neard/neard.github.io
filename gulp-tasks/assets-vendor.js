@@ -59,7 +59,7 @@ gulp.task("assets-vendor-clean", function(done) {
 gulp.task("assets-vendor-scripts", function() {
   assetsVendorToInject = merge(assetsVendorToInject, gulp.src(mainBowerFiles(), { base: config.paths.bower })
     .pipe(filter(["**/*.js", "**/*.map", "!**/*.css.map"]))
-    .pipe(order(["**/jquery.js", "**/bootstrap.js", "**/photoswipe.js", "**/photoswipe-ui-default.js", "**/*.js"]))
+    .pipe(order(["**/jquery.js", "**/bootstrap.js", "**/*justifiedGallery.js", "**/lightgallery.js", "**/*.js"]))
     .pipe(gutil.env.env === "production" ? uglify() : gutil.noop())
     .pipe(gutil.env.env === "production" ? bust.resources() : gutil.noop())
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets)));
@@ -68,7 +68,7 @@ gulp.task("assets-vendor-scripts", function() {
 gulp.task("assets-vendor-styles", function() {
   assetsVendorToInject = merge(assetsVendorToInject, gulp.src(mainBowerFiles(), { base: config.paths.bower })
     .pipe(filter(["**/*.css", "**/*.css.map"]))
-    .pipe(order(["**/github-markdown.css", "**/bootstrap.css", "**/photoswipe.css", "**/photoswipe/**/*.css", "**/*.css"]))
+    .pipe(order(["**/github-markdown.css", "**/bootstrap.css", "**/justifiedGallery.css", "**/lightgallery.css", "**/*.css"]))
     .pipe(gutil.env.env === "production" ? cleanCSS() : gutil.noop())
     .pipe(gutil.env.env === "production" ? bust.resources() : gutil.noop())
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets)));
