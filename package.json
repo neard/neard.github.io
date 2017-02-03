@@ -33,7 +33,7 @@
     "gulp-inject": "^3.0.0",
     "gulp-order": "^1.1.1",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^2.0.1",
     "gulp-util": "^3.0.8",
     "main-bower-files": "^2.13.1",
     "merge-stream": "^1.0.1",
@@ -42,6 +42,6 @@
     "run-sequence": "^1.2.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.5"
+    "browser-sync": "^2.18.7"
   }
 }

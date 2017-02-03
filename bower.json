@@ -21,7 +21,7 @@
     "clean-blog": "git://github.com/BlackrockDigital/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e",
     "html5shiv": "^3.7.3",
     "respond": "^1.4.2",
-    "justifiedGallery": "justified-gallery#^3.6.3",
+    "justified-gallery": "^3.6.3",
     "lightgallery.js": "^1.0.1"
   },
   "overrides": {
