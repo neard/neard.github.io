@@ -10,7 +10,7 @@ var gulp = require("gulp"),
   filter = require("gulp-filter"),
   order = require("gulp-order"),
   cleanCSS = require("gulp-clean-css"),
-  Bust = require('gulp-bust'),
+  Bust = require("gulp-bust"),
   merge = require("merge-stream"),
   gutil = require("gulp-util");
 

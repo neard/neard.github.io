@@ -8,10 +8,10 @@ var actionScreenshots = {
 
     gallery.justifiedGallery({
       rowHeight : 160,
-      lastRow : 'nojustify',
+      lastRow : "nojustify",
       margins : 6,
       border: 6
-    }).on('jg.complete', function() {
+    }).on("jg.complete", function() {
       lightGallery(gallery[0], {
         thumbnail: true,
         animateThumb: false,

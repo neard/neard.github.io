@@ -15,7 +15,7 @@ gulp.task("jekyll-build", function (done) {
     .on("exit", function(code){
       gutil.log("Exited", gutil.colors.cyan("'spawn'"), "command", gutil.colors.magenta(bundle + " " + command.join(" ")));
       return done(code === 0 ? null : "ERROR: Jekyll process exited with code: " + code);
-    })
+    });
 });
 
 gulp.task("jekyll-rebuild", ["jekyll-build"], function () {

@@ -34,7 +34,7 @@ module Jekyll
         files = Dir[File.join(data_dir, 'neard.json')].reject { |p| File.directory? p }
         files.each do |file|
           data = JSON.parse(File.read(file))
-          next if !data.kind_of?(Hash)
+          next unless data.kind_of?(Hash)
 
           if File.basename(file) == 'neard.json'
             Jekyll.logger.debug "  Processing: #{data['name']}"
@@ -42,7 +42,7 @@ module Jekyll
               release['assets'].each do |asset|
                 release_filename = data['filename'] + '-' + release['version'] + asset;
                 release_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/v' + release['version'] + '/' + release_filename;
-                if !download_obj[release_filename]
+                unless download_obj[release_filename]
                   site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename), release_filename, release_url)
                   for checksum in checksums
                     site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename + '.' + checksum), release_filename + '.' + checksum, release_url + '.' + checksum)
@@ -64,7 +64,7 @@ module Jekyll
             release['versions'].each do |version|
               module_filename = data['filename'] + '-' + version['name'] + '-' + release['name'] + '.' + version['ext'];
               module_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/' + release['name'] + '/' + module_filename;
-              if !download_obj[module_filename]
+              unless download_obj[module_filename]
                 site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename), module_filename, module_url)
                 for checksum in checksums
                   site.pages << DownloadPage.new(site, site.source, File.join(download_dir, module_filename + '.' + checksum), module_filename + '.' + checksum, module_url + '.' + checksum)

@@ -23,7 +23,7 @@ module Jekyll
       self.data['release'] = release
       self.data['changelog'] = changelog_md
       self.data['upgrade'] = upgrade_md
-      self.data['github_api'] = JSON.load(ReleasePageUtils.getContentFromUrl(site, github_url, release['version'] + '.json'))
+      self.data['github_api'] = JSON.load(ReleasePageUtils.get_content_from_url(site, github_url, release['version'] + '.json'))
       if File.basename(dir) == 'latest'
         self.data['sitemap'] = { "priority" => "0.8", "changefreq" => "daily" }
       else
@@ -58,13 +58,13 @@ module Jekyll
 
       if site.layouts.key? 'release'
         ## Download CHANGELOG.md
-        changelog_md = ReleasePageUtils.getContentFromUrl(site,
+        changelog_md = ReleasePageUtils.get_content_from_url(site,
           'https://raw.githubusercontent.com/crazy-max/neard/master/CHANGELOG.md',
           'changelog.md'
         )
 
         ## Download UPGRADE.md
-        upgrade_md = ReleasePageUtils.getContentFromUrl(site,
+        upgrade_md = ReleasePageUtils.get_content_from_url(site,
           'https://raw.githubusercontent.com/crazy-max/neard/master/UPGRADE.md',
           'upgrade.md'
         )
@@ -73,7 +73,7 @@ module Jekyll
 
         release_dir = site.config['release_dir'] || 'release'
         data_dir = File.join(site.source, (site.config['data_dir'] || '_data'))
-        data = JSON.load(File.open("#{data_dir}/neard.json"))
+        data = JSON.load(File.read("#{data_dir}/neard.json"))
         data['releases'].each do |release|
           site.pages << ReleasePage.new(site, site.source, File.join(release_dir, release['version']), release, changelog_md, upgrade_md)
         end
@@ -86,7 +86,7 @@ module Jekyll
   end
 
   class ReleasePageUtils
-    def self.getContentFromUrl(site, url, filename)
+    def self.get_content_from_url(site, url, filename)
       result = ''
 
       tmp_dir = File.join('tmp', 'neard')

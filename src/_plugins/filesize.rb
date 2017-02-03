@@ -9,7 +9,7 @@ module Jekyll
 
       begin
         value = value.to_f
-      rescue Exception => e
+      rescue => e
         puts "#{e.class} #{e}"
         return value
       end

@@ -6,7 +6,7 @@ var actionProgressbar = {
     }
 
     $(".progressbar-fill").delay(1000).queue(function () {
-      time = $(this).attr("data-time") || 2;
+      var time = $(this).attr("data-time") || 2;
       $(this).css("width", "100%").css("transition", "width " + time + "s ease-in-out");
     });
   }
