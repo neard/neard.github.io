@@ -37,6 +37,18 @@
   },
   "releases": [
     {
+      "name": "r7",
+      "date": "2017/02/06",
+      "versions": [
+        {
+          "name": "0.9.59",
+          "default": false,
+          "compat": ">= 1.0.20",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
       "name": "r6",
       "date": "2016/11/12",
       "versions": [

@@ -4,8 +4,6 @@ title: New Git bundle available
 tags: [module, git]
 ---
 
-### Changelog
-
 * New bundle : 2.11.0
 
 ### Download
