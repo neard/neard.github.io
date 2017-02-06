@@ -4,7 +4,7 @@ sitemap:
   exclude: yes
 ---
 <?xml version="1.0" encoding="UTF-8"?>{% include vars.html %}
-<?xml-stylesheet href="{{ var_useo_url }}/sitemap.xsl" type="text/xsl"?>
+<?xml-stylesheet href="{{ var_seo_url }}/sitemap.xsl" type="text/xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}{% unless post.published == false %}
   <url>
