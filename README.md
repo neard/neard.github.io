@@ -1,4 +1,4 @@
-<p align="center"><a href="http://neard.io" target="_blank"><img width="100"src="http://neard.io/img/logo.png"></a></p>
+<p align="center"><a href="http://neard.io" target="_blank"><img width="100" src="http://neard.io/img/logo.png"></a></p>
 
 <p align="center">
   <a href="https://travis-ci.org/crazy-max/neard-website"><img src="https://img.shields.io/travis/crazy-max/neard-website/master.svg?style=flat-square" alt="Build Status"></a>

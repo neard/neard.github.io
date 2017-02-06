@@ -11,10 +11,13 @@ bigimg: /img/home-big.jpg
   <div class="container">
     <h2 class="title text-center">What is {{ site.title }} ?</h2>
     <div class="intro text-center markdown-body">
-      <strong>Neard</strong> is a portable WAMP software stack involving useful binaries, tools and applications for your web development.<br />
-      For those who wish to contribute, have an issue or questions, read the <a href="{{ site.baseurl }}/doc">Documentation</a>.<br />
-      To be notified of new releases you can star the <a href="{{ var_repo_url }}">repository on Github</a>.<br />
-      And do not forget to star <i class="fa fa-star" aria-hidden="true" style="color:#f1c40f"></i> the project if you like it <i class="fa fa-heart" aria-hidden="true" style="color:#c75c5c"></i>
+      <p>
+        <strong>Neard</strong> is a portable WAMP software stack involving useful binaries, tools and applications for your web development.<br />
+        For those who wish to contribute, have an issue or questions, read the <a href="{{ site.baseurl }}/doc">Documentation</a>.<br />
+        To be notified of new releases you can star the <a href="{{ var_repo_url }}">repository on Github</a>.<br />
+        And do not forget to star <i class="fa fa-star" aria-hidden="true" style="color:#f1c40f"></i> the project and spread the word if you like it <i class="fa fa-heart" aria-hidden="true" style="color:#c75c5c"></i>
+      </p>
+      <p>{% include recommend.html %}</p>
     </div>
   </div>
 </section>
@@ -78,6 +81,21 @@ bigimg: /img/home-big.jpg
           <p>A <a href="{{ site.baseurl }}/doc/screenshots/#lg=1&slide=4">nice console</a> is available to execute your commands and open the shell you need.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="home">
+  <div class="container">
+    <h2 class="title text-center">How can i help ?</h2>
+    <div class="intro text-center markdown-body">
+      <p>
+        I'm a single developer and if you find this project useful, please consider making a donation.<br />
+        Any funds donated will be used to help further development on this project! <i class="fa fa-heart" aria-hidden="true" style="color:#c75c5c"></i>
+      </p>
+      <p>
+        <a href="https://www.paypal.me/crazyws"><img src="{{ site.baseurl }}/img/donate-paypal.png" style="width:256px;" /></a>
+      </p>
     </div>
   </div>
 </section>

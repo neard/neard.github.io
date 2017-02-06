@@ -1,5 +1,9 @@
+.header-home {
+  margin-bottom: 0;
+}
+
 .home {
-  padding: 0;
+  padding-top: 35px;
 }
 
 .header-home .page-heading,
@@ -39,7 +43,6 @@
 
 .homenext {
   background: #F9F9F9;
-  padding-top: 35px;
 }
 
 .home .title {
@@ -52,6 +55,10 @@
   max-width: 1000px;
   margin: 0 auto;
   margin-bottom: 35px;
+}
+
+.home .intro img {
+  background-color: transparent;
 }
 
 .home .item {

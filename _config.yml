@@ -116,7 +116,7 @@ share-links-active:
   google: true
   linkedin: true
   reddit: true
-excerpt_length: 50 # truncates the excerpt to the specified number of words on the blog page
+excerpt_length: 50
 timezone: "Europe/Paris"
 permalink: /news/:year-:month-:day-:title/
 tag_page: /news/tags/
