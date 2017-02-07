@@ -1,4 +1,4 @@
-{% if site.ads_enabled and include.type %}
+{% if site.ads-enabled and include.type %}
   {% case include.type %}
   {% when "adsense" %}
     {% include ads/ads-adsense.html client=include.client slot=include.slot %}

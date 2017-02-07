@@ -28,4 +28,7 @@ cards:
   - el-icon: icon_documents
     title: Translations
     link: /doc/translations/
+  - fa-icon: fa-heart
+    title: Donate
+    link: /donate/
 ---

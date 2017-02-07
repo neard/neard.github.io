@@ -13,7 +13,7 @@ alexa_site_verification:
 yandex_site_verification:
 
 # Ads
-ads_enabled: false
+ads-enabled: false
 
 # Analytics
 analytics:

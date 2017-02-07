@@ -9,14 +9,15 @@ sitemap:
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-10 col-md-8 col-md-offset-1">
+      <h2>Downloading {{ page.download_filename }}...</h2>
       <div class="progressbar">
         <span class="progressbar-fill" data-time="{{ page.download_time | default: 2 }}"></span>
       </div>
-      <h1>Downloading {{ page.download_filename }}...</h1>
       <p>
         Your download will start shortly...<br />
         Problems with the download?  Please use this <a href="{{ page.download_url }}">direct link</a>.
       </p>
+      <h2 style="margin-bottom: 20px;">{{ site.title }} is free, but powered by <a target="_blank" href="{{ site.baseurl }}/donate">your donations</a> <i class="fa fa-heart" aria-hidden="true" style="color:#c75c5c"></i></h2>
       {% include recommend.html %}
     </div>
   </div>

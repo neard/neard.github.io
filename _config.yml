@@ -7,6 +7,8 @@ title: "Neard"
 description: "Portable WAMP software stack"
 logo: /img/logo.png
 version: 1.0
+paypal-button-id: "6EALX9NDSRBAJ"
+flattr-username: "crazymax"
 
 # Compress HTML
 compress_html:
@@ -60,8 +62,8 @@ navbar:
     News: "news"
     Get started: "doc/get-started"
     Documentation: "doc"
+    Donate: "donate"
     Github: "https://github.com/crazy-max/neard"
-    Donate: "https://www.paypal.me/crazyws"
 
 # Author
 author:
@@ -107,7 +109,7 @@ alexa_site_verification:
 yandex_site_verification:
 
 # Ads
-ads_enabled: true
+ads-enabled: true
 
 # Posts
 share-links-active:
