@@ -1,0 +1,58 @@
+{
+  "type": "bins",
+  "name": "mongodb",
+  "label": "MongoDB",
+  "desc": "a free and open-source cross-platform document-oriented database program.",
+  "repo": "crazy-max/neard-bin-mongodb",
+  "filename": "neard-mongodb",
+  "sources": [
+    "https://github.com/mongodb/mongo",
+    "https://www.mongodb.com/download-center"
+  ],
+  "versions": {
+    "2.6.12": {
+      "date": "2016/03/21"
+    },
+    "3.0.14": {
+      "date": "2016/11/04"
+    },
+    "3.2.12": {
+      "date": "2017/02/01"
+    },
+    "3.4.2": {
+      "date": "2017/02/01"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2017/02/12",
+      "versions": [
+        {
+          "name": "2.6.12",
+          "default": true,
+          "compat": ">= 1.0.23",
+          "ext": "7z"
+        },
+        {
+          "name": "3.0.14",
+          "default": false,
+          "compat": ">= 1.0.23",
+          "ext": "7z"
+        },
+        {
+          "name": "3.2.12",
+          "default": false,
+          "compat": ">= 1.0.23",
+          "ext": "7z"
+        },
+        {
+          "name": "3.4.2",
+          "default": false,
+          "compat": ">= 1.0.23",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}
