@@ -153,7 +153,7 @@ For the last case you will have to [create an issue]({{ var_repo_url }}/issues/n
 
 > The program can't start because MSVCR100.dll is missing from your computer. Try reinstalling the program to fix this problem.
 
-This error occurs because you probably have not installed the latests [Neard Visual C++ Redistributables Package]({{ site.github.baseurl }}/crazy-max/neard-misc#visual-c-redistributables-package){:target="_blank"}.
+This error occurs because you probably have not installed the latest [Neard Prerequisites Package]({{ site.github.baseurl }}/crazy-max/neard-prerequisites/releases/latest){:target="_blank"}.
 
 ## Apache error 41d
 
