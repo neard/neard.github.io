@@ -190,7 +190,7 @@ See [http.exe missing MSVCR100.dll](#httpexe-missing-msvcr100dll)
 > Neard has encountered a problem and needs to close. We are sorry for the inconvenience.
 
 This problem could appear on Windows XP.<br />
-You have to install the latests [Neard Visual C++ Redistributables Package]({{ site.github.baseurl }}/crazy-max/neard-misc#visual-c-redistributables-package){:target="_blank"}.
+You have to install the latests [Neard Prerequisites Package]({{ site.github.baseurl }}/crazy-max/neard-prerequisites/releases/latest){:target="_blank"}.
 
 ## FileZilla Server.exe is not a valid Win32 application
 
