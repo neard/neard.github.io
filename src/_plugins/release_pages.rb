@@ -1,5 +1,6 @@
 require 'json'
 require 'open-uri'
+require 'openssl'
 
 module Jekyll
 
