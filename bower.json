@@ -1,7 +1,7 @@
 {
   "name": "neard-website",
   "description": "Neard's website",
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "main": "gulpfile.js",
   "authors": [
     "crazy-max"

@@ -8,7 +8,7 @@
     "url": "git://github.com/crazy-max/neard-website.git"
   },
   "author": "crazy-max",
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "private": true,
   "bugs": {
     "url": "https://github.com/crazy-max/neard/issues"
