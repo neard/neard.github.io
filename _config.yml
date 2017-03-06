@@ -119,7 +119,7 @@ share-links-active:
   google: true
   linkedin: true
   reddit: true
-excerpt_length: 50
+excerpt_length: 25
 timezone: "Europe/Paris"
 permalink: /news/:year-:month-:day-:title/
 tag_page: /news/tags/
