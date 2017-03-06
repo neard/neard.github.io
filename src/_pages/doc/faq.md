@@ -247,3 +247,11 @@ Click on the **Advanced** tab, and go to the **Connection** sub-tab. **Untick** 
 Click on the Save button and then restart Skype to make the change effective.
 
 ![](/img/faq/skype-conflict-port-80-443.png)
+
+## IIS conflict port 80 and 443
+
+Open a CMD prompt (as Admin) and type `iisreset /stop`
+
+![](/img/faq/iis-stop.png)
+
+Or you can change the port number of IIS by following the [official Microsoft documentation](http://support.microsoft.com/kb/149605){:target="_blank"}.
