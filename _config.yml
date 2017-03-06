@@ -152,7 +152,7 @@ fb_app_id: ""
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 incremental: false
 
 # Markdown Processing
