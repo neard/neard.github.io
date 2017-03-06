@@ -239,3 +239,11 @@ The changes have to be done in the alias configuration in `alias\phpmyadmin.conf
     </IfModule>
 </Directory>
 ```
+
+## Skype conflict port 80 and 443
+
+To turn off and disable Skype usage of and listening on port 80 and port 443, open the Skype window, then click on the **Tools** menu and select **Options**.
+Click on the **Advanced** tab, and go to the **Connection** sub-tab. **Untick** or **uncheck** the checkbox for `Use port 80 and 443 as an alternative for additional incoming connections` option.
+Click on the Save button and then restart Skype to make the change effective.
+
+![](/img/faq/skype-conflict-port-80-443.png)
