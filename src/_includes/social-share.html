@@ -9,7 +9,7 @@
 {% if any-share-links %}
   <section id="social-share-section">
     {% if site.share-links-active.twitter %}
-    <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ page.url | prepend: var_seo_url | replace: '/index.html', '/' | replace: '//', '/' }}"
+    <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}+{{ '#neard' | url_encode }}+{{ page.url | prepend: var_seo_url | replace: '/index.html', '/' | replace: '//', '/' }}"
      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
       <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
     </a>
