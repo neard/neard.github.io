@@ -49,6 +49,8 @@ markdown_body: ""
 
 Use a file archiver that supports [7z format](http://www.7-zip.org/7z.html) like [7zip](http://www.7-zip.org/) and extract the archive where you want.
 
+{% include callout.html type="warning" text="It is highly recommended that the path to Neard <strong>does not contains any whitespaces</strong>. This can cause problem on some modules." %}
+
 # Configuration
 
 Before starting Neard, edit the configuration file `neard.conf` :
