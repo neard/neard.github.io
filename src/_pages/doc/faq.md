@@ -5,6 +5,9 @@ sidebar: doc
 ---
 {% include vars.html %}
 
+* TOC
+{:toc}
+
 ## Where is the source code of neard.exe ?
 
 `neard.exe` is based on [Aestan Tray Menu 1.6.2](http://obroekma.home.xs4all.nl/aetraymenu/){:target="_blank"}.<br />
@@ -57,7 +60,6 @@ $mariadb = new PDO('mysql:host=127.0.0.1;port=3307;dbname=wordpress', 'root', ''
 $mariadbStmt = $mariadb->query("SELECT * FROM wp_comments");
 var_dump($mariadbStmt->fetchAll(PDO::FETCH_ASSOC));
 ```
-
 
 ## What is the default user / password on PostgreSQL ?
 
@@ -255,3 +257,44 @@ Open a CMD prompt (as Admin) and type `iisreset /stop`
 ![](/img/faq/iis-stop.png)
 
 Or you can change the port number of IIS by following the [official Microsoft documentation](http://support.microsoft.com/kb/149605){:target="_blank"}.
+
+## PATH env. var is not resolved by Apache service
+
+Services loaded with [NSSM](http://nssm.cc/){:target="_blank"} have the PATH environment variable rewritten.<br />
+Impacted services are : **Apache**, **MailHog** and **Memcached**.
+
+For each of these services the item **Update env. PATH** is available in the Neard's tray menu to add new paths to the PATH environment variable (one by line).
+
+![](/img/faq/apache-update-env-path.png)
+
+![](/img/faq/nssm-env-path.png)
+
+As you can see you can add paths relative to the Neard root folder (eg. www).<br />
+
+{% include callout.html type="warning" text="After the modifications have been made, restart Neard for the changes to take effect." %}
+
+In the phpinfo the Apache environment will look like this :
+
+[![](/img/faq/apache-environment-nssm.png){:class="img-responsive"}](/img/faq/apache-environment-nssm.png)
+
+And as you can see some paths are automatically added :
+
+* %SystemRoot%\system32
+* %SystemRoot%
+* %SystemRoot%\system32\Wbem
+* %SystemRoot%\system32\WindowsPowerShell\v1.0
+* NEARD_PATH\bin\apache\apache*\bin
+* NEARD_PATH\bin\php\php*
+* NEARD_PATH\bin\php\php*\pear
+* NEARD_PATH\bin\php\php*\imagick
+* NEARD_PATH\bin\nodejs\nodejs*
+* NEARD_PATH\bin\svn\svn*
+* NEARD_PATH\tools\composer\composer*
+* NEARD_PATH\tools\drush\drush*
+* NEARD_PATH\tools\git\git*\bin
+* NEARD_PATH\tools\imagemagick\imagemagick*
+* NEARD_PATH\tools\phpmetrics\phpmetrics*
+* NEARD_PATH\tools\phpunit\phpunit*
+* NEARD_PATH\tools\python\python*\bin
+* NEARD_PATH\tools\ruby\ruby*\bin
+* NEARD_PATH\tools\wpcli\wpcli*
