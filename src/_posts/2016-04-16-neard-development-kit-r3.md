@@ -5,7 +5,7 @@ tags: [neard, devkit]
 ---
 
 Release 3 of the Development Kit is available.<br />
-You can now choose one or every versions to build for a bundle.
+You can now choose one or every versions to build for a release.
 
 Summary of ANT tasks available :
 * Create releases

@@ -5,7 +5,7 @@ tags: [neard, devkit]
 ---
 
 Release 4 of the Development Kit is available.<br />
-You can now choose one or every versions to build for a bundle.
+You can now choose one or every versions to build for a release.
 
 New ANT tasks have been added :
 * Create Neard releases
