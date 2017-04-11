@@ -150,14 +150,338 @@
     "7.0.16": {
       "date": "2017/02/14"
     },
+    "7.0.17": {
+      "date": "2017/03/16"
+    },
     "7.1.0": {
       "date": "2016/12/02"
     },
     "7.1.2": {
       "date": "2017/02/14"
+    },
+    "7.1.3": {
+      "date": "2017/03/16"
     }
   },
   "releases": [
+    {
+      "name": "r15",
+      "date": "2017/04/10",
+      "versions": [
+        {
+          "name": "7.0.17",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.1.3",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
+      "name": "r14",
+      "date": "2017/03/12",
+      "versions": [
+        {
+          "name": "5.2.17",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.13",
+          "default": true,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.28",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.3.29",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.16",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.26",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.30",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.31",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.40",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.4.45",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.10",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.14",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.16",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.24",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.30",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.31",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.32",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.34",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.35",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.36",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.37",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.38",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.0",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.8",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.14",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.16",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.17",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.18",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.20",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.21",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.22",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.23",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.26",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.28",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.29",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.30",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.0",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.2",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.3",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.5",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.6",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.7",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.8",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.11",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.13",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.14",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.0.16",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.1.0",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        },
+        {
+          "name": "7.1.2",
+          "default": false,
+          "compat": ">= 1.0.16",
+          "ext": "7z"
+        }
+      ]
+    },
     {
       "name": "r13",
       "date": "2017/03/05",
