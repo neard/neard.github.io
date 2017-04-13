@@ -30,6 +30,9 @@
     "5.5.53": {
       "date": "2016/10/12"
     },
+    "5.5.55": {
+      "date": "2017/04/10"
+    },
     "5.6.12": {
       "date": "2013/06/03"
     },
@@ -51,6 +54,9 @@
     "5.6.34": {
       "date": "2016/10/12"
     },
+    "5.6.36": {
+      "date": "2017/04/10"
+    },
     "5.7.12": {
       "date": "2016/04/11"
     },
@@ -62,9 +68,144 @@
     },
     "5.7.16": {
       "date": "2016/09/06"
+    },
+    "5.7.18": {
+      "date": "2017/04/10"
     }
   },
   "releases": [
+    {
+      "name": "r9",
+      "date": "2017/04/13",
+      "versions": [
+        {
+          "name": "5.5.24",
+          "default": true,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.44",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.46",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.49",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.50",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.52",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.53",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.55",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.12",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.25",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.27",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.30",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.31",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.33",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.34",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.6.36",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.7.12",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        },
+        {
+          "name": "5.7.13",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        },
+        {
+          "name": "5.7.15",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        },
+        {
+          "name": "5.7.16",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        },
+        {
+          "name": "5.7.18",
+          "default": false,
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
     {
       "name": "r8",
       "date": "2016/11/29",
@@ -167,7 +308,7 @@
       "versions": [
         {
           "name": "5.5.24",
-          "default": true,
+          "default": false,
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
