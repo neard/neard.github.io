@@ -60,6 +60,9 @@
     "10.0.29": {
       "date": "2017/01/13"
     },
+    "10.0.30": {
+      "date": "2017/03/08"
+    },
     "10.1.9": {
       "date": "2015/11/23"
     },
@@ -77,9 +80,168 @@
     },
     "10.1.21": {
       "date": "2017/01/18"
+    },
+    "10.1.22": {
+      "date": "2017/03/14"
     }
   },
   "releases": [
+    {
+      "name": "r9",
+      "date": "2017/04/13",
+      "versions": [
+        {
+          "name": "5.5.34",
+          "default": true,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.43",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.46",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.48",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.50",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.52",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.53",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "5.5.54",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.6",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.19",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.22",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.24",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.25",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.26",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.27",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.28",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.29",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.0.30",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.9",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.13",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.14",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.18",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.19",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.21",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        },
+        {
+          "name": "10.1.22",
+          "default": false,
+          "compat": ">= 1.0.13",
+          "ext": "7z"
+        }
+      ]
+    },
     {
       "name": "r8",
       "date": "2017/01/26",
@@ -212,7 +374,7 @@
       "versions": [
         {
           "name": "5.5.34",
-          "default": true,
+          "default": false,
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
