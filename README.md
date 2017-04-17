@@ -6,7 +6,7 @@
   <a href="https://gemnasium.com/github.com/crazy-max/neard-website"><img src="https://img.shields.io/gemnasium/crazy-max/neard-website.svg?style=flat-square" alt="Gemnasium"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6EALX9NDSRBAJ"><img src="https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square" alt="Donate Paypal"></a>
   <a href="https://flattr.com/submit/auto?user_id=crazymax&url=http://neard.io"><img src="https://img.shields.io/badge/flattr-this-green.svg?style=flat-square" alt="Flattr this!"></a>
-  <a href="http://neard.io"><img src="https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=1&Design=3" alt="StatusCake Uptime"></a>
+  <a href="http://neard.io"><img src="https://app.statuscake.com/button/index.php?Track=mZ96VTLi6T&Days=30&Design=3" alt="StatusCake Uptime"></a>
 </p>
 
 ## Prerequisites
