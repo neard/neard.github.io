@@ -312,3 +312,12 @@ You can download the hotfix for Neard 1.0.22 here :
 * [neard-1.0.22-hotfix1.zip]({{ var_repo_url }}/releases/download/v1.0.22-hotfix1/neard-1.0.22-hotfix1.zip)
 
 This issue is solved for Neard 1.0.23 and higher.
+
+## Windows XP limitation
+
+* **Filezilla** drops Windows XP support since 0.9.43 version.
+* Starting in version 2.2, **MongoDB** does not support Windows XP. Version 2.6 seems to work but is not supported.
+* **Node.js** drops Windows XP and Vista support since 6.0 version.
+* **Git** drops Windows XP support since 2.10.0 version.
+* **Python** drops Windows XP support since 3.4.3 version.
+* **Ruby** is not supported on Windows XP since 2.1 version.
