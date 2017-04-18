@@ -13,11 +13,12 @@ markdown_body: ""
 * [SETX](http://technet.microsoft.com/en-us/library/cc755104.aspx) : Open a command prompt and type `setx /?` to check.
 * Be [Admin user](https://support.microsoft.com/en-us/help/14028/windows-7-how-log-on-as-an-administrator).
 * Download and install the latest [Neard Prerequisites Package]({{ site.github.baseurl }}/crazy-max/neard-prerequisites/releases/latest).
+
+# Download
+
+{% include callout.html type="info" text="Neard uses a standard practice for its versioning: <strong>major.minor.patchlevel</strong>. An even <strong>minor</strong> marks a <strong>stable</strong> release, like 1.1, 1.2, 2.0, 2.2, 2.4, etc... Odd minors are used for <strong>unstable</strong> releases, for example 1.1.x releases are the unstable versions of what will be Neard 1.2 once stable." %}
 {% endmarkdown %}<span></span></div>
 
-<div class="markdown-body">
-  <h1 id="download">Download</h1><span></span>
-</div>
 <p>
   <a href="{{ site.baseurl }}/release/latest" class="btn btn-success btn-lg">
     <span class="fa fa-download"></span>&nbsp;&nbsp;Download the latest release
@@ -29,6 +30,7 @@ markdown_body: ""
   </a>
 </p>
 <div class="markdown-body">
+  <h2 id="modules">Modules</h2>
   <p>Neard offers several versions of the various binaries, tools and applications for download :</p>
   <span></span>
 </div>
