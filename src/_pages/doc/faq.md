@@ -321,3 +321,21 @@ This issue is solved for Neard 1.0.23 and higher.
 * **Git** drops Windows XP support since 2.10.0 version.
 * **Python** drops Windows XP support since 3.4.3 version.
 * **Ruby** is not supported on Windows XP since 2.1 version.
+
+## Invalid argument - ruby_setenv(ALLUSERSPROFILE)
+
+If you've got this kind of error with Ruby :
+
+```text
+C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/gems/2.3.0/gems/bundler-1.14.6/lib/bundler.rb:20:in `replace': Invalid argument - ruby_setenv(ALLUSERSPROFILE) (Errno::EINVAL)
+  from C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/gems/2.3.0/gems/bundler-1.14.6/lib/bundler.rb:20:in `<module:Bundler>'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/gems/2.3.0/gems/bundler-1.14.6/lib/bundler.rb:17:in `<top (required)>'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/gems/2.3.0/gems/bundler-1.14.6/exe/bundle:12:in `<top (required)>'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/bin/bundle:22:in `load'
+  from C:/neard/tools/ruby/ruby2.3.3.p222/bin/bundle:22:in `<main>'
+```
+
+You will need to restart your computer.<br />
+If you've got more information about this error, please [post an issue]({{ var_repo_url }}/issues/new){:target="_blank"}.
