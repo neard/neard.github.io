@@ -31,25 +31,25 @@
         {
           "name": "2.6.12",
           "default": true,
-          "compat": ">= 1.0.23",
+          "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.0.14",
           "default": false,
-          "compat": ">= 1.0.23",
+          "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.2.12",
           "default": false,
-          "compat": ">= 1.0.23",
+          "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.4.2",
           "default": false,
-          "compat": ">= 1.0.23",
+          "compat": ">= 1.2",
           "ext": "7z"
         }
       ]
