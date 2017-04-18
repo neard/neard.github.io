@@ -5,6 +5,16 @@
 
 {% include callout.html type="primary" text="If you have the [warning icon](/doc/faq/#warning-icon-in-apache--php-versions-menu-) on your Apache version, **you will have to switch the PHP version first**." %}
 
+## OpenSSL
+
+| Apache version          | OpenSSL version |
+| ----------------------- | --------------- |
+| **2.2.22**              | 1.0.0           |
+| **2.2.27** > **2.2.29** | 1.0.1           |
+| **2.2.31** > **2.2.x**  | 1.0.2           |
+| **2.4.4** > **2.4.12**  | 1.0.1           |
+| **2.4.17** > **2.4.x**  | 1.0.2           |
+
 ## Compatibility table
 
 |               | Apache 2.2.x                | Apache 2.4.x                |
