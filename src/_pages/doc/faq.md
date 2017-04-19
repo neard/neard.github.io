@@ -210,7 +210,7 @@ You have to download the 0.9.42 version. See [Filezilla page](/bins/filezilla).
 
 > The procedure entry point ReleaseSRWLockExclusive could not be located in the dynamic link library KERNEL32.dll
 
-Most often reason to happen such error is you trying to set not tread safe extension in your PHP installation.<br />
+Most often reason to happen such error is you trying to set not thread safe extension in your PHP installation.<br />
 On Neard **PHP is installed as Thread Safe**.
 
 ## Can't change import file size limit in phpMyAdmin
