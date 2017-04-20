@@ -7,8 +7,9 @@ markdown_body: ""
 
 <div class="markdown-body">{% markdown %}
 **{{ site.title }}** is a free and open source software and always will be.<br />
-I'm a single developer and if you find this project useful, please consider making a donation.<br />
-Any funds donated will be used to help further development on this project! {% include fontawesome.html icon="heart" color="#c75c5c" %}
+We welcome all kinds of contributions 🙌!<br />
+The most basic way to show your support is to star 🌟 the project, or to raise issues 💬<br />
+Any funds donated will be used to help further development on this project! 💝
 {% endmarkdown %}<span></span></div>
 
 <p>
