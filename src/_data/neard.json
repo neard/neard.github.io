@@ -4,6 +4,11 @@
   "filename": "neard",
   "releases": [
     {
+      "version": "1.2",
+      "date": "2017/04/20",
+      "assets": [".7z", ".zip"]
+    },
+    {
       "version": "1.0.22",
       "date": "2016/12/18",
       "assets": [".7z", ".zip"]
