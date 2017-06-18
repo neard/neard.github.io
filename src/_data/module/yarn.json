@@ -1,0 +1,31 @@
+{
+  "type": "tools",
+  "name": "yarn",
+  "label": "Yarn",
+  "desc": "a fast, reliable, and secure dependency management.",
+  "repo": "crazy-max/neard-tool-yarn",
+  "filename": "neard-yarn",
+  "sources": [
+    "https://yarnpkg.com",
+    "https://github.com/yarnpkg/yarn"
+  ],
+  "versions": {
+    "0.24.6": {
+      "date": "2017/05/23"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2017/06/18",
+      "versions": [
+        {
+          "name": "0.24.6",
+          "default": true,
+          "compat": ">= 1.3",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}
