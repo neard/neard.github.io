@@ -1,5 +1,6 @@
 {% include vars.html %}
 
+<div class="markdown-body">{% markdown %}
 * TOC
 {:toc}
 
@@ -33,20 +34,17 @@
 
 ## Releases
 
-{% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %} : Default bundle on Neard.
-
-{% for release in page.module.releases %}
-### {{ release.name }}
-{:.no_toc}
-
-[![Release link](https://img.shields.io/badge/release-link-green.svg?style=flat&maxAge=3600)]({{ site.github.baseurl }}/{{ page.module.repo }}/releases/tag/{{ release.name }})
-[![Release date](https://img.shields.io/badge/date-{{ release.date }}-orange.svg?style=flat&maxAge=3600)](#)
-[![Release changelog](https://img.shields.io/badge/infos-changelog-blue.svg?style=flat&maxAge=3600)]({{ site.github.baseurl }}/{{ page.module.repo }}/blob/master/CHANGELOG.md#{{ release.name }}-{{ release.date | replace: '/', '' }})
+{% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %} : Default version.
 
 {% if page.module.haspack %}
-  {% include module/releases-pack.md module=page.module release=release %}
+  {% include module/releases-pack-latest.md module=page.module latest=page.latest %}
 {% else %}
-  {% include module/releases-standard.md module=page.module release=release %}
+  {% include module/releases-standard-latest.md module=page.module latest=page.latest %}
 {% endif %}
+{% endmarkdown %}<span></span></div>
 
-{% endfor %}
+<p>
+  <a target="_blank" href="{{ site.github.baseurl }}/{{ page.module.repo }}/releases" class="btn btn-default">
+    View all releases
+  </a>
+</p>

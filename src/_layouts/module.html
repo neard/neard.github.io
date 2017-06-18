@@ -1,14 +1,15 @@
 ---
 layout: default
 sidebar: modules
+markdown_body: ""
 ---
 
 {% include header.html type="page" %}
 
 <div class="container-fluid container-sidebar container-module" role="main">
   <div class="row">
-    <div class="col-lg-8 col-md-6 col-md-offset-1 {{ page.markdown_body }}">
-      {% capture module %}{% include module/page.md module=page.module %}{% endcapture %}{{ module | markdownify }}
+    <div class="col-lg-8 col-md-6 col-md-offset-1">
+      {% capture module %}{% include module/module.md module=page.module %}{% endcapture %}{{ module | markdownify }}
     </div>
     <div class="col-lg-3">
       {% include sidebar/{{ page.sidebar }}.html %}

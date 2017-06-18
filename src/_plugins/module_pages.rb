@@ -9,11 +9,32 @@ module Jekyll
 
       Jekyll.logger.debug "  Creating module page: #{the_module['name']}..."
 
+      # Latest releases
+      latest = Array.new
+      latest_h = Hash.new
+      the_module['versions'].each do |version, version_data|
+        the_module['releases'].each do |release|
+          release['versions'].each do |release_version|
+            is_new_version = version.eql? release_version['name']
+            if (release_version.key? 'pack') && (version.eql? release_version['pack'].to_a[-1])
+              is_new_version = true
+            end
+            if (!latest_h.key?(version)) && is_new_version
+              release_version['release'] = release['name']
+              latest_h[version] = release_version
+              latest.push release_version
+              break
+            end
+          end
+        end
+      end
+
       self.process(@name)
       self.read_yaml(File.join(base, "_layouts"), "module.html")
       self.data['title'] = the_module['label']
       self.data['subtitle'] = the_module['desc'].gsub(/\.$/, '').sub(/^(\w)/) {|s| s.capitalize}
       self.data['module'] = the_module
+      self.data['latest'] = latest.reverse
       self.data['sitemap'] = { "priority" => "0.7", "changefreq" => "daily" }
     end
   end

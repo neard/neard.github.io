@@ -1,0 +1,3 @@
+| Version | Official date | Neard | Download | Verification |
+| ------- | ------------- | ----- | -------- | ------------ |{% for version in include.latest %}
+| **{{ version.name }}**{% if version.default %} {% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %}{% endif %} | {{ include.module.versions[version.name].date }} | {{ version.compat }} | {% include module/download-link.html module=include.module version=version release=version.release %} | {% include module/verification-link.html module=include.module version=version release=version.release %} |{% endfor %}
