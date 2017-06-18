@@ -21,15 +21,16 @@
 * If you already have installed Neard, stop it.
 * Download [one {{ include.module.label }} bundle](#releases).
 * Extract archive in `neard\{{ include.module.type }}\{{ include.module.name }}\`. Directory structure example :
+{% endmarkdown %}<span></span></div>
 
-```text
-[-] neard
- | [-] {{ include.module.type }}
- |  | [-] {{ include.module.name }}{% for version in include.module.versions %}{% if forloop.index <= 1 %}
- |  |  | [-] {{ include.module.name }}{{ version[0] }}
- |  |     | neard.conf{% endif %}{% endfor %}
-```
+<pre class="highlight"><code>[-] neard
+  | [-] {{ include.module.type }}
+  |  | [-] {{ include.module.name }}{% for version in include.module.versions %}{% if forloop.index <= 1 %}
+  |  |  | [-] {{ include.module.name }}{{ version[0] }}
+  |  |     | neard.conf{% endif %}{% endfor %}
+</code></pre>
 
+<div class="markdown-body">{% markdown %}
 {% include module/{{ include.module.type }}/{{ include.module.name }}.md %}
 
 ## Releases
