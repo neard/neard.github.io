@@ -1,8 +1,11 @@
 {% include vars.html %}
 
 <div class="markdown-body">{% markdown %}
-* TOC
-{:toc}
+
+* [Links](#links)
+* [About](#about)
+* [Installation](#installation)
+* [Releases](#releases)
 
 ## Links
 
