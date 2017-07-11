@@ -339,3 +339,7 @@ C:/neard/tools/ruby/ruby2.3.3.p222/lib/ruby/gems/2.3.0/gems/bundler-1.14.6/lib/b
 
 You will need to restart your computer.<br />
 If you've got more information about this error, please [post an issue]({{ var_repo_url }}/issues/new){:target="_blank"}.
+
+## Ruby : MSYS2 could not be found
+
+Since Ruby 2.4, RubyInstaller is [based on MSYS2 toolchain](https://github.com/oneclick/rubyinstaller2#rubyinstaller2). If you want to compile C based ruby gems, you will have to download and install all necessary MSYS2 build tools by typing the command `ridk install` using by the [official installer](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system).
