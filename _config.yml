@@ -192,6 +192,6 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Plugins
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
