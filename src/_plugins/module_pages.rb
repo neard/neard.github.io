@@ -21,6 +21,7 @@ module Jekyll
             end
             if (!latest_h.key?(version)) && is_new_version
               release_version['release'] = release['name']
+              release_version['release_date'] = release['date']
               latest_h[version] = release_version
               latest.push release_version
               break
