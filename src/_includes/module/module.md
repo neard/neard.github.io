@@ -22,7 +22,7 @@
 
 * Download and install [Neard](/doc/get-started).
 * If you already have installed Neard, stop it.
-* Download [one {{ include.module.label }} bundle](#releases).
+* Download a [{{ include.module.label }} version](#releases) of your choice.
 * Extract archive in `neard\{{ include.module.type }}\{{ include.module.name }}\`. Directory structure example :
 {% endmarkdown %}<span></span></div>
 

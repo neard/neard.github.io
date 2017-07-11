@@ -16,7 +16,7 @@ To install a new version of a binary you have to :
 
 * Download and install [Neard](/doc/get-started).
 * If you already have started Neard, stop it.
-* Download a bundle of the binary of your choice (download links in the binary page of your choice like [Apache](/bins/apache/)).
+* Download a module of the binary of your choice (download links in the binary page of your choice like [Apache](/bins/apache/)).
 * Use a file archiver that supports [7z format](http://www.7-zip.org/7z.html) like [7zip](http://www.7-zip.org/) and extract the archive in `neard\bin\{name}\` :
 
 ```text

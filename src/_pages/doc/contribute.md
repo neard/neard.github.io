@@ -58,10 +58,10 @@ Directory structure example :
  |  | build.xml
 ```
 
-If you are not familiar with pull request, you can create a new bundle like this :
+If you are not familiar with pull request, you can create a new module like this :
 
 * Increment the `build.release` in the `build.properties` file.
 * If you want you can change the `build.path` (default `C:\neard-build`).
-* Open a command prompt in your bundle folder and call the Ant target `release` : `ant release`.
+* Open a command prompt in your module folder and call the Ant target `release` : `ant release`.
 * Upload your release on a file hosting system like [Sendspace](https://www.sendspace.com/).
 * Create an [issue on Neard repository]({{ var_repo_url }}/issues) to integrate your release.

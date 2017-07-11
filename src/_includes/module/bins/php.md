@@ -31,7 +31,7 @@
 
 ## PEAR
 
-PEAR is integrated in each PHP bundle through the `install-pear-nozlib.phar` standalone installer.
+PEAR is integrated in each PHP module through the `install-pear-nozlib.phar` standalone installer.
 
 | PEAR version | PHP 5.2.x                   | PHP 5.3.x                   | PHP 5.4+                    |
 | ------------ |:---------------------------:|:---------------------------:|:---------------------------:|

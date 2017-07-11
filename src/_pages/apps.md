@@ -16,7 +16,7 @@ To install a new version of an application you have to :
 
 * Download and install [Neard](/doc/get-started).
 * If you already have started Neard, stop it.
-* Download a bundle of the application of your choice (download links in the application page of your choice like [Adminer](/apps/adminer/)).
+* Download a module of the application of your choice (download links in the application page of your choice like [Adminer](/apps/adminer/)).
 * Use a file archiver that supports [7z format](http://www.7-zip.org/7z.html) like [7zip](http://www.7-zip.org/) and extract the archive in `neard\apps\{name}\` :
 
 ```text
