@@ -2,12 +2,14 @@
   "type": "tools",
   "name": "console",
   "label": "Console",
-  "desc": "a multi command prompt with TCC/LE and ANSICON.",
+  "desc": "a multi command prompt based on Console2.",
   "repo": "crazy-max/neard-tool-console",
   "filename": "neard-console",
-  "haspack": true,
   "sources": [
     "http://sourceforge.net/projects/console/files/console-devel/2.00/",
+    "https://github.com/mridgers/clink",
+    "https://github.com/vladimir-kotikov/clink-completions",
+    "http://gnuwin32.sourceforge.net/packages/coreutils.htm",
     "https://jpsoft.com/all-downloads/downloads.html",
     "https://github.com/adoxa/ansicon"
   ],
@@ -15,57 +17,38 @@
     "2.00.148": {
       "date": "2011/10/03"
     },
-    "Console 2.00.148": {
-      "date": "2011/10/03"
+    "2.00.148.1": {
+      "date": "2016/04/29"
     },
-    "TCC/LE 14.0.0.6": {
-      "date": "2015/09/01"
+    "2.00.148.2": {
+      "date": "2016/04/29"
     },
-    "TCC/LE 14.0.0.9": {
-      "date": "2016/02/05"
-    },
-    "ANSICON 1.66": {
-      "date": "2013/09/19"
+    "2.00.148.3": {
+      "date": "2017/07/15"
     }
   },
   "releases": [
     {
-      "name": "r3",
-      "date": "2016/04/29",
+      "name": "r4",
+      "date": "2017/07/15",
       "versions": [
         {
-          "name": "p1",
-          "pack": ["Console 2.00.148", "TCC/LE 14.0.0.6", "ANSICON 1.66"],
+          "name": "2.00.148.1",
           "default": false,
-          "compat": ">= 1.0.19",
+          "compat": "<= 1.2",
           "ext": "7z"
         },
         {
-          "name": "p2",
-          "pack": ["Console 2.00.148", "TCC/LE 14.0.0.9", "ANSICON 1.66"],
+          "name": "2.00.148.2",
           "default": true,
-          "compat": ">= 1.0.19",
+          "compat": "<= 1.2",
           "ext": "7z"
-        }
-      ]
-    },
-    {
-      "name": "r2",
-      "date": "2016/04/10",
-      "versions": [
-        {
-          "name": "p1",
-          "pack": ["Console 2.00.148", "TCC/LE 14.0.0.6"],
-          "default": false,
-          "compat": ">= 1.0.17",
-          "ext": "zip"
         },
         {
-          "name": "p2",
-          "pack": ["Console 2.00.148", "TCC/LE 14.0.0.9"],
+          "name": "2.00.148.3",
           "default": false,
-          "compat": ">= 1.0.17",
-          "ext": "zip"
+          "compat": ">= 1.3",
+          "ext": "7z"
         }
       ]
     },
