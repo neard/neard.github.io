@@ -1,0 +1,30 @@
+{
+  "type": "tools",
+  "name": "ghostscript",
+  "label": "Ghostscript",
+  "desc": "an interpreter for the PostScript language and for PDF.",
+  "repo": "crazy-max/neard-tool-ghostscript",
+  "filename": "neard-ghostscript",
+  "sources": [
+    "https://ghostscript.com/"
+  ],
+  "versions": {
+    "9.21": {
+      "date": "2017/03/16"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2017/07/23",
+      "versions": [
+        {
+          "name": "9.21",
+          "default": true,
+          "compat": ">= 1.3",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}
