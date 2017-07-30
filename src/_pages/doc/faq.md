@@ -343,3 +343,7 @@ If you've got more information about this error, please [post an issue]({{ var_r
 ## Ruby : MSYS2 could not be found
 
 Since Ruby 2.4, RubyInstaller is [based on MSYS2 toolchain](https://github.com/oneclick/rubyinstaller2#rubyinstaller2). If you want to compile C based ruby gems, you will have to download and install all necessary MSYS2 build tools by typing the command `ridk install` used by the [official installer](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system).
+
+## Ghostscript : How to use Windows TrueType fonts for Chinese, Japanese and Korean ?
+
+To update lib/cidfmap with the common CJK fonts provided by Microsoft products, launch the script `update_cidfmap.bat` in the root folder of Ghostscript.
