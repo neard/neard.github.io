@@ -2,7 +2,6 @@ var gulp = require("gulp"),
   readConfig = require("read-config"),
   config = readConfig("_config.yml"),
   del = require("del"),
-  concat = require("gulp-concat"),
   uglify = require("gulp-uglify"),
   rename = require("gulp-rename"),
   mainBowerFiles = require("main-bower-files"),
@@ -96,7 +95,7 @@ gulp.task("assets-vendor-img", function() {
 });
 
 gulp.task("assets-vendor-inject", function() {
-  return string_src(config.source + "/_data/" + config.assets.vendor, "{\n  \"js\": [\n  ],\n  \"css\": [\n  ],\n  \"html\": [\n  ]\n}")
+  return string_src(config.source + "/_data/" + config.assets.vendor, "{\n  \"js\": [\n  ],\n  \"css\": [\n  ]\n}")
     .pipe(inject(assetsVendorToInject, {
       empty: true,
       ignorePath: config.destination,

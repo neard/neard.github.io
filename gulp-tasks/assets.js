@@ -83,7 +83,7 @@ gulp.task("assets-styles", function() {
 });
 
 gulp.task("assets-inject", function() {
-  return string_src(config.source + "/_data/" + config.assets.app, "{\n  \"js\": [\n  ],\n  \"css\": [\n  ],\n  \"html\": [\n  ]\n}")
+  return string_src(config.source + "/_data/" + config.assets.app, "{\n  \"js\": [\n  ],\n  \"css\": [\n  ]\n}")
     .pipe(inject(assetsToInject, {
       empty: true,
       ignorePath: config.destination,
