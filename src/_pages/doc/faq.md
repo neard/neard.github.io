@@ -347,3 +347,17 @@ Since Ruby 2.4, RubyInstaller is [based on MSYS2 toolchain](https://github.com/o
 ## Ghostscript : How to use Windows TrueType fonts for Chinese, Japanese and Korean ?
 
 To update lib/cidfmap with the common CJK fonts provided by Microsoft products, launch the script `update_cidfmap.bat` in the root folder of Ghostscript.
+
+## NET::ERR_CERT_AUTHORITY_INVALID since Chrome 58
+
+![](/img/faq/chrome-ERR_CERT_AUTHORITY_INVALID.jpg)
+
+Since Chrome 58, self-signed certificates generated with Neard are no longer accepted and you will have the error `NET::ERR_CERT_AUTHORITY_INVALID` if you go to `https://localhost`.
+
+Chrome only accepts insecure certificates on localhost by turning the flag `chrome://flags/#allow-insecure-localhost` on Chrome. Or you can add the certificate to the Trusted Root Certification Authorities with the certutil command :
+
+```text
+certutil.exe -addstore -user root "C:\neard\ssl\localhost.crt"
+```
+
+Then restart Chrome.
