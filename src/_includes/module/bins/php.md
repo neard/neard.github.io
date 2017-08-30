@@ -40,6 +40,7 @@ PEAR is integrated in each PHP module through the `install-pear-nozlib.phar` sta
 | **1.7.2**    | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} |
 | **1.9.5**    | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-nok.html %} |
 | **1.10.1**   | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  |
+| **1.10.5**   | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 
 ## Apache compatibility table
 
@@ -52,6 +53,7 @@ PEAR is integrated in each PHP module through the `install-pear-nozlib.phar` sta
 | **PHP 5.6.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.0.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.1.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
+| **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 
 ## MongoDB compatibility table
 
@@ -67,3 +69,4 @@ More infos : [https://docs.mongodb.com/ecosystem/drivers/php](https://docs.mongo
 | **PHP 5.6.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.0.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.1.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
+| **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
