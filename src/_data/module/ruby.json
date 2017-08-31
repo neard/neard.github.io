@@ -34,6 +34,18 @@
   },
   "releases": [
     {
+      "name": "r4",
+      "date": "2017/08/31",
+      "versions": [
+        {
+          "name": "2.4.1.2.p111",
+          "type": "standard",
+          "compat": ">= 1.0.22",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
       "name": "r3",
       "date": "2017/07/11",
       "versions": [
