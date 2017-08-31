@@ -10,7 +10,7 @@
     "https://packagist.org/packages/clickalicious/phpmemadmin"
   ],
   "versions": {
-    "0.3.1": {
+    "0.1.0.41": {
       "date": "2016/03/27"
     }
   },
@@ -20,7 +20,7 @@
       "date": "2016/07/14",
       "versions": [
         {
-          "name": "0.3.1",
+          "name": "0.1.0.41",
           "type": "default",
           "compat": ">= 1.0.21",
           "ext": "7z"
