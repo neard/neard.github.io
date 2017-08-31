@@ -29,19 +29,19 @@
       "versions": [
         {
           "name": "1.0.1",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "1.1.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "1.9.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }

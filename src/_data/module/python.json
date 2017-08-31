@@ -51,49 +51,49 @@
       "versions": [
         {
           "name": "2.7.12.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.7.13.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.4.4.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.4.4.6",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.5.2.3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.5.3.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.6.0.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.6.0.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -105,25 +105,25 @@
       "versions": [
         {
           "name": "2.7.12.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.4.4.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.5.2.3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.6.0.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -135,19 +135,19 @@
       "versions": [
         {
           "name": "2.7.12.3",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.4.4.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "3.5.2.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }

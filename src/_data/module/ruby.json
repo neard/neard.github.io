@@ -39,7 +39,7 @@
       "versions": [
         {
           "name": "2.4.1.2.p111",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -51,13 +51,13 @@
       "versions": [
         {
           "name": "2.2.6.p396",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.3.3.p222",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -69,25 +69,25 @@
       "versions": [
         {
           "name": "2.0.0.p648",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.1.9.p490",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.5.p319",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.3.1.p112",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }

@@ -36,7 +36,7 @@
       "versions": [
         {
           "name": "1.4.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }
@@ -48,7 +48,7 @@
       "versions": [
         {
           "name": "1.2.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }
@@ -60,7 +60,7 @@
       "versions": [
         {
           "name": "1.1.2",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }
@@ -72,7 +72,7 @@
       "versions": [
         {
           "name": "1.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }
@@ -84,13 +84,13 @@
       "versions": [
         {
           "name": "1.0-dev-edf14da",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         },
         {
           "name": "1.0.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }

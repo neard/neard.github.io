@@ -31,18 +31,12 @@ markdown_body: ""
 </p>
 <div class="markdown-body">
   <h2 id="modules">Modules</h2>
-  <p>Neard offers several versions of the various binaries, tools and applications for download :</p>
+  <p>Neard offers several versions of the various binaries, applications and tools for download :</p>
   <span></span>
 </div>
 <p>
-  <a href="{{ site.baseurl }}/bins" class="btn btn-primary" style="text-align: left">
-    <span class="fa fa-download"></span>&nbsp;&nbsp;Download binaries<br /><small>Apache, PHP, MySQL, etc.</small>
-  </a>
-  <a href="{{ site.baseurl }}/tools" class="btn btn-primary" style="text-align: left">
-    <span class="fa fa-download"></span>&nbsp;&nbsp;Download tools<br /><small>Git, Python, Ruby, etc.</small>
-  </a>
-  <a href="{{ site.baseurl }}/apps" class="btn btn-primary" style="text-align: left">
-    <span class="fa fa-download"></span>&nbsp;&nbsp;Download applications<br /><small>Adminer, phpMyAdmin, etc.</small>
+  <a href="{{ site.baseurl }}/modules" class="btn btn-primary" style="text-align: left">
+    <span class="fa fa-download"></span>&nbsp;&nbsp;Download modules<br /><small>Apache, PHP, MySQL, Node.js, Git, Adminer, Perl, Python, etc.</small>
   </a>
 </p>
 

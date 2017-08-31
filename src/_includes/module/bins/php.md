@@ -1,7 +1,7 @@
 * Start Neard.
 * Switch to the {{ page.module.label }} version you have extracted on Neard :
 
-![](/img/bins/{{ page.module.name }}/switch-version.png)
+![](/img/modules/{{ page.module.name }}/switch-version.png)
 
 {% include callout.html type="primary" text="If you have the [warning icon](/doc/faq/#warning-icon-in-apache--php-versions-menu-) on your PHP version, **you will have to switch the Apache version first**." %}
 

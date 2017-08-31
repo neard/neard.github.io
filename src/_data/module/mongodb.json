@@ -33,7 +33,7 @@
       "versions": [
         {
           "name": "3.4.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.2",
           "ext": "7z"
         }
@@ -45,25 +45,25 @@
       "versions": [
         {
           "name": "2.6.12",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.0.14",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.2.12",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.2",
           "ext": "7z"
         },
         {
           "name": "3.4.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.2",
           "ext": "7z"
         }

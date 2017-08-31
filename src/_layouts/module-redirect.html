@@ -1,0 +1,19 @@
+---
+layout: default
+sitemap:
+  exclude: yes
+---
+
+{% include header.html %}
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-10 col-md-8 col-md-offset-1">
+      <h2>Redirecting...</h2>
+      <p>
+        Please use this <a href="{{ site.baseurl }}/{{ page.module_redirect }}">link</a> if you are not redirected.
+      </p>
+    </div>
+  </div>
+</div>
+<script>location="{{ site.baseurl }}/{{ page.module_redirect }}"</script>

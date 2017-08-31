@@ -68,31 +68,31 @@
       "versions": [
         {
           "name": "9.2.21",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.3.17",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.4.12",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.5.7",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.6.3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -104,37 +104,37 @@
       "versions": [
         {
           "name": "9.1.24",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.2.19",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.3.15",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.4.10",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.5.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.6.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -146,37 +146,37 @@
       "versions": [
         {
           "name": "9.1.22",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.2.17",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.3.13",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.4.8",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.5.3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "9.6.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }

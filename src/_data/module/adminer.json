@@ -31,7 +31,7 @@
       "versions": [
         {
           "name": "4.3.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -43,19 +43,19 @@
       "versions": [
         {
           "name": "4.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.5",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -67,19 +67,19 @@
       "versions": [
         {
           "name": "4.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -91,19 +91,19 @@
       "versions": [
         {
           "name": "4.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         },
         {
           "name": "4.2.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -115,7 +115,7 @@
       "versions": [
         {
           "name": "4.2.5",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -127,13 +127,13 @@
       "versions": [
         {
           "name": "4.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
         {
           "name": "4.2.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -145,13 +145,13 @@
       "versions": [
         {
           "name": "4.1.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "4.2.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         }

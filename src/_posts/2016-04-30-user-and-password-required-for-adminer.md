@@ -7,4 +7,4 @@ tags: [module, adminer]
 
 User and password is now required (default user is `root` and empty password).<br />
 All versions of Adminer have been impacted.<br />
-You can find links to download these releases on the [Adminer page](/apps/adminer).
+You can find links to download these releases on the [Adminer page](/modules/adminer).

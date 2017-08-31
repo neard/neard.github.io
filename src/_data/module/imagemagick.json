@@ -50,13 +50,13 @@
       "versions": [
         {
           "name": "6.9.8-9",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "7.0.5-10",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -68,13 +68,13 @@
       "versions": [
         {
           "name": "6.9.6-1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "7.0.3-3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -86,13 +86,13 @@
       "versions": [
         {
           "name": "6.9.4-9",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "7.0.2-0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -104,19 +104,19 @@
       "versions": [
         {
           "name": "6.9.3-10",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "6.9.4-0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "7.0.1-2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -128,13 +128,13 @@
       "versions": [
         {
           "name": "6.8.9-7",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "6.9.3-8",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -146,7 +146,7 @@
       "versions": [
         {
           "name": "6.9.3-8",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.12",
           "ext": "7z"
         }
@@ -158,7 +158,7 @@
       "versions": [
         {
           "name": "6.8.9-7",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.12",
           "ext": "7z"
         }

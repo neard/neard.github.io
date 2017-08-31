@@ -38,7 +38,8 @@
 
 ## Releases
 
-{% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %} : Default version.
+{% include fontawesome.html icon="star" options="fa-lg" color="#f1c40f" %} : Default<br />
+{% include fontawesome.html icon="star-half-o" options="fa-lg" color="#f0ad4e" %} : Pre-release
 
 {% if page.module.haspack %}
   {% include module/releases-pack-latest.md module=page.module latest=page.latest %}

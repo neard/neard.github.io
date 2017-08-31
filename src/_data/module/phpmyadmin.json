@@ -71,7 +71,7 @@
         {
           "name": "4p6",
           "pack": ["4.0.10.20", "4.4.15.10", "4.7.0"],
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -84,7 +84,7 @@
         {
           "name": "4p5",
           "pack": ["4.0.10.19", "4.4.15.10", "4.6.6"],
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -97,7 +97,7 @@
         {
           "name": "4p4",
           "pack": ["4.0.10.17", "4.4.15.8", "4.6.4"],
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -110,7 +110,7 @@
         {
           "name": "4p3",
           "pack": ["4.0.10.15", "4.4.15.6", "4.6.2"],
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -122,21 +122,21 @@
       "versions": [
         {
           "name": "4.0.4",
-          "default": false,
+          "type": "standard",
           "compat": "<= 1.0.15",
           "ext": "7z"
         },
         {
           "name": "4p1",
           "pack": ["4.0.10.12", "4.4.15.2", "4.5.3.1"],
-          "default": false,
+          "type": "standard",
           "compat": "= 1.0.17",
           "ext": "7z"
         },
         {
           "name": "4p2",
           "pack": ["4.0.10.15", "4.4.15.5", "4.6.0"],
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -149,7 +149,7 @@
         {
           "name": "4p2",
           "pack": ["4.0.10.15", "4.4.15.5", "4.6.0"],
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "zip"
         }
@@ -162,7 +162,7 @@
         {
           "name": "4p1",
           "pack": ["4.0.10.12", "4.4.15.2", "4.5.3.1"],
-          "default": false,
+          "type": "standard",
           "compat": "= 1.0.17",
           "ext": "zip"
         }
@@ -174,7 +174,7 @@
       "versions": [
         {
           "name": "4.0.4",
-          "default": false,
+          "type": "standard",
           "compat": "<= 1.0.15",
           "ext": "zip"
         }

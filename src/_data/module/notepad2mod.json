@@ -26,7 +26,7 @@
       "versions": [
         {
           "name": "4.2.25.985",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -38,13 +38,13 @@
       "versions": [
         {
           "name": "4.2.25.972",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "4.2.25.980",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -56,7 +56,7 @@
       "versions": [
         {
           "name": "4.2.25.972",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }

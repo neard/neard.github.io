@@ -8,6 +8,11 @@
   <meta http-equiv="refresh" content="{{ page.download_time | default: 2 }}; URL={{ page.download_url }}">
   {% endif %}
 
+  {% if page.module_redirect %}
+  <link rel="canonical" href="{{ site.baseurl }}/{{ page.module_redirect }}">
+  <meta http-equiv="refresh" content="0; URL={{ site.baseurl }}/{{ page.module_redirect }}">
+  {% endif %}
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="generator" content="{% jekyll_version %}">

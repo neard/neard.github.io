@@ -20,7 +20,7 @@
       "versions": [
         {
           "name": "1.1.0.0",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.18",
           "ext": "zip"
         }

@@ -9,7 +9,7 @@ gulp.task("build", function(done) {
 });
 
 gulp.task("serve", function(done) {
-  runSequence("build", "browser-sync", "watch", done);
+  runSequence("build", "browser-sync", done);
 });
 
 gulp.task("default", ["build"]);

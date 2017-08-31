@@ -6,7 +6,7 @@ baseurl: ""
 title: "Neard"
 description: "Portable WAMP software stack"
 logo: /img/logo.png
-version: 1.0
+version: 1.1
 paypal-button-id: "6EALX9NDSRBAJ"
 flattr-username: "crazymax"
 
@@ -61,6 +61,7 @@ navbar:
   links:
     News: "news"
     Get started: "doc/get-started"
+    Modules: "modules"
     Documentation: "doc"
     Donate: "donate"
     Sponsors: "sponsors"
@@ -195,3 +196,4 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from

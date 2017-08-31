@@ -60,13 +60,13 @@
       "versions": [
         {
           "name": "2.2.34",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.27",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -78,73 +78,73 @@
       "versions": [
         {
           "name": "2.2.22",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.27",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.29",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.31",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.32",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.9",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.12",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.17",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.20",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.23",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.25",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -156,61 +156,61 @@
       "versions": [
         {
           "name": "2.2.22",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.27",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.29",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.2.31",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.9",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.12",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.17",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.20",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },
         {
           "name": "2.4.23",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -222,13 +222,13 @@
       "versions": [
         {
           "name": "2.2.31",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
         {
           "name": "2.4.23",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -240,7 +240,7 @@
       "versions": [
         {
           "name": "2.4.20",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -252,49 +252,49 @@
       "versions": [
         {
           "name": "2.2.22",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.2.27",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.2.29",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.2.31",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.4.4",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.4.9",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.4.12",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         },
         {
           "name": "2.4.17",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "zip"
         }

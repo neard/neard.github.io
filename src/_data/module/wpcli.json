@@ -56,7 +56,7 @@
       "versions": [
         {
           "name": "0.24.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -68,73 +68,73 @@
       "versions": [
         {
           "name": "0.12.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.13.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.14.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.15.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.16.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.17.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.18.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.19.3",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.20.4",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.21.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.22.0",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
         {
           "name": "0.23.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }

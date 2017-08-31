@@ -24,7 +24,7 @@
       "versions": [
         {
           "name": "5.2",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }
@@ -36,7 +36,7 @@
       "versions": [
         {
           "name": "5.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }

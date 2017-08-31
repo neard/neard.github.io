@@ -45,7 +45,7 @@
       "versions": [
         {
           "name": "0.9.60.2",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -57,7 +57,7 @@
       "versions": [
         {
           "name": "0.9.59",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -69,49 +69,49 @@
       "versions": [
         {
           "name": "0.9.42",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.46",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.47",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.52.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.54",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.56.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.57",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.59",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -123,7 +123,7 @@
       "versions": [
         {
           "name": "0.9.59",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -135,43 +135,43 @@
       "versions": [
         {
           "name": "0.9.42",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.46",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.47",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.52.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.54",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.56.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         },
         {
           "name": "0.9.57",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "7z"
         }
@@ -183,7 +183,7 @@
       "versions": [
         {
           "name": "0.9.57",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -195,7 +195,7 @@
       "versions": [
         {
           "name": "0.9.56.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -207,31 +207,31 @@
       "versions": [
         {
           "name": "0.9.42",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "zip"
         },
         {
           "name": "0.9.46",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "zip"
         },
         {
           "name": "0.9.47",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "zip"
         },
         {
           "name": "0.9.52.1",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "zip"
         },
         {
           "name": "0.9.54",
-          "default": false,
+          "type": "standard",
           "compat": ">= 1.0.20",
           "ext": "zip"
         }

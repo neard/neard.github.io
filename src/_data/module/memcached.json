@@ -21,7 +21,7 @@
       "versions": [
         {
           "name": "1.4.5",
-          "default": true,
+          "type": "default",
           "compat": ">= 1.0.21",
           "ext": "7z"
         }

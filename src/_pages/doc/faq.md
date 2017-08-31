@@ -40,7 +40,7 @@ To check from the Services Manager, click Start > Run and type `services.msc` an
 > Apache 2.4.20 does not seem to be compatible with PHP 5.2.17
 
 The error message explains himself why you have a warning icon when you want to switch version.<br />
-Please read [Apache compatibility table page](/bins/apache/#compatibility-table).
+Please read [Apache compatibility table page](/modules/apache/#compatibility-table).
 
 ## What is the default password for root user on MySQL / MariaDB ?
 
@@ -202,7 +202,7 @@ You have to install the latests [Neard Prerequisites Package]({{ site.github.bas
 
 This problem could appear on Windows XP.<br />
 Filezilla drops Windows XP support since 0.9.43 version.<br />
-You have to download the 0.9.42 version. See [Filezilla page](/bins/filezilla).
+You have to download the 0.9.42 version. See [Filezilla page](/modules/filezilla).
 
 ## php.exe - Entry point not found
 

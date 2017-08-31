@@ -40,6 +40,35 @@ module Jekyll
     end
   end
 
+  class ModuleRedirect < Page
+    def initialize(site, base, dir, the_module)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = "#{the_module['name']}.md"
+
+      Jekyll.logger.debug "  Creating redirect module page: #{the_module['name']}..."
+
+      self.process(@name)
+      self.read_yaml(File.join(base, "_layouts"), "module-redirect.html")
+      self.data['module_redirect'] = 'modules/' + the_module['name']
+    end
+  end
+
+  class ModuleTypeRedirect < Page
+    def initialize(site, base, name)
+      @site = site
+      @base = base
+      @name = "#{name}.md"
+
+      Jekyll.logger.debug "  Creating redirect type module page: #{name}..."
+
+      self.process(@name)
+      self.read_yaml(File.join(base, "_layouts"), "module-redirect.html")
+      self.data['module_redirect'] = 'modules'
+    end
+  end
+
   class ModulePageGenerator < Generator
     safe true
 
@@ -54,9 +83,14 @@ module Jekyll
         files.each do |file|
           data = JSON.parse(File.read(file))
           next if !data.kind_of?(Hash) or !data['type']
-          site.pages << ModulePage.new(site, site.source, File.join(data['type']), data)
+          site.pages << ModulePage.new(site, site.source, "modules", data)
+          site.pages << ModuleRedirect.new(site, site.source, File.join(data['type']), data)
         end
       end
+
+      site.pages << ModuleTypeRedirect.new(site, site.source, "apps")
+      site.pages << ModuleTypeRedirect.new(site, site.source, "bins")
+      site.pages << ModuleTypeRedirect.new(site, site.source, "tools")
 
       end_time = Time.now
       Jekyll.logger.info "  done in #{(end_time - beginning_time)} seconds"
