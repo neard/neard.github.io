@@ -7,7 +7,7 @@ permalink: /modules/
 ## About
 
 * **Binaries** are the main factor of Neard. Some require to be run as a service like Apache and others are used on demand like Node.js.
-* **Applications** are third-party utilities used by some binaries like phpMyAdmin used by PHP and MySQL / MariaDB. Each application has is own Apache alias (see `neard\alias` folder).
+* **Applications** are third-party utilities used by some binaries like phpMyAdmin used by PHP and MySQL / MariaDB. Each application has its own Apache alias (see `neard\alias` folder).
 * **Tools** are useful utilities to make Neard better. Some tools are required like ImageMagick because PHP binaries included Imagick extension.
 
 ## Modules
