@@ -56,7 +56,7 @@
       "versions": [
         {
           "name": "0.24.1",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -116,7 +116,7 @@
         },
         {
           "name": "0.20.4",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },

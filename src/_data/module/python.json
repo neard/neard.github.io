@@ -93,7 +93,7 @@
         },
         {
           "name": "3.6.0.1",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -135,7 +135,7 @@
       "versions": [
         {
           "name": "2.7.12.3",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },

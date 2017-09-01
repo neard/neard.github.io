@@ -69,7 +69,7 @@
         },
         {
           "name": "5.6.1",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -81,7 +81,7 @@
       "versions": [
         {
           "name": "4.8.26",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },

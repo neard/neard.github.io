@@ -44,7 +44,7 @@
       "versions": [
         {
           "name": "8.1.11",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
@@ -110,7 +110,7 @@
         },
         {
           "name": "7.3.0",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },

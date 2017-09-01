@@ -48,7 +48,7 @@
       "versions": [
         {
           "name": "2.14.1",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -120,7 +120,7 @@
       "versions": [
         {
           "name": "2.9.0",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }

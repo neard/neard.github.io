@@ -71,7 +71,7 @@
         {
           "name": "4p6",
           "pack": ["4.0.10.20", "4.4.15.10", "4.7.0"],
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -110,7 +110,7 @@
         {
           "name": "4p3",
           "pack": ["4.0.10.15", "4.4.15.6", "4.6.2"],
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }

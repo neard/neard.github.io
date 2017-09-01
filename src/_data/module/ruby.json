@@ -39,7 +39,7 @@
       "versions": [
         {
           "name": "2.4.1.2.p111",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -81,7 +81,7 @@
       "versions": [
         {
           "name": "2.0.0.p648",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         },

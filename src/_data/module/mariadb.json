@@ -122,7 +122,7 @@
         },
         {
           "name": "10.2.7",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -134,7 +134,7 @@
       "versions": [
         {
           "name": "5.5.34",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },

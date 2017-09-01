@@ -29,7 +29,7 @@
       "versions": [
         {
           "name": "1.0.1",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.19",
           "ext": "7z"
         },
@@ -41,7 +41,7 @@
         },
         {
           "name": "1.9.2",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.19",
           "ext": "7z"
         }
