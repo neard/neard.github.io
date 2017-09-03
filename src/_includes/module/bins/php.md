@@ -70,3 +70,11 @@ More infos : [https://docs.mongodb.com/ecosystem/drivers/php](https://docs.mongo
 | **PHP 7.0.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.1.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
+
+## ImageMagick and Imagick extension
+
+|                      | Compiled with ImageMagick  | Using ImageMagick library  |
+| -------------------- |:--------------------------:|:--------------------------:|
+| **Imagick 3.3.0**    | 6.8.9-1 Q16 x86 2014-05-08 | 6.8.9-1 Q16 x86 2014-05-08 |
+| **Imagick 3.4.3RC1** | 6.8.9-1 Q16 x86 2014-05-08 | 6.8.9-1 Q16 x86 2014-05-08 |
+| **Imagick 3.4.3**    | 6.9.3-7 Q16 x86 2016-03-27 | 6.9.3-7 Q16 x86 2016-03-27 |
