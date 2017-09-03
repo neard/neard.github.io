@@ -15,6 +15,18 @@
   },
   "releases": [
     {
+      "name": "r2",
+      "date": "2017/09/03",
+      "versions": [
+        {
+          "name": "9.21",
+          "type": "standard",
+          "compat": ">= 1.3",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
       "name": "r1",
       "date": "2017/07/23",
       "versions": [
