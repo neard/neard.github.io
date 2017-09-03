@@ -554,7 +554,7 @@
         },
         {
           "name": "7.1.9",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.16",
           "ext": "7z"
         },
@@ -596,7 +596,7 @@
         },
         {
           "name": "7.1.8",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.16",
           "ext": "7z"
         }
