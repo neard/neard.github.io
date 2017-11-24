@@ -1,19 +1,19 @@
 {
-  "name": "neard-website",
+  "name": "neard.github.io",
   "version": "1.0.0",
   "description": "Neard's website",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/crazy-max/neard-website.git"
+    "url": "git://github.com/neard/neard.github.io.git"
   },
   "author": "crazy-max",
   "license": "MIT",
   "private": true,
   "bugs": {
-    "url": "https://github.com/crazy-max/neard/issues"
+    "url": "https://github.com/neard/neard/issues"
   },
-  "homepage": "https://github.com/crazy-max/neard-website",
+  "homepage": "https://github.com/neard/neard.github.io",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"

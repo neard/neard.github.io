@@ -3,7 +3,7 @@
   "name": "webgrind",
   "label": "Webgrind",
   "desc": "the Xdebug Profiling Web Frontend in PHP.",
-  "repo": "crazy-max/neard-app-webgrind",
+  "repo": "neard/module-webgrind",
   "filename": "neard-webgrind",
   "sources": [
     "https://github.com/jokkedk/webgrind"

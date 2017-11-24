@@ -3,7 +3,7 @@
   "name": "nodejs",
   "label": "Node.js",
   "desc": "an open-source, cross-platform runtime environment for developing server-side web applications.",
-  "repo": "crazy-max/neard-bin-nodejs",
+  "repo": "neard/module-nodejs",
   "filename": "neard-nodejs",
   "sources": [
     "https://nodejs.org/"

@@ -3,7 +3,7 @@
   "name": "memcached",
   "label": "Memcached",
   "desc": "a distributed memory object caching system.",
-  "repo": "crazy-max/neard-bin-memcached",
+  "repo": "neard/module-memcached",
   "filename": "neard-memcached",
   "sources": [
     "https://memcached.org/",

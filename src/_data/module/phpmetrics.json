@@ -3,7 +3,7 @@
   "name": "phpmetrics",
   "label": "PhpMetrics",
   "desc": "gives metrics about PHP project and classes.",
-  "repo": "crazy-max/neard-tool-phpmetrics",
+  "repo": "neard/module-phpmetrics",
   "filename": "neard-phpmetrics",
   "sources": [
     "http://www.phpmetrics.org/",

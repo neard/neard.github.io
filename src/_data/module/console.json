@@ -3,7 +3,7 @@
   "name": "console",
   "label": "Console",
   "desc": "a multi command prompt based on Console2.",
-  "repo": "crazy-max/neard-tool-console",
+  "repo": "neard/module-console",
   "filename": "neard-console",
   "sources": [
     "http://sourceforge.net/projects/console/files/console-devel/2.00/",

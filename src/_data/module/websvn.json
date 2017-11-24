@@ -3,7 +3,7 @@
   "name": "websvn",
   "label": "WebSVN",
   "desc": "an online subversion repository browser.",
-  "repo": "crazy-max/neard-app-websvn",
+  "repo": "neard/module-websvn",
   "filename": "neard-websvn",
   "sources": [
     "http://www.websvn.info/"

@@ -36,22 +36,22 @@ Apache Ant(TM) version 1.8.4 compiled on May 22 2012
 # Configuration
 
 * Fork and clone the module of your choice.
-* Clone [neard-dev](https://github.com/crazy-max/neard-dev) in the parent folder of the module.
+* Clone [dev](https://github.com/neard/dev) in the parent folder of the module.
 * Create a new pull request with your work.
 
 For example :
 
 ```text
 cd C:\work\
-git clone --recursive https://github.com/crazy-max/neard-app-adminer.git
-git clone --recursive https://github.com/crazy-max/neard-dev.git
-cd neard-app-adminer\
+git clone --recursive https://github.com/neard/module-adminer.git
+git clone --recursive https://github.com/neard/dev.git
+cd module-adminer\
 ```
 
 Directory structure example :
 
 ```text
-[-] neard-dev
+[-] dev
  | [-] build
  |  |  | build-commons.xml 
 [-] neard-{bin|app|tool}-{name}

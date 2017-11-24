@@ -3,7 +3,7 @@
   "name": "php",
   "label": "PHP",
   "desc": "a server-side scripting language designed for web development including PEAR and extra extensions.",
-  "repo": "crazy-max/neard-bin-php",
+  "repo": "neard/module-php",
   "filename": "neard-php",
   "sources": [
     "http://windows.php.net/"

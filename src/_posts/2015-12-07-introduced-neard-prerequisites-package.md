@@ -12,4 +12,4 @@ The Prerequisites Package has been developed and includes the runtime components
 * Visual C++ 2012 Runtimes
 * Visual C++ 2015 Runtimes
 
-More info to contribute on the [neard-prerequisites repository](https://github.com/crazy-max/neard-prerequisites){:target="_blank"}.
+More info to contribute on the [prerequisites repository](https://github.com/neard/prerequisites){:target="_blank"}.

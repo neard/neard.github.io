@@ -3,7 +3,7 @@
   "name": "svn",
   "label": "SVN",
   "desc": "a software versioning and revision control system.",
-  "repo": "crazy-max/neard-bin-svn",
+  "repo": "neard/module-svn",
   "filename": "neard-svn",
   "sources": [
     "https://subversion.apache.org/",

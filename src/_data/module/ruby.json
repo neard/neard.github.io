@@ -3,7 +3,7 @@
   "name": "ruby",
   "label": "Ruby",
   "desc": "a dynamic, reflective, object-oriented, general-purpose programming language.",
-  "repo": "crazy-max/neard-tool-ruby",
+  "repo": "neard/module-ruby",
   "filename": "neard-ruby",
   "sources": [
     "http://rubyinstaller.org/",

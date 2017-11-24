@@ -3,7 +3,7 @@
   "name": "xdc",
   "label": "XDebugClient",
   "desc": "a simple frontend for XDebug.",
-  "repo": "crazy-max/neard-tool-xdc",
+  "repo": "neard/module-xdc",
   "filename": "neard-xdc",
   "sources": [
     "https://code.google.com/archive/p/xdebugclient/"

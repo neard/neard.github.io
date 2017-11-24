@@ -3,7 +3,7 @@
   "name": "wpcli",
   "label": "WP-CLI",
   "desc": "a command line interface for WordPress.",
-  "repo": "crazy-max/neard-tool-wpcli",
+  "repo": "neard/module-wpcli",
   "filename": "neard-wpcli",
   "sources": [
     "http://wp-cli.org/"

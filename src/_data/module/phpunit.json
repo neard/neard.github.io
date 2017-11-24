@@ -3,7 +3,7 @@
   "name": "phpunit",
   "label": "PHPUnit",
   "desc": "a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.",
-  "repo": "crazy-max/neard-tool-phpunit",
+  "repo": "neard/module-phpunit",
   "filename": "neard-phpunit",
   "sources": [
     "https://phpunit.de/",

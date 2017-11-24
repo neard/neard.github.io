@@ -3,7 +3,7 @@
   "name": "filezilla",
   "label": "Filezilla",
   "desc": "a FTP server application.",
-  "repo": "crazy-max/neard-bin-filezilla",
+  "repo": "neard/module-filezilla",
   "filename": "neard-filezilla",
   "sources": [
     "https://filezilla-project.org/",

@@ -3,7 +3,7 @@
   "name": "git",
   "label": "Git",
   "desc": "a widely used version control system for software development.",
-  "repo": "crazy-max/neard-tool-git",
+  "repo": "neard/module-git",
   "filename": "neard-git",
   "sources": [
     "https://github.com/git-for-windows/git",

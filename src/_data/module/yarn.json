@@ -3,7 +3,7 @@
   "name": "yarn",
   "label": "Yarn",
   "desc": "a fast, reliable, and secure dependency management.",
-  "repo": "crazy-max/neard-tool-yarn",
+  "repo": "neard/module-yarn",
   "filename": "neard-yarn",
   "sources": [
     "https://yarnpkg.com",

@@ -3,7 +3,7 @@
   "name": "postgresql",
   "label": "PostgreSQL",
   "desc": "an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
-  "repo": "crazy-max/neard-bin-postgresql",
+  "repo": "neard/module-postgresql",
   "filename": "neard-postgresql",
   "sources": [
     "https://www.postgresql.org"

@@ -3,7 +3,7 @@
   "name": "perl",
   "label": "Perl",
   "desc": "a family of high-level, general-purpose, interpreted, dynamic programming languages.",
-  "repo": "crazy-max/neard-tool-perl",
+  "repo": "neard/module-perl",
   "filename": "neard-perl",
   "sources": [
     "https://www.perl.org",

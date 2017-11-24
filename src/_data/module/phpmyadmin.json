@@ -3,7 +3,7 @@
   "name": "phpmyadmin",
   "label": "phpMyAdmin",
   "desc": "handle the administration of MySQL and MariaDB over the Web.",
-  "repo": "crazy-max/neard-app-phpmyadmin",
+  "repo": "neard/module-phpmyadmin",
   "filename": "neard-phpmyadmin",
   "haspack": true,
   "sources": [

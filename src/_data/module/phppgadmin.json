@@ -3,7 +3,7 @@
   "name": "phppgadmin",
   "label": "phpPgAdmin",
   "desc": "a web-based administration tool for PostgreSQL.",
-  "repo": "crazy-max/neard-app-phppgadmin",
+  "repo": "neard/module-phppgadmin",
   "filename": "neard-phppgadmin",
   "sources": [
     "http://phppgadmin.sourceforge.net",

@@ -3,7 +3,7 @@
   "name": "hostseditor",
   "label": "HostsEditor",
   "desc": "a small application for editing windows Hosts file.",
-  "repo": "crazy-max/neard-tool-hostseditor",
+  "repo": "neard/module-hostseditor",
   "filename": "neard-hostseditor",
   "sources": [
     "https://hostseditor.codeplex.com/"

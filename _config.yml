@@ -65,7 +65,7 @@ navbar:
     Documentation: "doc"
     Donate: "donate"
     Sponsors: "sponsors"
-    Github: "https://github.com/crazy-max/neard"
+    Github: "https://github.com/neard/neard"
 
 # Author
 author:

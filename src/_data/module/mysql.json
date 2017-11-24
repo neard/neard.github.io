@@ -3,7 +3,7 @@
   "name": "mysql",
   "label": "MySQL",
   "desc": "an open-source relational database management system.",
-  "repo": "crazy-max/neard-bin-mysql",
+  "repo": "neard/module-mysql",
   "filename": "neard-mysql",
   "sources": [
     "https://dev.mysql.com/"

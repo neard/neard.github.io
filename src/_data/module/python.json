@@ -3,7 +3,7 @@
   "name": "python",
   "label": "Python",
   "desc": "a widely used high-level, general-purpose, interpreted, dynamic programming language.",
-  "repo": "crazy-max/neard-tool-python",
+  "repo": "neard/module-python",
   "filename": "neard-python",
   "sources": [
     "https://winpython.github.io/",

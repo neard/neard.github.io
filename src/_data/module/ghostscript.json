@@ -3,7 +3,7 @@
   "name": "ghostscript",
   "label": "Ghostscript",
   "desc": "an interpreter for the PostScript language and for PDF.",
-  "repo": "crazy-max/neard-tool-ghostscript",
+  "repo": "neard/module-ghostscript",
   "filename": "neard-ghostscript",
   "sources": [
     "https://ghostscript.com/"

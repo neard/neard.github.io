@@ -13,7 +13,7 @@ module Jekyll
 
       Jekyll.logger.debug "  Creating release page: #{release['version']}..."
 
-      github_url = 'https://api.github.com/repos/crazy-max/neard/releases/tags/v' + release['version']
+      github_url = 'https://api.github.com/repos/neard/neard/releases/tags/v' + release['version']
       if ENV['GH_TOKEN']
         github_url = github_url + '?access_token=' + ENV['GH_TOKEN']
       end
@@ -60,13 +60,13 @@ module Jekyll
       if site.layouts.key? 'release'
         ## Download CHANGELOG.md
         changelog_md = ReleasePageUtils.get_content_from_url(site,
-          'https://raw.githubusercontent.com/crazy-max/neard/master/CHANGELOG.md',
+          'https://raw.githubusercontent.com/neard/neard/master/CHANGELOG.md',
           'changelog.md'
         )
 
         ## Download UPGRADE.md
         upgrade_md = ReleasePageUtils.get_content_from_url(site,
-          'https://raw.githubusercontent.com/crazy-max/neard/master/UPGRADE.md',
+          'https://raw.githubusercontent.com/neard/neard/master/UPGRADE.md',
           'upgrade.md'
         )
 

@@ -3,7 +3,7 @@
   "name": "phpmemadmin",
   "label": "phpMemAdmin",
   "desc": "handle the administration of Memcached over the web.",
-  "repo": "crazy-max/neard-app-phpmemadmin",
+  "repo": "neard/module-phpmemadmin",
   "filename": "neard-phpmemadmin",
   "sources": [
     "https://github.com/clickalicious/phpMemAdmin",

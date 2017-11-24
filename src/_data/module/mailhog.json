@@ -3,7 +3,7 @@
   "name": "mailhog",
   "label": "MailHog",
   "desc": "a Web and API based SMTP testing.",
-  "repo": "crazy-max/neard-bin-mailhog",
+  "repo": "neard/module-mailhog",
   "filename": "neard-mailhog",
   "sources": [
     "https://github.com/mailhog/MailHog"

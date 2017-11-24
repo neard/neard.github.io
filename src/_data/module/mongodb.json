@@ -3,7 +3,7 @@
   "name": "mongodb",
   "label": "MongoDB",
   "desc": "a free and open-source cross-platform document-oriented database program.",
-  "repo": "crazy-max/neard-bin-mongodb",
+  "repo": "neard/module-mongodb",
   "filename": "neard-mongodb",
   "sources": [
     "https://github.com/mongodb/mongo",

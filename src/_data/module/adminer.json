@@ -3,7 +3,7 @@
   "name": "adminer",
   "label": "Adminer",
   "desc": "a full-featured database management tool written in PHP.",
-  "repo": "crazy-max/neard-app-adminer",
+  "repo": "neard/module-adminer",
   "filename": "neard-adminer",
   "sources": [
     "https://www.adminer.org/",

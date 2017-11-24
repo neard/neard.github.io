@@ -3,7 +3,7 @@
   "name": "drush",
   "label": "Drush",
   "desc": "a command line shell and scripting interface for Drupal.",
-  "repo": "crazy-max/neard-tool-drush",
+  "repo": "neard/module-drush",
   "filename": "neard-drush",
   "sources": [
     "http://www.drush.org/",

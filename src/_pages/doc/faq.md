@@ -155,7 +155,7 @@ For the last case you will have to [create an issue]({{ var_repo_url }}/issues/n
 
 > The program can't start because MSVCR100.dll is missing from your computer. Try reinstalling the program to fix this problem.
 
-This error occurs because you probably have not installed the latest [Neard Prerequisites Package]({{ site.github.baseurl }}/crazy-max/neard-prerequisites/releases/latest){:target="_blank"}.
+This error occurs because you probably have not installed the latest [Neard Prerequisites Package]({{ site.github.baseurl }}/neard/prerequisites/releases/latest){:target="_blank"}.
 
 ## Apache error 41d
 
@@ -192,7 +192,7 @@ See [http.exe missing MSVCR100.dll](#httpexe-missing-msvcr100dll)
 > Neard has encountered a problem and needs to close. We are sorry for the inconvenience.
 
 This problem could appear on Windows XP.<br />
-You have to install the latests [Neard Prerequisites Package]({{ site.github.baseurl }}/crazy-max/neard-prerequisites/releases/latest){:target="_blank"}.
+You have to install the latests [Neard Prerequisites Package]({{ site.github.baseurl }}/neard/prerequisites/releases/latest){:target="_blank"}.
 
 ## FileZilla Server.exe is not a valid Win32 application
 
