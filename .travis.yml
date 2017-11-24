@@ -20,7 +20,7 @@ script: "./travis.sh"
 
 branches:
   only:
-    - master
+    - dev
 
 env:
   global:

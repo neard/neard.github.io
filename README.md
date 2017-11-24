@@ -1,7 +1,7 @@
 <p align="center"><a href="http://neard.io" target="_blank"><img width="100" src="http://neard.io/img/logo.png"></a></p>
 
 <p align="center">
-  <a href="https://travis-ci.org/neard/neard.github.io"><img src="https://img.shields.io/travis/neard/neard.github.io/master.svg?style=flat-square" alt="Build Status"></a>
+  <a href="https://travis-ci.org/neard/neard.github.io"><img src="https://img.shields.io/travis/neard/neard.github.io/dev.svg?style=flat-square" alt="Build Status"></a>
   <a href="https://www.codacy.com/app/crazy-max/neard.github.io"><img src="https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square" alt="Code Quality"></a>
   <a href="https://gemnasium.com/github.com/neard/neard.github.io"><img src="https://img.shields.io/gemnasium/neard/neard.github.io.svg?style=flat-square" alt="Gemnasium"></a>
   <a href="https://status.neard.io"><img src="https://img.shields.io/uptimerobot/ratio/m778918918-3e92c097147760ee39d02d36.svg?style=flat-square" alt="Uptime"></a>

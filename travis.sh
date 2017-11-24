@@ -12,14 +12,14 @@ set -e
 # build
 gulp --env=production build
 
-# publish to gh-pages branch
+# publish to master branch
 cd ./web
 git init
 git config --global user.email "builds@travis-ci.com"
 git config --global user.name "Travis CI"
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" dev:master > /dev/null 2>&1
 rm -rf .git
 cd ../
 
