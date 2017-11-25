@@ -19,7 +19,7 @@ git config --global user.email "builds@travis-ci.com"
 git config --global user.name "Travis CI"
 git add .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" dev:master
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master
 rm -rf .git
 cd ../
 
