@@ -19,7 +19,7 @@ compress_html:
 # Github
 github:
   baseurl: https://github.com
-  user: crazy-max
+  user: neard
   repo: neard
 
 # Paths
