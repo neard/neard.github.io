@@ -16,7 +16,4 @@ Any funds donated will be used to help further development on this project! 💝
   <a class="donate" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id={{ site.paypal-button-id }}">
     <img src="{{ site.baseurl }}/img/paypal.png" />
   </a>
-  <a class="donate" target="_blank" href="https://flattr.com/submit/auto?user_id={{ site.flattr-username }}&url={{ var_seo_url }}">
-    <img src="{{ site.baseurl }}/img/flattr.png" />
-  </a>
 </p>
