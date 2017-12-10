@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New phpMyAdmin release available
+title: phpMyAdmin 4p5 available
 tags: [module, phpmyadmin]
 ---
 {% include vars.html %}

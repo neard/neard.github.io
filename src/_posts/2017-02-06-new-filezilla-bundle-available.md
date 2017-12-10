@@ -1,9 +1,0 @@
----
-layout: post
-title: New Filezilla release available
-tags: [module, filezilla]
----
-{% include vars.html %}
-
-This release resolves the missing Logs and config template for filezilla-0.9.59 release ([Issue #217]({{ var_repo_url }}/issues/217)).<br />
-You can find links to download these releases on the [Filezilla page](/modules/filezilla).
