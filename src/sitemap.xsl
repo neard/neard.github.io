@@ -25,7 +25,7 @@
         <h1>XML Sitemap Generator</h1>
         <div id="intro">
           This is a XML Sitemap which is supposed to be processed by search engines like <a href="http://www.google.com">Google</a>, <a href="http://www.bing.com">Bing</a>, <a href="http://www.yahoo.com">Yahoo</a>, <a href="http://www.ask.com">ASK</a> and <a href="http://www.moreover.com">Moreover</a>.
-          It was generated using the <a href="http://apps.crazyws.fr/xmlsitemap/" title="XML Sitemap Generator">XML Sitemap Generator</a> by <a href="http://www.crazyws.fr/">Cr@zy</a>.
+          It was generated using the <a href="http://apps.crazyws.fr/xmlsitemap/" title="XML Sitemap Generator">XML Sitemap Generator</a> by <a href="http://www.crazyws.fr/">CrazyMax</a>.
           You can find more information about XML sitemaps on <a href="http://sitemaps.org">sitemaps.org</a> and Google's <a href="http://code.google.com/sm_thirdparty.html">list of sitemap programs</a>.
           This XSLT template is released under GPL.
         </div>
@@ -66,7 +66,7 @@
           </table>
         </div>
         <div id="footer">
-          Generated with <a href="http://apps.crazyws.fr/xmlsitemap/" title="XML Sitemap Generator">XML Sitemap Generator</a> by <a href="http://www.crazyws.fr/">Cr@zy</a>.
+          Generated with <a href="http://apps.crazyws.fr/xmlsitemap/" title="XML Sitemap Generator">XML Sitemap Generator</a> by <a href="http://www.crazyws.fr/">CrazyMax</a>.
         </div>
       </body>
     </html>
