@@ -27,9 +27,69 @@
     },
     "1.4.2": {
       "date": "2017/05/17"
+    },
+    "1.5.6": {
+      "date": "2017/12/18"
+    },
+    "1.6.0-RC": {
+      "date": "2017/12/19"
     }
   },
   "releases": [
+    {
+      "name": "r6",
+      "date": "2017/12/27",
+      "versions": [
+        {
+          "name": "1.0-dev-edf14da",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.0.0",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.1.0",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.1.2",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.2.1",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.4.2",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.5.6",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        },
+        {
+          "name": "1.6.0-RC",
+          "type": "standard",
+          "compat": ">= 1.0.15",
+          "ext": "7z"
+        }
+      ]
+    },
     {
       "name": "r5",
       "date": "2017/06/03",
