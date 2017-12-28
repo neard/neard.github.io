@@ -2,7 +2,7 @@
   "type": "bins",
   "name": "postgresql",
   "label": "PostgreSQL",
-  "desc": "an object-relational database management system (ORDBMS) with an emphasis on extensibility and standards-compliance.",
+  "desc": "an object-relational database management system (ORDBMS).",
   "repo": "neard/module-postgresql",
   "filename": "neard-postgresql",
   "sources": [

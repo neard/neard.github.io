@@ -1,0 +1,31 @@
+{
+  "type": "tools",
+  "name": "ngrok",
+  "label": "ngrok",
+  "desc": "secure tunnels to localhost.",
+  "repo": "neard/module-ngrok",
+  "filename": "neard-ngrok",
+  "sources": [
+    "https://ngrok.com",
+    "https://github.com/inconshreveable/ngrok"
+  ],
+  "versions": {
+    "2.2.8": {
+      "date": "2017/07/15"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2017/12/27",
+      "versions": [
+        {
+          "name": "2.2.8",
+          "type": "default",
+          "compat": ">= 1.4",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}
