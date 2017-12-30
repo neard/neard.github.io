@@ -224,7 +224,7 @@
         },
         {
           "name": "8.9.3",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
@@ -284,7 +284,7 @@
       "versions": [
         {
           "name": "6.11.2",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },
