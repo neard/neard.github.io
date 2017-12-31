@@ -10,8 +10,7 @@ sidebar: doc
 
 ## Where is the source code of neard.exe ?
 
-`neard.exe` is based on [Aestan Tray Menu 1.6.2](http://obroekma.home.xs4all.nl/aetraymenu/){:target="_blank"}.<br />
-You can download the source code here : [aetraymenu_src.zip](http://obroekma.home.xs4all.nl/aetraymenu/aetraymenu_src.zip){:target="_blank"}<br />
+`neard.exe` is based on [Aestan Tray Menu 1.6.2](https://github.com/crazy-max/aetraymenu){:target="_blank"}.<br />
 Neard uses the exe and the ini file to generate the tray menu.
 
 ## How to upgrade from a previous release ?
