@@ -24,12 +24,12 @@
 |                  | PHP 5.2.x                   | PHP 5.3.x                   | PHP 5.4.x                   | PHP 5.5.x                   | PHP 5.6.x                   | PHP 7.0.x                   | PHP 7.1.x                   | PHP 7.2.x                   |
 | ---------------- |:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
 | **php_apc**      | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
-| **php_imagick**  | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
-| **php_memcache** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **php_imagick**  | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
+| **php_memcache** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **php_mongo**    | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
-| **php_mongodb**  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **php_mongodb**  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **php_ssh2**     | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
-| **php_vld**      | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **php_vld**      | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 
 ## PEAR
 
@@ -69,12 +69,13 @@ More infos : [https://docs.mongodb.com/ecosystem/drivers/php](https://docs.mongo
 | **PHP 5.6.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.0.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.1.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
-| **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
+| **PHP 7.2.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 
 ## ImageMagick and Imagick extension
 
-|                      | Compiled with ImageMagick  | Using ImageMagick library  |
-| -------------------- |:--------------------------:|:--------------------------:|
-| **Imagick 3.3.0**    | 6.8.9-1 Q16 x86 2014-05-08 | 6.8.9-1 Q16 x86 2014-05-08 |
-| **Imagick 3.4.3RC1** | 6.8.9-1 Q16 x86 2014-05-08 | 6.8.9-1 Q16 x86 2014-05-08 |
-| **Imagick 3.4.3**    | 6.9.3-7 Q16 x86 2016-03-27 | 6.9.3-7 Q16 x86 2016-03-27 |
+| Imagick version     | ImageMagick library         |
+| ------------------- |:---------------------------:|
+| **3.3.0**           | 6.8.9-1 Q16 x86 2014-05-08  |
+| **3.4.3RC1**        | 6.8.9-1 Q16 x86 2014-05-08  |
+| **3.4.3**           | 6.9.3-7 Q16 x86 2016-03-27  |
+| **3.4.3** (PHP 7.2) | 7.0.7-11 Q16 x86 2017-11-23 |
