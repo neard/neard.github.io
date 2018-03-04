@@ -11,7 +11,7 @@ sidebar: doc
 * `%s` character is a mixed arg.
 * `@nl@` character is a carriage return.
 * If the value starts with a `#` character, it's a new string to translate.
-* The language's file have to be encoding in **UTF-8 (without BOM)**.
+* The language's file has to be encoding in **UTF-8 (without BOM)**.
 * Create a pull request or attach the file to [a new issue]({{ var_repo_url }}/issues/new).
 * Of course your name will be mentionned for your contribution.
 
