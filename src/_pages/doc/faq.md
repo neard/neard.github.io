@@ -255,11 +255,11 @@ Open a CMD prompt (as Admin) and type `iisreset /stop`
 
 ![](/img/faq/iis-stop.png)
 
-Or you can change the port number of IIS by following the [official Microsoft documentation](http://support.microsoft.com/kb/149605){:target="_blank"}.
+Or you can change the port number of IIS by following the [official Microsoft documentation](https://support.microsoft.com/kb/149605){:target="_blank"}.
 
 ## PATH env. var is not resolved by Apache service
 
-Services loaded with [NSSM](http://nssm.cc/){:target="_blank"} have the PATH environment variable rewritten.<br />
+Services loaded with [NSSM](https://nssm.cc/){:target="_blank"} have the PATH environment variable rewritten.<br />
 Impacted services are : **Apache**, **MailHog** and **Memcached**.
 
 For each of these services the item **Update env. PATH** is available in the Neard's tray menu to add new paths to the PATH environment variable (one by line).
@@ -304,7 +304,7 @@ Since the Windows 10 Creators Update Apache, MailHog and Memcached cannot start 
 
 ![](/img/faq/service-cannot-start-status-7.jpg)
 
-This bug comes from services started with the [Non-Sucking Service Manager](http://nssm.cc) which try to create a console window. The workaround is to configure the service not to open a console window.<br />
+This bug comes from services started with the [Non-Sucking Service Manager](https://nssm.cc) which try to create a console window. The workaround is to configure the service not to open a console window.<br />
 You can download the hotfix for Neard 1.0.22 here :
 
 * [neard-1.0.22-hotfix1.7z]({{ var_repo_url }}/releases/download/v1.0.22-hotfix1/neard-1.0.22-hotfix1.7z)

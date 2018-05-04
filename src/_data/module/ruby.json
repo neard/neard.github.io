@@ -6,7 +6,7 @@
   "repo": "neard/module-ruby",
   "filename": "neard-ruby",
   "sources": [
-    "http://rubyinstaller.org/",
+    "https://rubyinstaller.org/",
     "https://github.com/oneclick/rubyinstaller"
   ],
   "versions": {

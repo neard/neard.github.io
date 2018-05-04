@@ -1,7 +1,7 @@
 # General
 source: src
 destination: web
-url: "http://neard.io"
+url: "https://neard.io"
 baseurl: ""
 title: "Neard"
 description: "Portable WAMP software stack"

@@ -7,7 +7,7 @@
   "filename": "neard-composer",
   "sources": [
     "https://getcomposer.org",
-    "http://github.com/composer/composer"
+    "https://github.com/composer/composer"
   ],
   "versions": {
     "1.0-dev-edf14da": {

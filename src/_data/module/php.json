@@ -6,7 +6,7 @@
   "repo": "neard/module-php",
   "filename": "neard-php",
   "sources": [
-    "http://windows.php.net/"
+    "https://windows.php.net/"
   ],
   "versions": {
     "5.2.17": {

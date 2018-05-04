@@ -11,7 +11,7 @@ sidebar: doc
 
 The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.<br />
 You need at least the JDK 1.7.0_25 (7u25).<br />
-You can download the Java SE Development Kit on the [Oracle website](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html){:target="_blank"}.<br />
+You can download the Java SE Development Kit on the [Oracle website](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html){:target="_blank"}.<br />
 Add the path to `java.exe` (eg. `C:\Program Files\Java\jdk1.7.0\bin`) to your environment variable PATH.<br />
 To check if you have Java in your path, open a command prompt and type `java -version` :
 
@@ -23,9 +23,9 @@ Java HotSpot(TM) Client VM (build 24.79-b02, mixed mode, sharing)
 
 ## Apache Ant
 
-[Apache Ant](http://ant.apache.org/){:target="_blank"} is a Java library and command-line tool that help building software.<br />
+[Apache Ant](https://ant.apache.org/){:target="_blank"} is a Java library and command-line tool that help building software.<br />
 You need at least Apache Ant 1.8.0.<br />
-You can download the binary zip archive of Apache Ant on the [Apache website](http://ant.apache.org/bindownload.cgi){:target="_blank"}.<br />
+You can download the binary zip archive of Apache Ant on the [Apache website](https://ant.apache.org/bindownload.cgi){:target="_blank"}.<br />
 Extract the archive on your computer (eg. `C:\apache-ant`) and add the path to `ant.bat` (eg. `C:\apache-ant\bin`) to your environment variable PATH.<br />
 To check if you have Apache Ant in your path, open a command prompt and type `ant -version` :
 

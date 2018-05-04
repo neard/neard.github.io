@@ -6,8 +6,8 @@
   "repo": "neard/module-apache",
   "filename": "neard-apache",
   "sources": [
-    "http://httpd.apache.org/",
-    "http://www.apachehaus.com/"
+    "https://httpd.apache.org/",
+    "https://www.apachehaus.com/"
   ],
   "versions": {
     "2.2.22": {

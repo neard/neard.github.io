@@ -7,7 +7,7 @@
   "filename": "neard-svn",
   "sources": [
     "https://subversion.apache.org/",
-    "http://www.collab.net/downloads/subversion"
+    "https://www.collab.net/downloads/subversion"
   ],
   "versions": {
     "1.6.23": {

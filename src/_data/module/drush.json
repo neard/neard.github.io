@@ -6,7 +6,7 @@
   "repo": "neard/module-drush",
   "filename": "neard-drush",
   "sources": [
-    "http://www.drush.org/",
+    "https://www.drush.org/",
     "https://github.com/drush-ops/drush/",
     "https://packagist.org/packages/drush/drush",
     "http://gnuwin32.sourceforge.net/"

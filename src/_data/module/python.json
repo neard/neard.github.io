@@ -7,7 +7,7 @@
   "filename": "neard-python",
   "sources": [
     "https://winpython.github.io/",
-    "http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4"
+    "https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyqt4"
   ],
   "versions": {
     "2.7.12.3": {

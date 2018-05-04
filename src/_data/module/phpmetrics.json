@@ -6,7 +6,7 @@
   "repo": "neard/module-phpmetrics",
   "filename": "neard-phpmetrics",
   "sources": [
-    "http://www.phpmetrics.org/",
+    "https://www.phpmetrics.org/",
     "https://github.com/phpmetrics/PhpMetrics",
     "https://github.com/phpmetrics/SymfonyExtension",
     "https://github.com/phpmetrics/ComposerExtension"

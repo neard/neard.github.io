@@ -6,7 +6,7 @@
   "repo": "neard/module-websvn",
   "filename": "neard-websvn",
   "sources": [
-    "http://www.websvn.info/"
+    "https://websvnphp.github.io"
   ],
   "versions": {
     "2.3.3": {

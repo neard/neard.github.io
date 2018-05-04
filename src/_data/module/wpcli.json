@@ -6,7 +6,7 @@
   "repo": "neard/module-wpcli",
   "filename": "neard-wpcli",
   "sources": [
-    "http://wp-cli.org/"
+    "https://wp-cli.org/"
   ],
   "versions": {
     "0.12.1": {

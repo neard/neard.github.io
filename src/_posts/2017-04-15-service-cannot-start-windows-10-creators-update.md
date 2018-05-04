@@ -9,7 +9,7 @@ Since the Windows 10 Creators Update Apache, MailHog and Memcached cannot start 
 
 ![](/img/faq/service-cannot-start-status-7.jpg)
 
-This bug comes from services started with the [Non-Sucking Service Manager](http://nssm.cc) which try to create a console window. The workaround is to configure the service not to open a console window.
+This bug comes from services started with the [Non-Sucking Service Manager](https://nssm.cc) which try to create a console window. The workaround is to configure the service not to open a console window.
 
 Another bug has been fixed involving a blank page for phpMemAdmin, phpMyAdmin and Adminer if MariaDB or MySQL or PostgreSQL are disabled ([Issue #243]({{ var_repo_url }}/issues/243)).
 
