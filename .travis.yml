@@ -1,17 +1,18 @@
+sudo: false
 language: node_js
 
 node_js:
-  - '6'
+  - "8"
 
 before_install:
   - rvm install 2.4.1
   - rvm use 2.4.1 --fuzzy
   - export GEMDIR=$(rvm gemdir)
+  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.6.0
+  - export PATH=$HOME/.yarn/bin:$PATH
 
 before_script:
-  - npm install -g bower
-  - npm install -g gulp
-  - bower install
+  - yarn install
   - gem install bundler
   - bundle install
   - chmod +x ./travis.sh
@@ -26,12 +27,10 @@ env:
   global:
     - secure: JxS7Lpja5WtmvWCK3BAtSOchWnyrHWsECqIr7N2MiO+njQLaOYDkKF9nkCaF5lwJLGf5Fk84Kh/mx6sDcB9Vw0EyzT0yjLPExhF4k20ZI5SxJmt882FGw5NPwr8deWJM7KqntsyTK8MVcJNao5qycvyXeD80xD4/qhDOJ82YK8iBo/YR7CcUR7vxHFh0tjGj7YFRMwlZQkpxirUVdksFyUH9vsCEepWwIkbD/5ovICgGMtiEY3/yMcjzDaBwDT+CyupTacC1QhgsIGbxmfhqeAfYZCxqUNql6sNpQYuCfVtSJCXIMYom8zkAECD2GVX0JFLZVQYK235t5VREqAM/jhqqZT4WLKGj7hH3qOVnT7k+FublfyW+IhgxLQh72u7W7ZLQkgthIMADkjOZoVIHgfh7sp5J8Kh3Slb8LQKbrOBzVy/TSLj2H4U6588mC5Ddid76ro4M74vfprsRgJe8JwrIq7+szgklgiX3jcYmrOA8zhjtlxSpykLLYGxhM78Rj0QNnOszBSmuzay+bmev15yP9eUBPspaUbCKUacEaN/DMnVdxZPTKlqPmukVpXEEms4sqWMnTkHRottNM4GWCz1wCo+E8uroE+O1rge582TjkJHvmiGMcOsHMCgBcTJHCxC0ce4cUuKZi4FIX8nCQHml3yCCynZcUIQNPagKjmY=
     - JEKYLL_ENV=production
-    - JEKYLL_LOG_LEVEL=debug
+    - JEKYLL_LOG_LEVEL=info
     - GH_REF=github.com/neard/neard.github.io.git
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 notifications:
   webhooks:
     secure: QjLOJOPsNZxoVcSI+fn6tWXp7TDb+t2Eykm55TI85ctb0JA8yepQDLfPT0HfnYt/Hnd8bME3No9JPE8H1kDlR+XaaG1fFWIBnQdDWySJKDIndOGb8gKLDUbvFPO/YRoLIsTrItEh//EJgSApkwqVlZbJIJ+if1lPzIsIy9/dG+3gaTc99VR7O0RZuwkkC0t+xgbMjrFpTSmgbMPAOB4jwFqrNKUQBc5Kxjd/wIqM1ZsWtQ4lFHUKQJBgTsnH5o2JMkpkwUJ+XHrWnmknJTD4mVwl1es2axUicumhERiyGN1WrDwY2kVs9UI0AqLHYNeBP3aNXV2lwngkmt59MIFpnqT6ELlOb34WKDCaNTXMzHBphtzevzXshGOUPB6be0S4ai2xukAq1rOzDhUSNzhrupxjjb8FhxHz0TtoKjcAO1ZlT+92dIgcEPx3qf3Y9e46lUKEokidmZOhwHnT0D0uF7LJ+c2z9oopG7DyzBNIVDTyitQmdlvfCUc+RJRfnDQ/8v5qoI8TzkJ6VXwpyWWdZJRJIknkWwf2BKxkGP1pCCSsfSiSKAvsRa1GPq6ztfnfC4jcrfurnSFrLmeGc4+kvDXuYiC4NZ6LoezDsjUKnR3gf1s0IvZNurcb6PA0yPIoAnOWzUYR8ObOcU1gs51zvXsDqxZC3D+O4lChHWsOy8U=
-
-sudo: false

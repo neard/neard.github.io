@@ -1,10 +1,4 @@
-# Eclipse
-/.settings
-/.buildpath
-/.project
-/.jsdtscope
-
-# WebStorm
+# Jetbrains
 /.idea
 /*.iml
 
@@ -17,11 +11,10 @@
 /web
 
 # Node
+/bower_components
 /node_modules
 /npm-debug.log*
-
-# Bower
-/bower_components
+/yarn-error.log
 
 # Custom
 /.dev

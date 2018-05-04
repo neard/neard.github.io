@@ -15,6 +15,12 @@ var gulp = require("gulp"),
 
 var bust = new Bust();
 var assetsVendorToInject = [];
+var files = mainBowerFiles({
+  paths: {
+    bowerDirectory: 'node_modules',
+    bowerJson: 'package.json'
+  }
+});
 
 function string_src(filename, string) {
   var src = require("stream").Readable({ objectMode: true });
@@ -35,7 +41,6 @@ gulp.task("assets-vendor-build", [
   "assets-vendor-clean",
   "assets-vendor-styles",
   "assets-vendor-scripts",
-  "assets-vendor-gfonts",
   "assets-vendor-fonts",
   "assets-vendor-img",
   "assets-vendor-inject"
@@ -56,16 +61,16 @@ gulp.task("assets-vendor-clean", function(done) {
 });
 
 gulp.task("assets-vendor-scripts", function() {
-  assetsVendorToInject = merge(assetsVendorToInject, gulp.src(mainBowerFiles(), { base: config.paths.bower })
+  assetsVendorToInject = merge(assetsVendorToInject, gulp.src(files, { base: config.paths.npm })
     .pipe(filter(["**/*.js", "**/*.map", "!**/*.css.map"]))
-    .pipe(order(["**/jquery.js", "**/bootstrap.js", "**/*justifiedGallery.js", "**/lightgallery.js", "**/*.js"]))
+    .pipe(order(["**/webfontloader.js", "**/jquery.js", "**/bootstrap.js", "**/*justifiedGallery.js", "**/lightgallery.js", "**/*.js"]))
     .pipe(gutil.env.env === "production" ? uglify() : gutil.noop())
     .pipe(gutil.env.env === "production" ? bust.resources() : gutil.noop())
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets)));
 });
 
 gulp.task("assets-vendor-styles", function() {
-  assetsVendorToInject = merge(assetsVendorToInject, gulp.src(mainBowerFiles(), { base: config.paths.bower })
+  assetsVendorToInject = merge(assetsVendorToInject, gulp.src(files, { base: config.paths.npm })
     .pipe(filter(["**/*.css", "**/*.css.map"]))
     .pipe(order(["**/github-markdown.css", "**/bootstrap.css", "**/justifiedGallery.css", "**/lightgallery.css", "**/*.css"]))
     .pipe(gutil.env.env === "production" ? cleanCSS() : gutil.noop())
@@ -73,23 +78,14 @@ gulp.task("assets-vendor-styles", function() {
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets)));
 });
 
-gulp.task("assets-vendor-gfonts", function() {
-  assetsVendorToInject = merge(assetsVendorToInject, gulp.src(mainBowerFiles(), { base: config.paths.bower })
-    .pipe(filter(["**/index"]))
-    .pipe(gutil.env.env === "production" ? cleanCSS() : gutil.noop())
-    .pipe(rename({ suffix: ".css" }))
-    .pipe(gutil.env.env === "production" ? bust.resources() : gutil.noop())
-    .pipe(gulp.dest(config.destination + "/" + config.paths.assets)));
-});
-
 gulp.task("assets-vendor-fonts", function() {
-  return gulp.src(mainBowerFiles(), { base: config.paths.bower })
+  return gulp.src(files, { base: config.paths.npm })
     .pipe(filter(["**/*.eot", "**/*.woff", "**/*.svg", "**/*.ttf", "**/*.woff2"]))
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets));
 });
 
 gulp.task("assets-vendor-img", function() {
-  return gulp.src(mainBowerFiles(), { base: config.paths.bower })
+  return gulp.src(files, { base: config.paths.npm })
     .pipe(filter(["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif"]))
     .pipe(gulp.dest(config.destination + "/" + config.paths.assets));
 });

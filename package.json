@@ -1,12 +1,9 @@
 {
   "name": "neard.github.io",
-  "version": "1.0.0",
+  "version": "1.2",
   "description": "Neard's website",
   "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/neard/neard.github.io.git"
-  },
+  "repository": "git://github.com/neard/neard.github.io.git",
   "author": "CrazyMax",
   "license": "MIT",
   "private": true,
@@ -19,7 +16,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bower": "^1.8.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-social": "^5.1.1",
+    "clean-blog": "git://github.com/BlackrockDigital/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e",
+    "elegant-icons": "*",
+    "font-awesome": "^4.7.0",
+    "github-markdown-css": "^2.8.0",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.2.1",
+    "jquery-match-height": "^0.7.2",
+    "justifiedGallery": "^3.6.3",
+    "lightgallery.js": "git://github.com/sachinchoolur/lightgallery.js.git#^1.0.1",
+    "normalize.css": "^7.0.0",
+    "respond.js": "^1.4.2",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
@@ -41,7 +54,45 @@
     "require-dir": "^0.3.2",
     "run-sequence": "^2.1.0"
   },
-  "devDependencies": {
-    "browser-sync": "^2.18.13"
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js",
+        "dist/fonts/*.*"
+      ]
+    },
+    "clean-blog": {
+      "main": [
+        "css/clean-blog.css",
+        "js/clean-blog.js"
+      ]
+    },
+    "elegant-icons": {
+      "main": [
+        "style.css",
+        "fonts/*.*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/*.*"
+      ]
+    },
+    "lightgallery.js": {
+      "main": [
+        "demo/js/lightgallery.js",
+        "demo/js/lg-hash.js",
+        "demo/js/lg-share.js",
+        "demo/js/lg-zoom.js",
+        "dist/css/lightgallery.css",
+        "dist/fonts/*.*",
+        "dist/img/*.*"
+      ]
+    }
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
   }
 }

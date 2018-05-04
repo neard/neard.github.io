@@ -14,16 +14,14 @@
 To work on the website of the [Neard](https://github.com/neard/neard) project, you'll need the following things installed on your machine :
 
 1. [Ruby](https://www.ruby-lang.org/en/documentation/installation/) - choose an available tool to install Ruby on your system (or use Neard).
-2. [Bundler](https://bundler.io/) - `$ gem install bundler`
-3. [Jekyll](https://jekyllrb.com/) - `$ gem install jekyll`
-4. [Node.js](https://nodejs.org) - use the installer (or use Neard).
-5. [gulp.js](https://github.com/gulpjs/gulp) - `$ npm install -g gulp`
-6. [Bower](https://github.com/bower/bower) - `$ npm install -g bower`
+2. [Bundler](https://bundler.io) - `$ gem install bundler`
+3. [Jekyll](https://jekyllrb.com) - `$ gem install jekyll`
+4. [Yarn](https://yarnpkg.com) - use the installer (or use Neard).
 
 ## Installation
 
 1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `bundle install`, `npm install` and `bower install`.
+2. Inside the directory, run `bundle install` and `yarn install`.
 
 ## Usage
 
