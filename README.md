@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://travis-ci.org/neard/neard.github.io"><img src="https://img.shields.io/travis/neard/neard.github.io/dev.svg?style=flat-square" alt="Build Status"></a>
   <a href="https://www.codacy.com/app/crazy-max/neard.github.io"><img src="https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square" alt="Code Quality"></a>
-  <a href="https://gemnasium.com/github.com/neard/neard.github.io"><img src="https://img.shields.io/gemnasium/neard/neard.github.io.svg?style=flat-square" alt="Gemnasium"></a>
+  <a href="https://libraries.io/github/neard/neard.github.io"><img src="https://img.shields.io/librariesio/github/neard/neard.github.io.svg?style=flat-square" alt="Libraries.io"></a>
   <a href="https://status.neard.io"><img src="https://img.shields.io/uptimerobot/ratio/m778918918-3e92c097147760ee39d02d36.svg?style=flat-square" alt="Uptime"></a>
   <a href="https://beerpay.io/neard/neard"><img src="https://img.shields.io/beerpay/neard/neard.svg?style=flat-square" alt="Beerpay"></a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6EALX9NDSRBAJ"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
