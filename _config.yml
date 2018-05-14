@@ -70,11 +70,11 @@ navbar:
 author:
   name: CrazyMax
   email:
-  facebook: crazyymaxx
+  facebook:
   github: crazy-max
   twitter: crazyws
   reddit:
-  google-plus: 106054122073793220041
+  google-plus: u/0/+CrazyMaxx
   linkedin:
   xing:
   stackoverflow:
@@ -88,7 +88,7 @@ author:
 footer:
   links-active:
     rss: true
-    facebook: true
+    facebook: false
     email: false
     twitter: true
     google-plus: true
