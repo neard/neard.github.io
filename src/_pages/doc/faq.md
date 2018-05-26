@@ -360,3 +360,23 @@ certutil.exe -addstore -user root "C:\neard\ssl\localhost.crt"
 ```
 
 Then restart Chrome.
+
+## VMWare service uses port 80 and 443
+
+According to [VMWare Knowledge base article](https://kb.vmware.com/s/article/2005585), connection to VMware Workstation Server (the shared virtual machines) is administered by the VMware Host Agent service. The service uses TCP ports 80 and 443. This service is also used by other VMware products, including VMware Server and vSphere, and provides additional capabilities.
+
+This will block the execution of the Apache service on Neard.
+
+You can change the VMware Workstation Server ports when you install Workstation and after Workstation is installed.<br />
+To connect from a second instance of Workstation to Workstation Server:
+
+* Go to **File > Connect to Server**.
+* Enter the host name or IP address of the host machine running Workstation Server.
+* When prompted, login with the username and password of a local administrator on the remote host.
+
+> Note: If the VMware Workstation Server service running on the remote server is not using the default port, you must specify the port number. For example, remotehost:444.
+
+With the Shared VMs Workstation preferences, you can also disable the server. To access the Shared VMs Workstation preferences:
+
+* Go to **Edit > Preferences**.
+* Click the Shared VMs tab.
