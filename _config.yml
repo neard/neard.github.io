@@ -64,6 +64,7 @@ navbar:
     Documentation: "doc"
     Donate: "donate"
     Sponsors: "sponsors"
+    Privacy: "privacy"
     Github: "https://github.com/neard"
 
 # Author
@@ -109,9 +110,6 @@ bing_site_verification: "D188E0BEC1AB6E7C1E0194BFC35D0033"
 alexa_site_verification:
 yandex_site_verification:
 
-# Ads
-ads-enabled: true
-
 # Posts
 share-links-active:
   twitter: true
@@ -138,6 +136,9 @@ comments:
     appid:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
+
+# Ads
+ads-enabled: true
 
 # Analytics
 analytics:
