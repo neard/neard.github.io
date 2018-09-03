@@ -20,12 +20,12 @@ markdown_body: ""
 {% endmarkdown %}<span></span></div>
 
 <p>
-  <a href="{{ site.baseurl }}/release/latest" class="btn btn-success btn-lg">
+  <a href="{{ site.baseurl }}/release/latest/" class="btn btn-success btn-lg">
     <span class="fa fa-download"></span>&nbsp;&nbsp;Download the latest release
   </a>
 </p>
 <p>
-  <a href="{{ site.baseurl }}/releases" class="btn btn-default">
+  <a href="{{ site.baseurl }}/releases/" class="btn btn-default">
     View all Neard releases
   </a>
 </p>
@@ -35,7 +35,7 @@ markdown_body: ""
   <span></span>
 </div>
 <p>
-  <a href="{{ site.baseurl }}/modules" class="btn btn-primary" style="text-align: left">
+  <a href="{{ site.baseurl }}/modules/" class="btn btn-primary" style="text-align: left">
     <span class="fa fa-download"></span>&nbsp;&nbsp;Download modules<br /><small>Apache, PHP, MySQL, Node.js, Git, Adminer, Perl, Python, etc.</small>
   </a>
 </p>
