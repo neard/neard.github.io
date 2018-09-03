@@ -63,5 +63,5 @@ Launch `neard.exe`.
 
 # Upgrade
 
-All instructions to upgrade from a previous release are added in the [Upgrade notes](/doc/upgrade-notes) page.
+All instructions to upgrade from a previous release are added in the [Upgrade notes](/doc/upgrade-notes/) page.
 {% endmarkdown %}</div>

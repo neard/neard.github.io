@@ -15,12 +15,12 @@
 {% endstrip %}
 <div class="sidebar-nav">
   <div class="sticky-nav">
-    <p><a class="nav-link" href="{{ site.baseurl }}/modules">Modules</a></p>
+    <p><a class="nav-link" href="{{ site.baseurl }}/modules/">Modules</a></p>
     <ul class="sticky-nav__items" id="sticky-nav">
       {% for module in site.data.module %}
       <li class="sticky-nav__item">&nbsp;
         {% if module[1].name == current_module %}{% include fontawesome.html icon="caret-right" %}{% else %}{% include fontawesome.html icon="angle-right" %}{% endif %}
-        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/modules/{{ module[1].name }}">{{ module[1].label }}</a> <sup>{% if module[1].type == 'bins' %}{% include label.html text="bin" type="primary" %}{% elsif module[1].type == 'apps' %}{% include label.html text="app" type="warning" %}{% elsif module[1].type == 'tools' %}{% include label.html text="tool" type="danger" %}{% endif %}</sup>
+        &nbsp;<a class="nav-link" href="{{ site.baseurl }}/modules/{{ module[1].name }}/">{{ module[1].label }}</a> <sup>{% if module[1].type == 'bins' %}{% include label.html text="bin" type="primary" %}{% elsif module[1].type == 'apps' %}{% include label.html text="app" type="warning" %}{% elsif module[1].type == 'tools' %}{% include label.html text="tool" type="danger" %}{% endif %}</sup>
       </li>
       {% endfor %}
     </ul>

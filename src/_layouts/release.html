@@ -21,9 +21,9 @@ markdown_body: ""
     {% for asset in page.github_api.assets %}{% unless asset.name contains '.md5' or asset.name contains '.sha1' or asset.name contains '.sha256' or asset.name contains '.sha512' %}
     <tr>
       <td>{{ page.release.date }}</td>
-      <td><span class="release-download"><a class="btn btn-success btn-sm" href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}"><i class="fa fa-download"></i>&nbsp;&nbsp;{{ asset.name }}</a></span></td>
+      <td><span class="release-download"><a class="btn btn-success btn-sm" href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}/"><i class="fa fa-download"></i>&nbsp;&nbsp;{{ asset.name }}</a></span></td>
       <td>{{ asset.size | filesize }}</td>
-      <td>[<a href="{{ site.baseurl }}/download/{{ asset.name }}.md5">MD5</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha1">SHA1</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha256">SHA256</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha512">SHA512</a>]</td>
+      <td>[<a href="{{ site.baseurl }}/download/{{ asset.name }}.md5/">MD5</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha1/">SHA1</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha256/">SHA256</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha512/">SHA512</a>]</td>
     </tr>
     {% endunless %}{% endfor %}
     </tbody>

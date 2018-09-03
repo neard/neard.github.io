@@ -19,7 +19,7 @@ markdown_body: ""
     {% capture changelog_contains %}## {{ release.version }}{% endcapture %}
     {% capture changelog %}{% include parse-changelog.html data=page.changelog contains=changelog_contains %}{% endcapture %}
     <tr>
-      <td><a href="{{ site.baseurl }}/release/{{ release.version }}">{{ release.version }}</a></td>
+      <td><a href="{{ site.baseurl }}/release/{{ release.version }}/">{{ release.version }}</a></td>
       <td>{{ release.date }}</td>
       <td>
         {{ changelog | strip | markdownify | newline_to_br | strip_html | strip_newlines | escape_once | truncatewords: 20 }}

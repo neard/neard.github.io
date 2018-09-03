@@ -20,7 +20,7 @@
 
 ## Installation
 
-* Download and install [Neard](/doc/get-started).
+* Download and install [Neard](/doc/get-started/).
 * If you already have installed Neard, stop it.
 * Download a [{{ include.module.label }} version](#releases) of your choice.
 * Extract archive in `neard\{{ include.module.type }}\{{ include.module.name }}\`. Directory structure example :

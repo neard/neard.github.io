@@ -16,7 +16,7 @@ Neard uses the exe and the ini file to generate the tray menu.
 ## How to upgrade from a previous release ?
 
 Neard is a portable application and does not provide a setup at this time.<br />
-To upgrade from a previous release, you have to follow the instructions in the [Upgrade notes](/doc/upgrade-notes) page.
+To upgrade from a previous release, you have to follow the instructions in the [Upgrade notes](/doc/upgrade-notes/) page.
 
 ## Why Neard icon in the system tray is yellow or red ?
 
@@ -201,7 +201,7 @@ You have to install the latests [Neard Prerequisites Package]({{ site.github.bas
 
 This problem could appear on Windows XP.<br />
 Filezilla drops Windows XP support since 0.9.43 version.<br />
-You have to download the 0.9.42 version. See [Filezilla page](/modules/filezilla).
+You have to download the 0.9.42 version. See [Filezilla page](/modules/filezilla/).
 
 ## php.exe - Entry point not found
 
