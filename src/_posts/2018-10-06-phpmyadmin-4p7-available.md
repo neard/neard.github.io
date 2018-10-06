@@ -1,7 +1,7 @@
 ---
 layout: post
 title: phpMyAdmin 4p7 available
-date: 2018-10-06 15:54:00 +0200
+date: 2018-10-06 15:34:00 +0200
 tags: [module, phpmyadmin]
 ---
 {% include vars.html %}
