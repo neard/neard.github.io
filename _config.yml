@@ -74,8 +74,8 @@ author:
   facebook:
   github: crazy-max
   twitter: crazyws
-  reddit:
-  google-plus: u/0/+CrazyMaxx
+  reddit: Neard
+  google-plus:
   linkedin:
   xing:
   stackoverflow:
@@ -94,7 +94,7 @@ footer:
     twitter: true
     google-plus: true
     github: true
-    reddit: false
+    reddit: true
     linkedin: false
     xing: false
     stackoverflow: false
