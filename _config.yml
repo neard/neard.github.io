@@ -9,6 +9,23 @@ logo: /img/logo.png
 version: 1.2
 paypal-button-id: "6EALX9NDSRBAJ"
 
+# Social
+social:
+  email:
+  facebook:
+  github: neard
+  twitter: neardio
+  reddit: Neard
+  google-plus:
+  linkedin:
+  xing:
+  stackoverflow:
+  snapchat:
+  instagram:
+  youtube:
+  spotify:
+  telephone:
+
 # Compress HTML
 compress_html:
   ignore:
@@ -74,7 +91,7 @@ author:
   facebook:
   github: crazy-max
   twitter: crazyws
-  reddit: Neard
+  reddit: crazyymaxx
   google-plus:
   linkedin:
   xing:
