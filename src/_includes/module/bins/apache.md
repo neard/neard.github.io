@@ -27,3 +27,4 @@
 | **PHP 7.0.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.1.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
+| **PHP 7.3.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
