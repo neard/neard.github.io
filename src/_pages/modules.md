@@ -13,7 +13,7 @@ permalink: /modules/
 ## Modules
 
 | Name | Type | Description |
-| ---- | ---- | ----------- | ----------- | ----- | -------- | ------------ |{% for module in site.data.module %}
+| ---- | ---- | ----------- | ----------- | ----- | -------- | ------------ |{% assign modulelist = site.data.module | sort %}{% for module in modulelist %}
 | [{{ module[1].label }}](/modules/{{ module[1].name }}/) | {% if module[1].type == 'bins' %}{% include label.html text="binary" type="primary" %}{% elsif module[1].type == 'apps' %}{% include label.html text="application" type="warning" %}{% elsif module[1].type == 'tools' %}{% include label.html text="tool" type="danger" %}{% endif %} | {{ module[1].desc }} |{% endfor %}
 
 ## Typical installation
