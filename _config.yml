@@ -1,7 +1,7 @@
 # General
 source: src
 destination: web
-url: "https://neard.io"
+url: "https://neard.github.io"
 baseurl: ""
 title: "Neard"
 description: "Portable WAMP software stack"
@@ -119,7 +119,7 @@ footer:
     telephone: false
 
 # SEO Related
-google_site_verification: "4RM9sHdQy-RvcvnlNM9s8qqV-NGc6GBPZydBzJ-r9NA"
+google_site_verification: "zczpYiFTLpd1jgOb3K5zGqERX2gZrkm7aRjtDqxP0a4"
 bing_site_verification: "D188E0BEC1AB6E7C1E0194BFC35D0033"
 alexa_site_verification:
 yandex_site_verification:
