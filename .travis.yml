@@ -36,5 +36,8 @@ branches:
     - dev
 
 notifications:
-  webhooks:
-    secure: QjLOJOPsNZxoVcSI+fn6tWXp7TDb+t2Eykm55TI85ctb0JA8yepQDLfPT0HfnYt/Hnd8bME3No9JPE8H1kDlR+XaaG1fFWIBnQdDWySJKDIndOGb8gKLDUbvFPO/YRoLIsTrItEh//EJgSApkwqVlZbJIJ+if1lPzIsIy9/dG+3gaTc99VR7O0RZuwkkC0t+xgbMjrFpTSmgbMPAOB4jwFqrNKUQBc5Kxjd/wIqM1ZsWtQ4lFHUKQJBgTsnH5o2JMkpkwUJ+XHrWnmknJTD4mVwl1es2axUicumhERiyGN1WrDwY2kVs9UI0AqLHYNeBP3aNXV2lwngkmt59MIFpnqT6ELlOb34WKDCaNTXMzHBphtzevzXshGOUPB6be0S4ai2xukAq1rOzDhUSNzhrupxjjb8FhxHz0TtoKjcAO1ZlT+92dIgcEPx3qf3Y9e46lUKEokidmZOhwHnT0D0uF7LJ+c2z9oopG7DyzBNIVDTyitQmdlvfCUc+RJRfnDQ/8v5qoI8TzkJ6VXwpyWWdZJRJIknkWwf2BKxkGP1pCCSsfSiSKAvsRa1GPq6ztfnfC4jcrfurnSFrLmeGc4+kvDXuYiC4NZ6LoezDsjUKnR3gf1s0IvZNurcb6PA0yPIoAnOWzUYR8ObOcU1gs51zvXsDqxZC3D+O4lChHWsOy8U=
+  email:
+    recipients:
+      - travisci@neard.io
+    on_success: always
+    on_failure: always
