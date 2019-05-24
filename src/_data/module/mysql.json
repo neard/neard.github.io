@@ -120,6 +120,18 @@
   },
   "releases": [
     {
+      "name": "r14",
+      "date": "2019/05/24",
+      "versions": [
+        {
+          "name": "8.0.16",
+          "type": "standard",
+          "compat": ">= 1.0.18",
+          "ext": "7z"
+        }
+      ]
+    },
+    {
       "name": "r13",
       "date": "2019/05/23",
       "versions": [
