@@ -42,7 +42,7 @@
       "versions": [
         {
           "name": "3.4.20",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.2",
           "ext": "7z"
         }
@@ -96,7 +96,7 @@
         },
         {
           "name": "3.2.12",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.2",
           "ext": "7z"
         },

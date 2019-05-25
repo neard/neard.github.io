@@ -125,7 +125,7 @@
       "versions": [
         {
           "name": "8.0.16",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }
@@ -377,7 +377,7 @@
         },
         {
           "name": "5.7.18",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.18",
           "ext": "7z"
         }

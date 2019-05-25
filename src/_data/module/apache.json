@@ -66,7 +66,7 @@
       "versions": [
         {
           "name": "2.4.39",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
@@ -90,7 +90,7 @@
         },
         {
           "name": "2.4.29",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.22",
           "ext": "7z"
         }
