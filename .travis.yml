@@ -28,8 +28,8 @@ before_script:
 
 script:
   - gulp --env=production build
-  - #htmlproofer ./web --allow-hash-href --check-favicon --only-4xx --http-status-ignore "403" --alt-ignore "/.*/" --url-ignore "/#0/,/#lg/,/support.microsoft.com/" --log-level=:debug
-  - test $TRAVIS_PULL_REQUEST = false && ./deploy.sh
+  #- htmlproofer ./web --allow-hash-href --check-favicon --only-4xx --http-status-ignore "403" --alt-ignore "/.*/" --url-ignore "/#0/,/#lg/,/support.microsoft.com/" --log-level=:debug
+  - ./deploy.sh
 
 branches:
   only:
