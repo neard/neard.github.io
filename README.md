@@ -4,7 +4,8 @@
   <a href="https://travis-ci.com/neard/neard.github.io"><img src="https://img.shields.io/travis/com/neard/neard.github.io/dev.svg?style=flat-square" alt="Build Status"></a>
   <a href="https://www.codacy.com/app/crazy-max/neard.github.io"><img src="https://img.shields.io/codacy/grade/1c78d2c0aa814fd685b60868192d8d81.svg?style=flat-square" alt="Code Quality"></a>
   <a href="https://status.neard.io"><img src="https://img.shields.io/uptimerobot/ratio/m778918918-3e92c097147760ee39d02d36.svg?style=flat-square" alt="Uptime"></a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6EALX9NDSRBAJ"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
+  <br /><a href="https://www.patreon.com/crazymax"><img src="https://img.shields.io/badge/donate-patreon-fb664e.svg?style=flat-square" alt="Support me on Patreon"></a>
+  <a href="https://www.paypal.me/crazyws"><img src="https://img.shields.io/badge/donate-paypal-7057ff.svg?style=flat-square" alt="Donate Paypal"></a>
 </p>
 
 ## Prerequisites
