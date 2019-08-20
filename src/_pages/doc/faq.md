@@ -8,17 +8,22 @@ sidebar: doc
 * TOC
 {:toc}
 
-## Where is the source code of neard.exe ?
+## Who is behind Neard?
+
+Hi, I'm [CrazyMax](https://crazymax.dev){:target="_blank"}. This project is self-funded and developed using my decade of experience building open source software.<br />
+By [supporting me](https://www.patreon.com/{{ site.patreon }}){:target="_blank"}, you're not only sustaining this project, but rather all of [my open source projects](https://github.com/crazy-max){:target="_blank"}.
+
+## Where is the source code of neard.exe?
 
 `neard.exe` is based on [Aestan Tray Menu 1.6.2](https://github.com/crazy-max/aetraymenu){:target="_blank"}.<br />
 Neard uses the exe and the ini file to generate the tray menu.
 
-## How to upgrade from a previous release ?
+## How to upgrade from a previous release?
 
 Neard is a portable application and does not provide a setup at this time.<br />
 To upgrade from a previous release, you have to follow the instructions in the [Upgrade notes](/doc/upgrade-notes/) page.
 
-## Why Neard icon in the system tray is yellow or red ?
+## Why Neard icon in the system tray is yellow or red?
 
 Neard icon has 3 states :
 
@@ -30,7 +35,7 @@ To check from the Services Manager, click Start > Run and type `services.msc` an
 
 ![](/img/faq/windows-services.png)
 
-## Warning icon in Apache / PHP versions menu ?
+## Warning icon in Apache / PHP versions menu?
 
 ![](/img/faq/warning-icon-switch-version.png)
 
@@ -41,11 +46,11 @@ To check from the Services Manager, click Start > Run and type `services.msc` an
 The error message explains himself why you have a warning icon when you want to switch version.<br />
 Please read [Apache compatibility table page](/modules/apache/#compatibility-table).
 
-## What is the default password for root user on MySQL / MariaDB ?
+## What is the default password for root user on MySQL / MariaDB?
 
 By default, there is no password for root user.
 
-## How to use MySQL and MariaDB simultaneously with PHP ?
+## How to use MySQL and MariaDB simultaneously with PHP?
 
 By default MySQL is started on port 3306 and MariaDB on port 3307.<br />
 Here is an example using PDO to access a database named `wordpress` installed on MySQL and MariaDB :
@@ -60,7 +65,7 @@ $mariadbStmt = $mariadb->query("SELECT * FROM wp_comments");
 var_dump($mariadbStmt->fetchAll(PDO::FETCH_ASSOC));
 ```
 
-## What is the default user / password on PostgreSQL ?
+## What is the default user / password on PostgreSQL?
 
 The user is **postgres** and there is no password for this user.
 
@@ -80,15 +85,15 @@ server started
 This happens when you run pg_ctl start with the -w (wait) option like Neard, because it will try a test connection with a user that does not exist (in your case).<br />
 But that's not really a problem (except for the confusing error message), because that proves that the server is up.
 
-## What is the default user / password for FileZilla Server ?
+## What is the default user / password for FileZilla Server?
 
 The user is **root** and there is no password for this user.
 
-## What is the default admin port for FileZilla Server ?
+## What is the default admin port for FileZilla Server?
 
 14147
 
-## How to disable some services to launch on startup ?
+## How to disable some services to launch on startup?
 
 There are two ways to disable some services to launch on startup.
 
@@ -343,7 +348,7 @@ If you've got more information about this error, please [post an issue]({{ var_r
 
 Since Ruby 2.4, RubyInstaller is [based on MSYS2 toolchain](https://github.com/oneclick/rubyinstaller2#rubyinstaller2). If you want to compile C based ruby gems, you will have to download and install all necessary MSYS2 build tools by typing the command `ridk install` used by the [official installer](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system).
 
-## Ghostscript : How to use Windows TrueType fonts for Chinese, Japanese and Korean ?
+## Ghostscript : How to use Windows TrueType fonts for Chinese, Japanese and Korean?
 
 To update lib/cidfmap with the common CJK fonts provided by Microsoft products, launch the script `update_cidfmap.bat` in the root folder of Ghostscript.
 
