@@ -8,7 +8,7 @@ description: "Portable WAMP software stack"
 logo: /img/logo.png
 version: 1.4.0
 paypal: "crazyws"
-patreon: "crazymax"
+github_sponsor: "crazy-max"
 
 # Social
 social:
