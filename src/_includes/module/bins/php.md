@@ -19,18 +19,19 @@
 | **7.1.x**              | 1.0.2           |
 | **7.2.x**              | 1.1.0           |
 | **7.3.x**              | 1.1.0           |
+| **7.4.x**              | 1.1.1           |
 
 ## Additionnal extensions
 
-|                                                           | PHP 5.2.x                   | PHP 5.3.x                   | PHP 5.4.x                   | PHP 5.5.x                   | PHP 5.6.x                   | PHP 7.0.x                   | PHP 7.1.x                   | PHP 7.2.x                   | PHP 7.3.x                   |
-| --------------------------------------------------------- |:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
-| **[php_apc](https://pecl.php.net/package/APC)**           | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
-| **[php_imagick](https://pecl.php.net/package/imagick)**   | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
-| **[php_memcache](https://pecl.php.net/package/memcache)** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
-| **[php_mongo](https://pecl.php.net/package/mongo)**       | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
-| **[php_mongodb](https://pecl.php.net/package/mongodb)**   | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
-| **[php_ssh2](https://pecl.php.net/package/ssh2)**         | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
-| **[php_vld](https://pecl.php.net/package/vld)**           |  {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
+|                                                           | PHP 5.2.x                   | PHP 5.3.x                   | PHP 5.4.x                   | PHP 5.5.x                   | PHP 5.6.x                   | PHP 7.0.x                   | PHP 7.1.x                   | PHP 7.2.x                   | PHP 7.3.x                   | PHP 7.4.x                   |
+| --------------------------------------------------------- |:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+| **[php_apc](https://pecl.php.net/package/APC)**           | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
+| **[php_imagick](https://pecl.php.net/package/imagick)**   | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **[php_memcache](https://pecl.php.net/package/memcache)** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **[php_mongo](https://pecl.php.net/package/mongo)**       | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
+| **[php_mongodb](https://pecl.php.net/package/mongodb)**   | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **[php_ssh2](https://pecl.php.net/package/ssh2)**         | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
+| **[php_vld](https://pecl.php.net/package/vld)**           |  {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-nok.html %} |
 
 ## PEAR
 
@@ -56,6 +57,7 @@ PEAR is integrated in each PHP module through the `install-pear-nozlib.phar` sta
 | **PHP 7.1.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.3.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
+| **PHP 7.4.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 
 ## MongoDB compatibility table
 
@@ -73,12 +75,13 @@ More infos : [https://docs.mongodb.com/ecosystem/drivers/php](https://docs.mongo
 | **PHP 7.1.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.2.x** | {% include icon-ok.html %}  | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
 | **PHP 7.3.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  | {% include icon-ok.html %}  |
+| **PHP 7.4.x** | {% include icon-nok.html %} | {% include icon-nok.html %} | {% include icon-nok.html %} |
 
 ## ImageMagick and Imagick extension
 
-| Imagick version           | ImageMagick library         |
-| ------------------------- |:---------------------------:|
-| **3.3.0**                 | 6.8.9-1 Q16 x86 2014-05-08  |
-| **3.4.3RC1**              | 6.8.9-1 Q16 x86 2014-05-08  |
-| **3.4.3**                 | 6.9.3-7 Q16 x86 2016-03-27  |
-| **3.4.3** (PHP 7.2 / 7.3) | 7.0.7-11 Q16 x86 2017-11-23 |
+| Imagick version            | ImageMagick library         |
+| -------------------------- |:---------------------------:|
+| **3.3.0**                  | 6.8.9-1 Q16 x86 2014-05-08  |
+| **3.4.3RC1**               | 6.8.9-1 Q16 x86 2014-05-08  |
+| **3.4.3**                  | 6.9.3-7 Q16 x86 2016-03-27  |
+| **3.4.3** (PHP 7.2 to 7.3) | 7.0.7-11 Q16 x86 2017-11-23 |
