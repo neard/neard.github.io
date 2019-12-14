@@ -36,7 +36,7 @@
       "versions": [
         {
           "name": "1.21.1",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.4",
           "ext": "7z"
         }
@@ -48,7 +48,7 @@
       "versions": [
         {
           "name": "1.15.2",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.4",
           "ext": "7z"
         }
