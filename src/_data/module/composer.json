@@ -48,7 +48,7 @@
       "versions": [
         {
           "name": "1.9.1",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.15",
           "ext": "7z"
         }
