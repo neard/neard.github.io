@@ -305,7 +305,7 @@
         },
         {
           "name": "7.4.4",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.3",
           "ext": "7z"
         }
@@ -389,7 +389,7 @@
         },
         {
           "name": "7.3.5",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.3",
           "ext": "7z"
         }

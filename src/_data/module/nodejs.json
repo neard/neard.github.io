@@ -290,7 +290,7 @@
         },
         {
           "name": "13.12.0",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -344,7 +344,7 @@
         },
         {
           "name": "10.15.3",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         },

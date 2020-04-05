@@ -326,6 +326,8 @@ This issue is solved for Neard 1.2 and higher.
 * **Python** drops Windows XP support since 3.4.3 version.
 * **Ruby** is not supported on Windows XP since 2.1 version.
 
+{% include callout.html type="warning" text="Neard is not supported on Windows XP since 1.7 version." %}
+
 ## Invalid argument - ruby_setenv(ALLUSERSPROFILE)
 
 If you've got this kind of error with Ruby :

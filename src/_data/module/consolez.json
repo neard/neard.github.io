@@ -1,0 +1,33 @@
+{
+  "type": "tools",
+  "name": "consolez",
+  "label": "ConsoleZ",
+  "desc": "modified version of Console 2 for a better experience.",
+  "repo": "neard/module-consolez",
+  "filename": "neard-consolez",
+  "sources": [
+    "https://github.com/cbucher/console",
+    "https://github.com/mridgers/clink",
+    "https://github.com/vladimir-kotikov/clink-completions",
+    "http://gnuwin32.sourceforge.net/packages/coreutils.htm"
+  ],
+  "versions": {
+    "1.19.0.19104": {
+      "date": "2019/04/14"
+    }
+  },
+  "releases": [
+    {
+      "name": "r1",
+      "date": "2020/04/05",
+      "versions": [
+        {
+          "name": "1.19.0.19104",
+          "type": "default",
+          "compat": ">= 1.6.3",
+          "ext": "7z"
+        }
+      ]
+    }
+  ]
+}

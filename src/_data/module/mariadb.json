@@ -167,7 +167,7 @@
         },
         {
           "name": "10.4.12",
-          "type": "standard",
+          "type": "default",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }
@@ -203,7 +203,7 @@
         },
         {
           "name": "10.3.8",
-          "type": "default",
+          "type": "standard",
           "compat": ">= 1.0.13",
           "ext": "7z"
         }

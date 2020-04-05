@@ -8,7 +8,7 @@ markdown_body: ""
 <div class="markdown-body">{% markdown %}
 # Requirements
 
-* Windows XP SP3 or later.
+* Windows 7 or later.
 * [WSH (Windows Script Host)](https://support.microsoft.com/en-us/kb/232211) : Open a command prompt and type `wscript` to check.
 * [SETX](http://technet.microsoft.com/en-us/library/cc755104.aspx) : Open a command prompt and type `setx /?` to check.
 * Be [Admin user](https://support.microsoft.com/en-us/help/14028/windows-7-how-log-on-as-an-administrator).
