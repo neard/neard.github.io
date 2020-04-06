@@ -22,6 +22,9 @@ cards:
   - el-icon: icon_pens_alt
     title: Reporting an issue
     link: /doc/reporting-issue/
+  - el-icon: icon_puzzle_alt
+    title: Request a module
+    link: /doc/request-module/
   - el-icon: icon_gift
     title: Contribute
     link: /doc/contribute/
