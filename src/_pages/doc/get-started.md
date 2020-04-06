@@ -16,7 +16,6 @@ markdown_body: ""
 
 # Download
 
-{% include callout.html type="info" text="Neard uses a standard practice for its versioning: <strong>major.minor.patchlevel</strong>. An even <strong>minor</strong> marks a <strong>stable</strong> release, like 1.1, 1.2, 2.0, 2.2, 2.4, etc... Odd minors are used for <strong>unstable</strong> releases, for example 1.1.x releases are the unstable versions of what will be Neard 1.2 once stable." %}
 {% endmarkdown %}<span></span></div>
 
 <p>
