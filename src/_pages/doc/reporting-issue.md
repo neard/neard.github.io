@@ -5,20 +5,30 @@ sidebar: doc
 ---
 {% include vars.html %}
 
-First,
+## Before submitting an issue
 
-* Read the [FAQ](/doc/faq/).
-* Search for [existing issues]({{ var_repo_url }}/issues).
+Please do a search in [open issues](https://github.com/neard/neard/issues?utf8=%E2%9C%93&q=){:target="_blank"} to see if the issue or feature request has already been filed and read the [FAQ](https://neard.io/doc/faq/) page first.
 
-Then before [reporting an issue]({{ var_repo_url }}/issues/new), make sure to include all relevant information :
+If you find your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments){:target="_blank"}. Use a reaction in place of a "+1" comment.
 
-* Tell me what is your operating system and platform (eg. Windows 7 64-bits).
-* Tell me your Neard version (eg. 1.0.0) and the previous version in case of upgrade.
-* Close Neard.
-* Change the `logsVerbose` variable to the value `2` in the `neard.conf` file.
-* Launch Neard and reproduce your problem.
-* Close Neard.
-* Zip the `logs` folder and the `core/tmp` folder.
-* Upload the zip file on a file hosting system like [Sendspace](https://www.sendspace.com/).
-* Optionally attach a revelant screenshot of your issue.
-* Add the link of the uploaded file to the issue.
+{% gemoji +1 %} - upvote
+
+{% gemoji -1 %} - downvote
+
+If you cannot find an existing issue that describes your bug or feature, submit an issue using the guidelines below.
+
+## Writing good bug reports and feature requests
+
+File a single issue per problem and feature request.
+
+* Do not enumerate multiple bugs or feature requests in the same issue.
+* Do not add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar, but have different causes.
+
+The more information you can provide, the more likely someone will be successful reproducing the issue and finding a fix.
+
+You are now ready to [create a new issue](https://github.com/neard/neard/issues/new/choose){:target="_blank"}!
+
+## Closure policy
+
+* Issues that don't have the information requested above (when applicable) will be closed immediately and the poster directed to the support guidelines.
+* Issues that go a week without a response from original poster are subject to closure at our discretion.
