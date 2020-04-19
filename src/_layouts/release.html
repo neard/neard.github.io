@@ -15,6 +15,7 @@ markdown_body: ""
       <th>Download</th>
       <th>Size</th>
       <th>Verification</th>
+      <th>Description</th>
     </tr>
     </thead>
     <tbody>
@@ -24,6 +25,7 @@ markdown_body: ""
       <td><span class="release-download"><a class="btn btn-success btn-sm" href="{{ site.baseurl | prepend: '/' | replace: '//', '/' }}download/{{ asset.name }}/"><i class="fa fa-download"></i>&nbsp;&nbsp;{{ asset.name }}</a></span></td>
       <td>{{ asset.size | filesize }}</td>
       <td>[<a href="{{ site.baseurl }}/download/{{ asset.name }}.md5/">MD5</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha1/">SHA1</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha256/">SHA256</a>]&nbsp;[<a href="{{ site.baseurl }}/download/{{ asset.name }}.sha512/">SHA512</a>]</td>
+      <td>{% if asset.name contains '-basic' %}Only Apache, PHP, MySQL services and some tools are included{% elsif asset.name contains '-light' %}Only Apache and PHP services are included{% else %}All modules are included{% endif %}</td>
     </tr>
     {% endunless %}{% endfor %}
     </tbody>

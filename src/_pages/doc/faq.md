@@ -294,14 +294,10 @@ And as you can see some paths are automatically added :
 * NEARD_PATH\bin\nodejs\nodejs*
 * NEARD_PATH\bin\svn\svn*
 * NEARD_PATH\tools\composer\composer*
-* NEARD_PATH\tools\drush\drush*
 * NEARD_PATH\tools\git\git*\bin
 * NEARD_PATH\tools\imagemagick\imagemagick*
-* NEARD_PATH\tools\phpmetrics\phpmetrics*
-* NEARD_PATH\tools\phpunit\phpunit*
 * NEARD_PATH\tools\python\python*\bin
 * NEARD_PATH\tools\ruby\ruby*\bin
-* NEARD_PATH\tools\wpcli\wpcli*
 
 ## Service cannot start on Windows 10 Creators Update
 
