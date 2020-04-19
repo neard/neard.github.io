@@ -49,6 +49,17 @@ module Jekyll
                   end
                   download_obj[release_filename] = release_url
                 end
+                release['alts'].each do |alt|
+                  release_filename = data['filename'] + '-' + alt + '-' + release['version'] + asset;
+                  release_url = site.config['github']['baseurl'] + '/' + data['repo'] + '/releases/download/v' + release['version'] + '/' + release_filename;
+                  unless download_obj[release_filename]
+                    site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename), release_filename, release_url)
+                    for checksum in checksums
+                      site.pages << DownloadPage.new(site, site.source, File.join(download_dir, release_filename + '.' + checksum), release_filename + '.' + checksum, release_url + '.' + checksum)
+                    end
+                    download_obj[release_filename] = release_url
+                  end
+                end
               end
             end
           end

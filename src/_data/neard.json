@@ -6,162 +6,194 @@
     {
       "version": "1.8.0",
       "date": "2020/04/19",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": ["basic", "light"]
     },
     {
       "version": "1.7.2",
       "date": "2020/04/19",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.7.1",
       "date": "2020/04/07",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.7",
       "date": "2020/04/05",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.6",
       "date": "2019/05/25",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.5",
       "date": "2019/01/04",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.4",
       "date": "2017/12/30",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.3",
       "date": "2017/09/01",
-      "assets": [".7z"]
+      "assets": [".7z"],
+      "alts": []
     },
     {
       "version": "1.2",
       "date": "2017/04/20",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.22",
       "date": "2016/12/18",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.21",
       "date": "2016/10/23",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.20",
       "date": "2016/06/23",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.19",
       "date": "2016/05/05",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.18",
       "date": "2016/04/21",
-      "assets": [".7z", ".zip"]
+      "assets": [".7z", ".zip"],
+      "alts": []
     },
     {
       "version": "1.0.17",
       "date": "2016/01/26",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.16",
       "date": "2015/12/13",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.15",
       "date": "2015/10/13",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.14",
       "date": "2015/06/09",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.13",
       "date": "2015/04/20",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.12",
       "date": "2014/09/28",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.11",
       "date": "2014/08/14",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.10",
       "date": "2014/08/08",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.9",
       "date": "2014/07/14",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.8",
       "date": "2014/07/06",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.7",
       "date": "2014/05/20",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.6",
       "date": "2014/04/18",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.5",
       "date": "2014/04/06",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.4",
       "date": "2014/03/17",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.3",
       "date": "2014/03/10",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.2",
       "date": "2014/03/01",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.1",
       "date": "2014/02/26",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     },
     {
       "version": "1.0.0",
       "date": "2014/02/25",
-      "assets": [".zip"]
+      "assets": [".zip"],
+      "alts": []
     }
   ]
 }
