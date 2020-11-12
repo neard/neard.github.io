@@ -14,15 +14,15 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2
       -
         name: Set up Node.js
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v1
         with:
           node-version: 11
       -
         name: Set up Ruby
-        uses: actions/setup-ruby@v1.1.2
+        uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
       -
@@ -68,13 +68,13 @@ jobs:
           #htmlproofer ./web/download --allow-missing-href --allow-hash-href --assume_extension --check-favicon --http-status-ignore 403 --only-4xx --alt-ignore "/.*/" --log-level=:debug
       -
         name: Check GitHub Pages status
-        uses: crazy-max/ghaction-github-status@v2
+        uses: crazy-max/ghaction-github-status@v1
         with:
           pages_threshold: major_outage
       -
         name: Deploy
         if: success() && github.event_name != 'pull_request'
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@dev
         with:
           target_branch: master
           build_dir: web
