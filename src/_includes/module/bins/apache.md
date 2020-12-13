@@ -29,3 +29,4 @@
 | **PHP 7.2.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.3.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
 | **PHP 7.4.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
+| **PHP 8.0.x** | {% include icon-nok.html %} | {% include icon-ok.html %}  |
