@@ -4,6 +4,18 @@
   "filename": "neard",
   "releases": [
     {
+      "version": "1.8.2",
+      "date": "2020/12/13",
+      "assets": [".7z"],
+      "alts": ["basic", "light"]
+    },
+    {
+      "version": "1.8.1",
+      "date": "2020/12/13",
+      "assets": [".7z"],
+      "alts": ["basic", "light"]
+    },
+    {
       "version": "1.8.0",
       "date": "2020/04/19",
       "assets": [".7z"],
