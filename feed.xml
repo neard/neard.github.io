@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neard</title>
+    <description>Portable WAMP software stack</description>
+    <link>https://neard.io</link>
+    <atom:link href="https://neard.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP 7.2.34, 7.3.25, 7.4.13, 8.0.0 available</title>
+      <description>
+Releases of PHP 7.2.34, 7.3.25, 7.4.13, 8.0.0 (Issue #458) are now available.
+You can find links to download these releases on the PHP page.
+</description>
+      <pubDate>Sun, 13 Dec 2020 21:40:00 +0100</pubDate>
+      <link>https://neard.io/news/2020-12-13-php-7.2.34-7.3.25-7.4.13-8.0.0-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-12-13-php-7.2.34-7.3.25-7.4.13-8.0.0-available/</guid>
+    </item><item>
+      <title>Neard 1.8.2 released</title>
+      <description>
+Neard 1.8.2 has been released! It includes bug fixes and minor changes.
+Download, full changelog and upgrade notes are available on the release page.
+</description>
+      <pubDate>Sun, 13 Dec 2020 21:22:00 +0100</pubDate>
+      <link>https://neard.io/news/2020-12-13-neard-1.8.2-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-12-13-neard-1.8.2-released/</guid>
+    </item><item>
+      <title>Neard 1.8.1 released</title>
+      <description>
+Neard 1.8.1 has been released and adds support to PHP 8!
+Download, full changelog and upgrade notes are available on the release page.
+</description>
+      <pubDate>Sun, 13 Dec 2020 21:15:00 +0100</pubDate>
+      <link>https://neard.io/news/2020-12-13-neard-1.8.1-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-12-13-neard-1.8.1-released/</guid>
+    </item><item>
+      <title>Yarn 1.22.4 available</title>
+      <description>
+Release of Yarn 1.22.4 (Issue #465) is now available.
+You can find link to download this release on the Yarn page.
+</description>
+      <pubDate>Wed, 19 Aug 2020 17:11:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-08-19-yarn-1.22.4-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-08-19-yarn-1.22.4-available/</guid>
+    </item><item>
+      <title>Memcached 1.6.6 available</title>
+      <description>
+Release of Memcached 1.6.6 (Issue #460) is now available.
+You can find link to download this release on the Memcached page.
+</description>
+      <pubDate>Wed, 22 Jul 2020 18:15:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-07-22-memcached-1.6.6-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-07-22-memcached-1.6.6-available/</guid>
+    </item><item>
+      <title>Webgrind 1.7.0 available</title>
+      <description>
+Release of Webgrind 1.7.0 (Issue #454) is now available.
+You can find links to download these releases on the Webgrind page.
+</description>
+      <pubDate>Sun, 19 Apr 2020 11:02:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-19-webgrind-1.7.0-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-19-webgrind-1.7.0-available/</guid>
+    </item><item>
+      <title>Neard 1.8.0 released</title>
+      <description>
+Neard 1.8.0 has been released. Basic and light releases are now available!
+Download, full changelog and upgrade notes are available on the release page.
+</description>
+      <pubDate>Sun, 19 Apr 2020 10:04:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-19-neard-1.8.0-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-19-neard-1.8.0-released/</guid>
+    </item><item>
+      <title>Neard 1.7.2 released</title>
+      <description>
+Neard 1.7.2 has been released. It includes bug fixes, minor changes and Git 2.26.1.
+Download, full changelog and upgrade notes are available on the release page.
+</description>
+      <pubDate>Sun, 19 Apr 2020 06:14:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-19-neard-1.7.2-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-19-neard-1.7.2-released/</guid>
+    </item><item>
+      <title>Git 2.26.1 available</title>
+      <description>
+Release of Git 2.26.1 (Issue #450) is now available.
+You can find links to download these releases on the Git page.
+</description>
+      <pubDate>Wed, 15 Apr 2020 03:26:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-15-git-2.26.1-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-15-git-2.26.1-available/</guid>
+    </item><item>
+      <title>Neard 1.7.1 released</title>
+      <description>
+Neard 1.7.1 has been released. It includes bug fixes and minor changes.
+Download, full changelog and upgrade notes are available on the release page.
+</description>
+      <pubDate>Tue, 07 Apr 2020 01:44:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-07-neard-1.7.1-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-07-neard-1.7.1-released/</guid>
+    </item><item>
+      <title>Neard 1.7 released</title>
+      <description>Neard 1.7 has been released and introduced symlinks to handle current path of active modules version as as major improvement! This eliminates the need to restart Neard when changing module versions. Console2 has been replaced by ConsoleZ for a better experience under Windows Vista/7/8/10 and a better visual rendering. Download,...</description>
+      <pubDate>Sun, 05 Apr 2020 19:47:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-05-neard-1.7-released/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-05-neard-1.7-released/</guid>
+    </item><item>
+      <title>MongoDB 3.4.24, 3.6.17, 4.0.17, 4.2.5 available</title>
+      <description>
+Releases of MongoDB 3.4.24, 3.6.17, 4.0.17, 4.2.5 (Issue #372) is now available.
+You can find links to download these releases on the MongoDB page.
+</description>
+      <pubDate>Sun, 05 Apr 2020 08:13:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-05-mongodb-3.4.24-3.6.17-4.0.17-4.2.5-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-05-mongodb-3.4.24-3.6.17-4.0.17-4.2.5-available/</guid>
+    </item><item>
+      <title>Node.js 8.17.0, 10.19.0, 12.16.1, 13.12.0 available</title>
+      <description>
+Releases of Node.js 8.17.0, 10.19.0, 12.16.1, 13.12.0 (Issue #446) are now available.
+You can find links to download these releases on the Node.js page.
+</description>
+      <pubDate>Sat, 04 Apr 2020 21:11:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-04-nodejs-8.17.0-10.19.0-12.16.1-13.12.0-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-04-nodejs-8.17.0-10.19.0-12.16.1-13.12.0-available/</guid>
+    </item><item>
+      <title>MariaDB 5.5.67, 10.0.38, 10.1.44, 10.2.31, 10.3.22, 10.4.12 available</title>
+      <description>
+Releases of MariaDB 5.5.67, 10.0.38, 10.1.44, 10.2.31, 10.3.22, 10.4.12 (Issue #445) are now available.
+You can find links to download these releases on the MariaDB page.
+</description>
+      <pubDate>Sat, 04 Apr 2020 20:36:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-04-mariadb-5.5.67-10.0.38-10.1.44-10.2.31-10.3.22-10.4.12-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-04-mariadb-5.5.67-10.0.38-10.1.44-10.2.31-10.3.22-10.4.12-available/</guid>
+    </item><item>
+      <title>Git 2.26.0 available</title>
+      <description>
+Release of Git 2.26.0 (Issue #444) is now available.
+You can find links to download these releases on the Git page.
+</description>
+      <pubDate>Sat, 04 Apr 2020 19:04:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-04-git-2.26.0-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-04-git-2.26.0-available/</guid>
+    </item><item>
+      <title>phpMyAdmin 4p9 available</title>
+      <description>
+Release pack p9 of phpMyAdmin 4.0.10.20 / 4.9.5 (Issue #443) is now available.
+You can find link to download this release on the phpMyAdmin page.
+</description>
+      <pubDate>Sat, 04 Apr 2020 18:31:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-04-04-phpmyadmin-4p9-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-04-04-phpmyadmin-4p9-available/</guid>
+    </item><item>
+      <title>PHP 7.2.29, 7.3.16, 7.4.4 available</title>
+      <description>
+Releases of PHP 7.2.29, 7.3.16, 7.4.4 (Issue #440) are now available.
+You can find links to download these releases on the PHP page.
+</description>
+      <pubDate>Tue, 31 Mar 2020 21:20:00 +0200</pubDate>
+      <link>https://neard.io/news/2020-03-31-php-7.2.29-7.3.16-7.4.4-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2020-03-31-php-7.2.29-7.3.16-7.4.4-available/</guid>
+    </item><item>
+      <title>Yarn 1.21.1 available</title>
+      <description>
+Release of Yarn 1.21.1 (Issue #437) is now available.
+You can find link to download this release on the Yarn page.
+</description>
+      <pubDate>Sat, 14 Dec 2019 23:02:00 +0100</pubDate>
+      <link>https://neard.io/news/2019-12-14-yarn-1.21.1-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2019-12-14-yarn-1.21.1-available/</guid>
+    </item><item>
+      <title>Composer 1.9.1 available</title>
+      <description>
+Release of Composer 1.9.1 (Issue #436) is now available.
+You can find link to download this release on Composer page.
+</description>
+      <pubDate>Sat, 14 Dec 2019 22:54:00 +0100</pubDate>
+      <link>https://neard.io/news/2019-12-14-composer-1.9.1-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2019-12-14-composer-1.9.1-available/</guid>
+    </item><item>
+      <title>Git 2.24.1.2 available</title>
+      <description>
+Release of Git 2.24.1.2 (Issue #435) is now available.
+You can find links to download these releases on the Git page.
+</description>
+      <pubDate>Sat, 14 Dec 2019 22:18:00 +0100</pubDate>
+      <link>https://neard.io/news/2019-12-14-git-2.24.1.2-available/</link>
+      <guid isPermaLink="true">https://neard.io/news/2019-12-14-git-2.24.1.2-available/</guid>
+    </item>
+  </channel>
+</rss>
