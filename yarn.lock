@@ -617,9 +617,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-"clean-blog@git://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e":
+"clean-blog@https://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e":
   version "3.3.7"
-  resolved "git://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e"
+  resolved "https://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e"
 
 clean-css@^4.0.4:
   version "4.1.11"
@@ -2438,9 +2438,9 @@ liftoff@^2.5.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
-"lightgallery.js@git://github.com/sachinchoolur/lightgallery.js.git#^1.0.1":
-  version "1.0.2"
-  resolved "git://github.com/sachinchoolur/lightgallery.js.git#37b103e2cd3e3f0b9e11304b465b4c6456cf4322"
+"lightgallery.js@https://github.com/sachinchoolur/lightgallery.js.git#^1.0.1":
+  version "1.4.0"
+  resolved "https://github.com/sachinchoolur/lightgallery.js.git#360e6e87787f437f250bf7991eadf5176ad057db"
 
 limiter@^1.0.5:
   version "1.1.3"

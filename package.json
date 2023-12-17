@@ -18,7 +18,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-social": "^5.1.1",
-    "clean-blog": "git://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e",
+    "clean-blog": "https://github.com/neard/startbootstrap-clean-blog.git#b8a93ee48fa89741243ed9e7f8b7f0153525ba3e",
     "elegant-icons": "*",
     "font-awesome": "^4.7.0",
     "github-markdown-css": "^2.8.0",
@@ -26,7 +26,7 @@
     "jquery": "^3.2.1",
     "jquery-match-height": "^0.7.2",
     "justifiedGallery": "^3.6.3",
-    "lightgallery.js": "git://github.com/sachinchoolur/lightgallery.js.git#^1.0.1",
+    "lightgallery.js": "https://github.com/sachinchoolur/lightgallery.js.git#^1.0.1",
     "normalize.css": "^7.0.0",
     "respond.js": "^1.4.2",
     "webfontloader": "^1.6.28"
