@@ -1,7 +1,7 @@
 # General
 source: src
 destination: web
-url: "https://neard.io"
+url: "https://neard.github.io"
 baseurl: ""
 title: "Neard"
 description: "Portable WAMP software stack"
@@ -154,11 +154,11 @@ comments:
 ads-enabled: true
 
 # Analytics
-analytics:
-  provider: "plausible"
-  plausible:
-    server: "plausible.re4per.com"
-    domain: "neard.io"
+#analytics:
+#  provider: "plausible"
+#  plausible:
+#    server: "plausible.re4per.com"
+#    domain: "neard.io"
 
 # Facebook App ID
 fb_app_id: ""
